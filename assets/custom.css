@@ -1,0 +1,106 @@
+/* START OF "Default Button Variants" */
+.product-options__section .product-options__value,
+.product-options__section[data-disable-auto-select] .product-options__value.active {
+  background-color: var(--product-options-bd);
+  border-color: var(--product-options-bd) !important;
+  border-radius: 100%;
+  aspect-ratio: 1;
+  color: var(--button3-h-c);
+  transition-duration: var(--animation-css-low-duration);
+  transition-property: background-color,border-color,color,font,background-image;
+  flex: 1 1 0px;
+  max-width: 43px;
+  max-height: 43px;
+}
+.product-options__section .product-options__value:hover,
+.product-options__section[data-disable-auto-select] .product-options__value.active:hover,
+.product-options__section:not([data-disable-auto-select]) .product-options__value.active{
+  background-color: var(--button3-bg);
+  border-color: var(--button3-bd) !important;
+  color: var(--button3-c);
+}
+.product-options__section .product-options__value.disabled-hidden > span:before,
+.product-options__section .product-options__value.disabled-hidden > span:after {
+  display: none;
+}
+.product-options__section .product-options__value.disabled-hidden {
+  opacity: 0.5;
+}
+/* END OF "Default Button Variants" */
+
+/* START OF "Image Button Variants" */
+.product-options__section[data-property="bottomcoverage"] .product-options__value,
+.product-options__section[data-property="bottomcoverage"][data-disable-auto-select] .product-options__value.active {
+  flex-direction: column;
+  width: 80px;
+  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+  text-align: center;
+  word-spacing: 99999px;
+  line-height: 14px;
+  justify-content: end !important;
+  padding-bottom: 4px;
+}
+
+.custom-image-svg {
+  -webkit-transition: var(--animation-css-low-duration) -webkit-filter ease;
+  -moz-transition: var(--animation-css-low-duration) -moz-filter ease;
+  -moz-transition: var(--animation-css-low-duration) filter ease;
+  -ms-transition: var(--animation-css-low-duration) -ms-filter ease;
+  -o-transition: var(--animation-css-low-duration) -o-filter ease;
+  transition: var(--animation-css-low-duration) filter ease, var(--animation-css-low-duration) -webkit-filter ease;
+  margin-bottom: 2px;
+  filter: contrast(0.7);
+}
+
+.product-options__section[data-property="bottomcoverage"] .product-options__value:hover .custom-image-svg,
+.product-options__section[data-property="bottomcoverage"][data-disable-auto-select] .product-options__value.active:hover .custom-image-svg,
+.product-options__section:not([data-disable-auto-select]) .product-options__value.active .custom-image-svg{
+  filter: contrast(0) brightness(1000);
+}
+/* END OF "Image Button Variants" */
+
+/* START OF "Custom Classes" */
+.custom-padding {
+  padding: 0 30px;
+}
+
+.custom-remove-margin {
+  margin-top: -30px;
+}
+.custom-pre-date {
+  margin: 5px 0 0 0;
+  color: var(--button3-h-c);
+  text-align: center;
+}
+.custom-size-text {
+  text-align: justify;
+  font-size: 15px;
+}
+.custom-size-text-l {
+  text-align: justify;
+  font-size: 20px;
+}
+/* END OF "Custom Classes" */
+
+/* START OF "Fixes" */
+.tabs__content ul {
+  padding: 20px;
+  list-style: disc;
+}
+.tabs__content li {
+  padding-left: 5px !important;
+}
+.tabs__content li::before {
+  content: none !important;
+}
+.tabs__content a,
+.tabs__content span {
+  white-space: pre-wrap;
+}
+.slick-slider {
+  touch-action: pinch-zoom !important;
+  -ms-touch-action: pinch-zoom !important;
+}
+/* END OF "Fixes" */
