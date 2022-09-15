@@ -99,6 +99,9 @@
 .tabs__content span {
   white-space: pre-wrap;
 }
+.menu__grid.menu__list.menu__level-02.row {
+  justify-content: center;
+}
 .slick-slider {
   touch-action: pinch-zoom !important;
   -ms-touch-action: pinch-zoom !important;
