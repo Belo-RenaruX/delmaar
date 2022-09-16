@@ -1107,7 +1107,7 @@
                 {%- endif -%}
             {%- endif -%}
         {%- endcapture -%}
-        {%- capture btn_giftcard -%}
+        {%- capture btn_giftcard_html -%}
             <a href="/products/gift-card" class="header__btn-account d-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center position-relative ml-25 ml-lg-15 js-popup-button"
                 data-js-popup-button="gift card"
                 {%- if settings.tooltips_enable and header_enable_tooltips %}
@@ -1118,6 +1118,19 @@
                 {%- endif -%}
             >
                 <i>{% render 'icon-theme-giftcard' %}</i>
+            </a>
+        {%- endcapture -%}
+        {%- capture btn_stores_html -%}
+            <a href="/pages/stores" class="header__btn-account d-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center position-relative ml-25 ml-lg-15 js-popup-button"
+                data-js-popup-button="stores"
+                {%- if settings.tooltips_enable and header_enable_tooltips %}
+                    data-js-tooltip
+                    data-tippy-content="Stores"
+                    data-tippy-placement="bottom"
+                    data-tippy-distance="6"
+                {%- endif -%}
+            >
+                <i>{% render 'icon-theme-stores' %}</i>
             </a>
         {%- endcapture -%}
         {%- capture btn_wishlist_html -%}
@@ -1414,8 +1427,9 @@
                         {{ btn_menu_html }}
                         {{ logo_html }}
                         <div class="header__sidebar d-flex align-items-center ml-auto">
-                            {{ btn_giftcard }}
                             {{ btn_search_html }}
+                            {{ btn_giftcard_html }}
+                            {{ btn_stores_html }}
                             {{ services_html }}
                             {{ btn_account_html }}
                             {{ btn_wishlist_html }}
