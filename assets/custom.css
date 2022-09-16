@@ -61,6 +61,13 @@
 }
 /* END OF "Image Button Variants" */
 
+/* END OF "Gift Card Variants" */
+#gift-card .product-options__value{
+  max-width: 90px;
+  border-radius: 30px;
+}
+/* END OF "Gift Card Variants" */
+
 /* START OF "Custom Classes" */
 .custom-padding {
   padding: 0 30px;
