@@ -904,7 +904,7 @@
         ],
         "settings": {
           "title": "",
-          "container": "boxed",
+          "container": "fullwidth",
           "size_of_columns": "3",
           "size_of_columns_mobile": "1",
           "margins_for_columns": "none",
