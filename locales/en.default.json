@@ -292,7 +292,7 @@
       "name_placeholder": "Enter please your name",
       "email_title": "EMAIL (required)",
       "email_placeholder": "Enter please your email address",
-      "phone_title": "CONTACT NUMBER (required)",
+      "phone_title": "CONTACT NUMBER",
       "phone_placeholder": "Enter please your phone number",
       "message_title": "YOUR MESSAGE (required)",
       "message_placeholder": "Enter please your message",
