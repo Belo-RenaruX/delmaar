@@ -1545,7 +1545,7 @@
               "content_position": "center",
               "content_align": "right",
               "add_container": false,
-              "content_width": 50,
+              "content_width": 30,
               "text_width": 0,
               "height": "auto",
               "min_height": 0,
