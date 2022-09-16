@@ -1278,7 +1278,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-padding||custom-size-text"
+              "customization_class": "custom-padding custom-size-text"
             }
           },
           "e2afb8f7-54e3-40f6-b129-43a5ebaf219d": {
@@ -1444,7 +1444,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-padding"
+              "customization_class": "custom-padding custom-size-text"
             }
           }
         },
