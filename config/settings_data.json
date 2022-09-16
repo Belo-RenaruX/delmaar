@@ -171,7 +171,7 @@
     "product_info_show_delivery_return": true,
     "product_info_delivery_return_page_content": "",
     "product_info_show_message": true,
-    "product_info_show_notes": true,
+    "product_info_show_notes": false,
     "product_info_show_quantity": true,
     "product_info_button_layout": "3",
     "product_info_show_button_add_to_cart": true,
