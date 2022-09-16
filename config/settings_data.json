@@ -1426,7 +1426,7 @@
               "video_controls": false,
               "type": "text",
               "content_position": "center",
-              "content_align": "left",
+              "content_align": "right",
               "add_container": false,
               "content_width": 70,
               "text_width": 0,
