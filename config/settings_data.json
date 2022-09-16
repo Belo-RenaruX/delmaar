@@ -1236,7 +1236,7 @@
           "1d7e3ff8-0add-4221-ac61-d34e12331017": {
             "type": "promobox",
             "settings": {
-              "url": "",
+              "url": "shopify:\/\/pages\/about-us",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
