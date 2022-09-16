@@ -1535,7 +1535,7 @@
               "button_2": "Button #2 text",
               "button_2_url": "",
               "color_button_type_2": "default",
-              "list_1": "",
+              "list_1": "home-our-babes",
               "custom_html": "",
               "video_external_url": "",
               "video_mp4_url": "",
@@ -1561,7 +1561,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-padding"
+              "customization_class": "custom-padding custom-size-text-XL"
             }
           }
         },
