@@ -23,7 +23,7 @@
     "layout_show_breadcrumbs": false,
     "layout_pagination_type": "infinite_scroll",
     "layout_enable_rtl": false,
-    "layout_images_lazyload": true,
+    "layout_images_lazyload": false,
     "layout_settings_file": "default",
     "layout_age_confirmation": false,
     "layout_age_confirmation_image": "",
