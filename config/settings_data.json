@@ -1081,6 +1081,7 @@
       },
       "1586892896381": {
         "type": "information-line",
+        "disabled": true,
         "blocks": {
           "1586892896381-0": {
             "type": "content",
