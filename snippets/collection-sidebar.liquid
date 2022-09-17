@@ -107,9 +107,9 @@
                     </collection-navigation-form>
                 {%- endcapture -%}
             {%- when 'filters' -%}
-                <!-- {%- unless section.settings.enable_default_filtering -%}
+                {%- unless section.settings.enable_default_filtering -%}
                     {%- continue -%}    
-                {%- endunless -%} -->
+                {%- endunless -%}
                 {%- assign content_type = 'filters' -%}
                 {%- assign show_border = section.settings.show_filter_border -%}
                 <collection-filters-form class="collection-filters d-block">
