@@ -90,7 +90,7 @@
     "product_options_type_select": "",
     "product_options_type_large_text": "Top Size|Bottom Size|Bottom Coverage",
     "product_collection_image_height_percent": 150,
-    "product_collection_image_size": "auto",
+    "product_collection_image_size": "contain",
     "product_collection_image_border_radius": 0,
     "product_replace_images_hover": true,
     "product_collection_show_label_in_stock": false,
