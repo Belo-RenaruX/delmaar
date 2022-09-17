@@ -5,7 +5,7 @@
 {%- if default_state == 'open' or default_state == 'close' -%}
     {%- assign is_accordion = true -%}
 {%- endif -%}
-<div class="collection-sidebar-section collection-sidebar-section--content-{{ content_type }}{% if show_border %} collection-sidebar-section--bordered{% endif %}{% if hide_section == true or hide_section == false %} js-collection-sidebar-section{% endif %}"{% if is_accordion %} data-js-accordion="all"{% if settings.collection_sidebar_position == 'top' %} data-accordion-name="sidebar-section" data-accordion-default-state="{{ default_state }}"{% endif %}{% endif %} data-index="{{ index }}">
+<div class="collection-sidebar-section collection-sidebar-section--content-{{ content_type }}{% if show_border %} collection-sidebar-section--bordered{% endif %}{% if hide_section == true or hide_section == false %} js-collection-sidebar-section{% if hide_section %} d-none{% endif %}{% endif %}"{% if is_accordion %} data-js-accordion="all"{% if settings.collection_sidebar_position == 'top' %} data-accordion-name="sidebar-section" data-accordion-default-state="{{ default_state }}"{% endif %}{% endif %} data-index="{{ index }}">
     {%- unless default_state == 'without_title' -%}
         <div class="collection-sidebar-section__head{% if default_state == 'open' %} open{% endif %}"{% if is_accordion %} data-js-accordion-button{% endif %}>
             <h5 class="d-flex align-items-center mb-0">

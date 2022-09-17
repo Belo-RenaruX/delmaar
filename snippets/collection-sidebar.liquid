@@ -2,7 +2,7 @@
 <aside id="CollectionSidebar" class="collection-sidebar collection-sidebar--{{ settings.collection_sidebar_position }} js-position" data-js-position-name="sidebar" {% if settings.collection_sidebar_position == 'dropdown' %} data-js-position-onload{% endif %}>        
     <div class="collection-sidebar__wrapper">
         {%- assign filters_block = section.blocks | where: 'type', 'filters' -%}
-        {%- if filters_block.size == 0 or section.settings.enable_default_filtering != true -%}
+
             <collection-filters-form class="collection-filters d-none">
                 <form id="CollectionFiltersForm" class="collection-filters__form mb-0">
                     <div id="FacetsWrapperDesktop" class="collection-filters__form-wrapper">
@@ -19,7 +19,7 @@
                     {%- endif -%}
                 </form>
             </collection-filters-form>
-        {%- endif -%}
+
         {%- for block in section.blocks -%}
             {%- assign sidebar_section_content = null -%}
             {%- assign hide_section = blank -%}
