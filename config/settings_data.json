@@ -475,7 +475,7 @@
         ],
         "settings": {
           "type": "2",
-          "style": "2",
+          "style": "1",
           "transparent_bg": "disable",
           "logo_mobile_centered": false,
           "height": 0,
