@@ -21,7 +21,7 @@
     "favicon": "shopify:\/\/shop_images\/Icono.png",
     "layout_container": "fullwidth",
     "layout_show_breadcrumbs": false,
-    "layout_pagination_type": "centered_classic",
+    "layout_pagination_type": "infinite_scroll",
     "layout_enable_rtl": false,
     "layout_images_lazyload": false,
     "layout_settings_file": "default",
