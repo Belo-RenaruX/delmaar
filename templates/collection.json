@@ -172,7 +172,7 @@
       "settings": {
         "container": "boxed",
         "products_per_page": 12,
-        "enable_default_filtering": false,
+        "enable_default_filtering": true,
         "show_selected_filters_counter": true,
         "show_filter_product_count": true,
         "hide_disabled_filters": true,
