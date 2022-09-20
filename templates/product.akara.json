@@ -49,10 +49,37 @@
         "arrows": true,
         "bullets": true
       }
+    },
+    "16636896606a34b393": {
+      "type": "carousel-products",
+      "blocks": {
+        "1ebfdb5f-1c60-411c-b02f-5f227bb7298e": {
+          "type": "collection",
+          "settings": {
+            "title": "",
+            "collection": "tela-11"
+          }
+        }
+      },
+      "block_order": [
+        "1ebfdb5f-1c60-411c-b02f-5f227bb7298e"
+      ],
+      "settings": {
+        "show_title": true,
+        "container": "boxed",
+        "size_of_columns": "4",
+        "max_count": 6,
+        "autoplay": true,
+        "speed": 5,
+        "infinite": true,
+        "arrows": true,
+        "bullets": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "16636896606a34b393"
   ]
 }
