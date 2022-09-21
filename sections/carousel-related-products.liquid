@@ -30,6 +30,7 @@
             {%- assign limit = size_of_columns | at_most: section.settings.max_count | plus: 1 -%}
             {% capture section_html %}
                 <carousel-products class="d-block" data-section-id="{{ section.id }}" data-section-type="carousel-products">
+                    <p>{{product.metafields}}</p>
                     <div class="container">
                         <div class="carousel{% if section.settings.arrows %} carousel--arrows{% endif %} carousel-products position-relative mt-30 pb-60 mt-lg-0">
                             {%- if product_page_related_show_border -%}
@@ -52,9 +53,6 @@
                                         <div class="carousel__prev position-absolute pointer-events-none" data-js-carousel-arrow><i>{% render 'icon-theme-006' %}</i></div>
                                     {%- endif -%}
                                     <div class="carousel__products overflow-hidden">
-                                        {{product.metafields}}
-                                        {{product.metafields.collection.related | handle}}
-                                        {{product.metafields.collection.related | handleize}}
                                         <div class="carousel__slick row" data-js-carousel-slick data-carousel-products-items data-max-count="{{ section.settings.max_count }}" data-products-pre-row="{{ section.settings.size_of_columns }}" data-async-ajax-loading="{{ carousel_related_products_async_ajax_loading }}">
                                             {%- for product in collection.products -%}
                                                 {%- unless product.handle == current_product.handle -%}
