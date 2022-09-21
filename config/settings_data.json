@@ -2,9 +2,8 @@
   "current": {
     "purchase_code": "b8bac3ac-c340-4700-b282-a4cb085aff26",
     "presentation_enable": false,
-    "logo_types": "image",
+    "logo_types": "svg",
     "logo_svg_file": "svg-logo-invert",
-    "logo_image": "shopify:\/\/shop_images\/Logo_2.png",
     "logo_width": 150,
     "logo_mobile_svg_file": "",
     "logo_mobile_image": "shopify:\/\/shop_images\/Logo_2.png",
