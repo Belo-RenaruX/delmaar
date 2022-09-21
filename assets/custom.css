@@ -121,4 +121,15 @@
 .header__logo {
   padding: 10px 0;
 }
+.collection-control__button-sidebar i {
+  display: none;
+}
+.collection-control__button-sidebar span {
+  display: none;
+}
+.collection-control__button-sidebar {
+  border: 1px solid var(--button-bd);
+  border-radius: 30px;
+  padding: 7px 15px
+}
 /* END OF "Fixes" */
