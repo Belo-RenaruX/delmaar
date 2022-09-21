@@ -1,4 +1,7 @@
 {%- if section.settings.show_section -%}
+{{product.metafields.collection.related}}
+{{product.metafields.collection.related | handle}}
+{{product.metafields.collection.related | handleize}}
     {% assign carousel_related_products_async_ajax_loading = false %}
     {% include 'global-variables' %}
     {%- assign size_of_columns = section.settings.size_of_columns | abs -%}
