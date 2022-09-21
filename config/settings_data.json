@@ -213,7 +213,7 @@
     "cart_free_shipping_value": "20000",
     "shipping_calculator": "Enabled",
     "shipping_calculator_default_country": "United States",
-    "wishlist_type": "growave",
+    "wishlist_type": "default",
     "compare_type": "disable",
     "compare_show_description": true,
     "compare_show_collection": true,
