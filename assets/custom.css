@@ -115,7 +115,10 @@
   justify-content: center;
 }
 .slick-slider {
-  touch-action: pinch-zoom !important;
-  -ms-touch-action: pinch-zoom !important;
+  touch-action: auto !important;
+  -ms-touch-action: auto !important;
+}
+.header__logo {
+  padding: 10px 0;
 }
 /* END OF "Fixes" */
