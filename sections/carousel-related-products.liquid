@@ -6,8 +6,8 @@
         {%- assign same_vendor = false -%}
         {%- assign same_type = false -%}
         {%- assign exclusions = 'frontpage,all' | split: ',' -%}
-        {%- if product.metafields.c_f['Related Products'] -%}
-            {%- assign collection = collections[product.metafields.c_f['Related Products']] -%}
+        {%- if product.metafields.collection.related -%}
+            {%- assign collection = collections[product.metafields.collection.related | handleize] -%}
         {%- endif -%}
         {%- assign found_a_collection = false -%}
         {%- if collection and collection.all_products_count > 1 -%}
