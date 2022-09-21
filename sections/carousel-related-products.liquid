@@ -6,8 +6,8 @@
         {%- assign same_vendor = false -%}
         {%- assign same_type = false -%}
         {%- assign exclusions = 'frontpage,all' | split: ',' -%}
-        {%- if product.metafields.collection.related -%}
-            {%- assign collection = collections[product.metafields.collection.related | handleize] -%}
+        {%- if product.metafields.col.related -%}
+            {%- assign collection = collections[product.metafields.col.related] -%}
         {%- endif -%}
         {%- assign found_a_collection = false -%}
         {%- if collection and collection.all_products_count > 1 -%}
@@ -30,7 +30,6 @@
             {%- assign limit = size_of_columns | at_most: section.settings.max_count | plus: 1 -%}
             {% capture section_html %}
                 <carousel-products class="d-block" data-section-id="{{ section.id }}" data-section-type="carousel-products">
-                    <p>{{product.metafields}}</p>
                     <div class="container">
                         <div class="carousel{% if section.settings.arrows %} carousel--arrows{% endif %} carousel-products position-relative mt-30 pb-60 mt-lg-0">
                             {%- if product_page_related_show_border -%}
