@@ -7,7 +7,7 @@
         {%- assign same_type = false -%}
         {%- assign exclusions = 'frontpage,all' | split: ',' -%}
         {%- if product.metafields.col.related -%}
-            {%- assign related = product.metafields.col.related | handle -%}
+            {%- assign related = product.metafields.col.related | handleize -%}
             {%- assign collection = collections[related] -%}
         {%- endif -%}
         {%- assign found_a_collection = false -%}
