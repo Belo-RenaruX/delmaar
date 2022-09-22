@@ -132,4 +132,16 @@
   border-radius: 30px;
   padding: 7px 15px
 }
+#gift-card .product-page-info__labels {
+  display: none !important;
+}
+#gift-card .product-page-info__description {
+  margin-bottom: 0 !important;
+}
+#gift-card .product-page-info__description p:last-of-type{
+  margin-bottom: 0 !important;
+}
+body:not(#gift-card) .product-page-info__description {
+  display: none !important;
+}
 /* END OF "Fixes" */
