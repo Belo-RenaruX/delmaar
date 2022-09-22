@@ -147,7 +147,7 @@
     "product_info_show_sale_details": true,
     "product_info_show_taxes": false,
     "product_info_payment_terms": true,
-    "product_info_show_description": false,
+    "product_info_show_description": true,
     "product_info_show_countdown": false,
     "product_info_show_stock_countdown": false,
     "product_info_show_stock_countdown_range": true,

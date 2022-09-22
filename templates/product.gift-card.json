@@ -6,8 +6,8 @@
         "gallery_size": "5",
         "sidebar": "off",
         "enable_sticky_sidebar": true,
-        "show_tabs": true,
-        "show_tab_description": true,
+        "show_tabs": false,
+        "show_tab_description": false,
         "show_tab_reviews": false,
         "scrolling_to_opened_tab": false,
         "tabs_type": "sheet"
