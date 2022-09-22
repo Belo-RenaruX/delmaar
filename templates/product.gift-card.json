@@ -2,15 +2,28 @@
   "sections": {
     "main": {
       "type": "main-product",
+      "blocks": {
+        "86426085-13c8-40c5-b148-7a226a44b447": {
+          "type": "tab_custom",
+          "settings": {
+            "title": "Custom tab",
+            "content": "<p>Text content of Tab goes here!<\/p><p>You can make text <strong>bold<\/strong>, <em>italic<\/em> or add <a href=\"\/blogs\/news\" title=\"News\">link<\/a> using rich text editor.<\/p><p><\/p>",
+            "page_content": ""
+          }
+        }
+      },
+      "block_order": [
+        "86426085-13c8-40c5-b148-7a226a44b447"
+      ],
       "settings": {
-        "gallery_size": "7",
+        "gallery_size": "4",
         "sidebar": "off",
         "enable_sticky_sidebar": true,
         "show_tabs": false,
-        "show_tab_description": false,
+        "show_tab_description": true,
         "show_tab_reviews": false,
         "scrolling_to_opened_tab": false,
-        "tabs_type": "tabs"
+        "tabs_type": "sheet"
       }
     },
     "related-products": {
