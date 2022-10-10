@@ -216,14 +216,14 @@ body:not(#gift-card) .product-page-info__description {
 .fit-option-line {
   border-bottom: 1px solid transparent;
 }
-.fit-option-line,
+.fit-option-line:hover,
 .fit-option-line-active {
   border-color: black;
 }
 .fit-option-fade {
   opacity: 0.3;
 }
-.fit-option-fade,
+.fit-option-fade:hover,
 .fit-option-fade-active {
   opacity: 1;
 }
