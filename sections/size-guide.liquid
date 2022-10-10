@@ -119,7 +119,7 @@
     line-height: 16px;
   }
 </style>
-<div class="container">
+<div data-section-id="{{ section.id }}" data-section-type="size-guide">
   <section class="fit-section">
     <div class="fit-container">
       <div id="main-selector" class="fit-flex-row fit-options">
@@ -159,6 +159,9 @@
     </div>
   </section>
 </div>
+<script>
+  theme.AssetsLoader.loadInlineStyles();
+</script>
 <script>
   var data = {
     bottom: {
@@ -700,6 +703,8 @@
         } else 
           result(model);
         
+
+
         break;
       case 'cups': result(model);
         break;
@@ -751,4 +756,4 @@
       }
     ]
   }
-{% endschema %}}
+{% endschema %}}}}
