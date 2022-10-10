@@ -145,3 +145,122 @@ body:not(#gift-card) .product-page-info__description {
   display: none !important;
 }
 /* END OF "Fixes" */
+
+/* START OF "Size Guide" */
+.fit-hide {
+  display: none;
+}
+.fit-flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fit-flex-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fit-section {
+  width: 100%;
+  max-width: 265px;
+  margin: auto;
+}
+.fit-container {
+  width: 100%;
+}
+.fit-options {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.fit-results-size {
+  margin-bottom: 20px;
+}
+.fit-results-measurements {
+  margin-bottom: 60px;
+}
+.fit-title {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+.fit-sub-title {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: -5px;
+  font-weight: 700;
+}
+.fit-option-bold {
+  font-weight: 700;
+}
+.fit-option-label {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+}
+.fit-option-image {
+  width: 100%;
+  height: auto;
+  max-width: 40px;
+}
+.fit-option {
+  padding: 10px 15px;
+  transition: 0.1s all ease;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.fit-option-line {
+  border-bottom: 1px solid transparent;
+}
+.fit-option-line,
+.fit-option-line-active {
+  border-color: black;
+}
+.fit-option-fade {
+  opacity: 0.3;
+}
+.fit-option-fade,
+.fit-option-fade-active {
+  opacity: 1;
+}
+.fit-result-btn {
+  display: block;
+  margin: auto;
+  background: black;
+  border: 1px solid black;
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 11px 22px;
+  text-transform: uppercase;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+.fit-result-btn:hover {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+}
+.fit-result-title {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.fit-result-title {
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 700;
+}
+.fit-result-label {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
+}
+/* END OF "Size Guide" */
