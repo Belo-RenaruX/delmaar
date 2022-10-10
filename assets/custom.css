@@ -213,6 +213,9 @@ body:not(#gift-card) .product-page-info__description {
   border: none;
   cursor: pointer;
 }
+.fit-option:focus {
+  outline: none;
+}
 .fit-option-line {
   border-bottom: 1px solid transparent;
 }
