@@ -8,6 +8,18 @@
         "show_content": true
       }
     },
+    "89e878ae-32aa-4ea1-899c-1592ac959845": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
     "9a59d52b-6cd4-41fd-9979-89476c753d96": {
       "type": "size-guide",
       "settings": {
@@ -29,7 +41,7 @@
             "text_line_2": "",
             "text_line_3": "",
             "style": "1",
-            "button_1": "Button #1 text",
+            "button_1": "Need Help?",
             "button_1_url": "",
             "color_button_type_1": "default",
             "button_2": "",
@@ -79,11 +91,25 @@
         "precedence": "",
         "customization_class": ""
       }
+    },
+    "48794350-61a3-4faf-be24-83d077032c60": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
     }
   },
   "order": [
     "main",
+    "89e878ae-32aa-4ea1-899c-1592ac959845",
     "9a59d52b-6cd4-41fd-9979-89476c753d96",
-    "01f638e0-23e5-4fc9-8912-0c71344ce533"
+    "01f638e0-23e5-4fc9-8912-0c71344ce533",
+    "48794350-61a3-4faf-be24-83d077032c60"
   ]
 }
