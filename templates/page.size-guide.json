@@ -2,13 +2,20 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_title": true,
         "show_content": true
       }
+    },
+    "9a59d52b-6cd4-41fd-9979-89476c753d96": {
+      "type": "size-guide",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "9a59d52b-6cd4-41fd-9979-89476c753d96"
   ]
 }
