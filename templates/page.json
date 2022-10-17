@@ -6,15 +6,9 @@
         "show_title": true,
         "show_content": true
       }
-    },
-    "8aa4006f-b404-45fb-80c3-609285a657d3": {
-      "type": "size-guide",
-      "settings": {
-      }
     }
   },
   "order": [
-    "main",
-    "8aa4006f-b404-45fb-80c3-609285a657d3"
+    "main"
   ]
 }
