@@ -230,26 +230,6 @@ body:not(#gift-card) .product-page-info__description {
 .fit-option-fade-active {
   opacity: 1;
 }
-.fit-result-btn {
-  display: block;
-  margin: auto;
-  background: black;
-  border: 1px solid black;
-  color: white;
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 700;
-  border-radius: 30px;
-  padding: 11px 22px;
-  text-transform: uppercase;
-  transition: 0.3s all ease;
-  cursor: pointer;
-}
-.fit-result-btn:hover {
-  background: transparent;
-  border: 1px solid black;
-  color: black;
-}
 .fit-result-title {
   font-size: 28px;
   line-height: 30px;
