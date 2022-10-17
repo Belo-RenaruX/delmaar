@@ -203,6 +203,9 @@ body:not(#gift-card) .product-page-info__description {
   height: auto;
   max-width: 40px;
 }
+.fit-option-image svg {
+  width: 100%;
+}
 .fit-option {
   padding: 10px 15px;
   transition: 0.1s all ease;
