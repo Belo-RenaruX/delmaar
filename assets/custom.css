@@ -163,7 +163,7 @@ body:not(#gift-card) .product-page-info__description {
 }
 .fit-section {
   width: 100%;
-  max-width: 265px;
+  max-width: 350px;
   margin: auto;
 }
 .fit-container {
@@ -175,9 +175,6 @@ body:not(#gift-card) .product-page-info__description {
 }
 .fit-results-size {
   margin-bottom: 20px;
-}
-.fit-results-measurements {
-  margin-bottom: 60px;
 }
 .fit-title {
   font-size: 14px;

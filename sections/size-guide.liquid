@@ -5,11 +5,11 @@
     <div class="fit-container">
       <div id="main-selector" class="fit-flex-row fit-options">
         <button class="fit-flex-column fit-option fit-option-fade" data-value="top">
-          <img class="fit-option-image" src="https://cdn.shopify.com/s/files/1/0312/1385/files/bras_top-triangle_8c5a21a8-3102-4d99-895d-997da42aa323_40x.png">
+          <i class="fit-option-image">{% render 'icon-theme-top' %}</i>
           <span class="fit-option-label fit-option-bold">Tops</span>
         </button>
         <button class="fit-flex-column fit-option fit-option-fade" data-value="bottom">
-          <img class="fit-option-image" src="https://cdn.shopify.com/s/files/1/0312/1385/files/bras_top-triangle_8c5a21a8-3102-4d99-895d-997da42aa323_40x.png">
+          <i class="fit-option-image">{% render 'icon-theme-bottom' %}</i>
           <span class="fit-option-label fit-option-bold">Bottoms</span>
         </button>
       </div>
@@ -32,19 +32,19 @@
         <span id="fit-result" class="fit-result-title"></span>
         <span class="fit-result-label">Del Maar size</span>
       </div>
-      <div id="fit-measurement" class="fit-flex-column fit-results-measurements fit-hide"></div>
+      <div id="fit-measurement" class="fit-flex-column fit-hide"></div>
     </div>
   </section>
 </div>
 
 {% schema %}
-  {
-    "name": "Size Guide",
-    "presets": [
-      {
-        "name": "Size Guide",
-        "category": "3) Static content"
-      }
-    ]
-  }
+{
+"name": "Size Guide",
+"presets": [
+{
+"name": "Size Guide",
+"category": "3) Static content"
+}
+]
+}
 {% endschema %}
