@@ -32,10 +32,7 @@
         <span id="fit-result" class="fit-result-title"></span>
         <span class="fit-result-label">Del Maar size</span>
       </div>
-      <div class="fit-flex-column fit-results-measurements fit-hide">
-        <span class="fit-result-label fit-hide"></span>
-        <span class="fit-result-label fit-hide"></span>
-      </div>
+      <div id="fit-measurement" class="fit-flex-column fit-results-measurements fit-hide"></div>
       <button class="fit-result-btn">need help?</button>
     </div>
   </section>
@@ -44,45 +41,11 @@
 {% schema %}
   {
     "name": "Size Guide",
-    "blocks": [
-      {
-        "type": "section",
-        "name": "Section",
-        "settings": [
-          {
-            "type": "text",
-            "id": "question",
-            "label": "Question",
-            "default": "QUESTION"
-          },
-          {
-            "type": "page",
-            "id": "page_content",
-            "label": "Page content for the answer",
-            "info": "Default page: 'Include FAQs Answer'"
-          },
-          {
-            "type": "paragraph",
-            "content": "OR ↓"
-          },
-          {
-            "type": "textarea",
-            "id": "answer",
-            "label": "Answer"
-          }, {
-            "type": "checkbox",
-            "id": "is_open",
-            "label": "Is open",
-            "default": true
-          }
-        ]
-      }
-    ],
     "presets": [
       {
-        "name": "FAQs",
+        "name": "Size Guide",
         "category": "3) Static content"
       }
     ]
   }
-{% endschema %}}}}}}
+{% endschema %}}}}
