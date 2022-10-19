@@ -803,7 +803,7 @@ var data = {
       var target = container.find('.promobox--clean').find('.rimage');
       var heightToUse = source.height();
       var widthToUse = source.width();
-      var originalPercentage = parseInt(target.attr('data-percentage'));
+      var originalPercentage = parseFloat(target.attr('data-percentage'));
       var percentageToUse = (heightToUse * 100) / widthToUse;
       percentageToUse = percentageToUse > originalPercentage
         ? percentageToUse
