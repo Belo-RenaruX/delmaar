@@ -51,13 +51,13 @@
   -o-transition: var(--animation-css-low-duration) -o-filter ease;
   transition: var(--animation-css-low-duration) filter ease, var(--animation-css-low-duration) -webkit-filter ease;
   margin-bottom: 2px;
-  filter: contrast(0.7);
+  fill: var(--button3-h-c);
 }
 
 .product-options__section[data-property="bottomcoverage"] .product-options__value:hover .custom-image-svg,
 .product-options__section[data-property="bottomcoverage"][data-disable-auto-select] .product-options__value.active:hover .custom-image-svg,
 .product-options__section:not([data-disable-auto-select]) .product-options__value.active .custom-image-svg{
-  filter: contrast(0) brightness(1000);
+  fill: var(--button3-c);
 }
 /* END OF "Image Button Variants" */
 
@@ -72,7 +72,6 @@
 .custom-padding {
   padding: 0 30px;
 }
-
 .custom-remove-margin {
   margin-top: -30px;
 }
@@ -143,6 +142,21 @@
 }
 body:not(#gift-card) .product-page-info__description {
   display: none !important;
+}
+.header__tape {
+  background-color: var(--theme12) !important;
+}
+.header__tape .icon {
+  fill: var(--header-tape-c);
+}
+.slider__prev .icon,
+.slider__next .icon {
+  transition: var(--animation-css-low-duration) all ease;
+  fill: var(--slider-arrows-h-c);
+}
+.slider__prev:hover .icon,
+.slider__next:hover .icon {
+  fill: var(--theme12);
 }
 /* END OF "Fixes" */
 
