@@ -281,8 +281,8 @@ body:not(#gift-card) .product-page-info__description {
 }
 @media (min-width: 768px) {
   #insta-feed .instafeed-container {
-    width: 16.333334% !important;
-    padding-top: 16.333334% !important;
+    width: 16.666667% !important;
+    padding-top: 16.666667% !important;
   }
 }
 /* END OF "Instagram feed" */
