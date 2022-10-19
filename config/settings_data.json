@@ -1137,7 +1137,7 @@
             "type": "instagram_block",
             "settings": {
               "image": "shopify:\/\/shop_images\/Foto_01.jpg",
-              "image_size": 195,
+              "image_size": 300,
               "format_pjpg": true,
               "disable_lazyload": false,
               "url": "https:\/\/www.instagram.com\/p\/CemAg1dJGGP\/?hl=es",
