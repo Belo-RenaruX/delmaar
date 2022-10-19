@@ -1066,11 +1066,11 @@
       "1586892856931": {
         "type": "spacer",
         "settings": {
-          "margin_top": 20,
+          "margin_top": 30,
           "margin_bottom": 0,
           "margin_top_mobile": 0,
           "margin_bottom_mobile": 0,
-          "container": "fullwidth",
+          "container": "boxed",
           "show_separator": false,
           "title": ""
         }
@@ -1758,7 +1758,7 @@
       "16599371815270db48": {
         "type": "spacer",
         "settings": {
-          "margin_top": 30,
+          "margin_top": 20,
           "margin_bottom": 0,
           "margin_top_mobile": 0,
           "margin_bottom_mobile": 0,
