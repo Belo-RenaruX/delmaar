@@ -789,12 +789,12 @@ var data = {
 
 /* START OF "Remove mobile menu items" */
 (function() {
-  jQuery('.menu__panel').children().each(function() {
+  jQuery('.menu__level-01').children().each(function() {
     var item = jQuery(this);
-    var itemText = item.find('span').text();
+    var itemText = item.contents('a').contents('span').text();
     console.log(this, item, itemText);
 
-    if(itemText.toUpperCase() = 'ALL SWIMWEAR') item.addClass('d-lg-none');
+    if(itemText.toUpperCase() === 'ALL SWIMWEAR') item.addClass('d-lg-none');
   });
 })();
 /* END OF "Remove mobile menu items" */
