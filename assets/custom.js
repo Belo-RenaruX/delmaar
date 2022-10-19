@@ -792,7 +792,7 @@ var data = {
   jQuery('.custom-resize').each(function () {
     var target = jQuery(this).find('.promobox--clean').find('.rimage');
 
-    target.attr('data-percentage', target.css('padding-top'));
+    target.attr('data-percentage', target.prop('style')['padding-top']);
   });
 
   jQuery(window).on('resize', function() {
