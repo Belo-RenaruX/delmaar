@@ -1393,7 +1393,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": ""
+              "customization_class": "custom-resize-target"
             }
           },
           "97ae7ea7-74ff-4b71-b25f-07ebc5361073": {
@@ -1427,7 +1427,7 @@
               "add_container": false,
               "content_width": 85,
               "text_width": 0,
-              "height": "50",
+              "height": "auto",
               "min_height": 0,
               "size_of_column": "auto",
               "visible": "desktop_mobile",
@@ -1441,7 +1441,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-padding custom-size-text"
+              "customization_class": "custom-padding custom-size-text custom-resize-source"
             }
           }
         },
@@ -1458,7 +1458,7 @@
           "align_of_columns": "center",
           "disable_column_paddings": true,
           "precedence": "",
-          "customization_class": ""
+          "customization_class": "custom-resize"
         }
       },
       "16573170968abf3fbf": {
