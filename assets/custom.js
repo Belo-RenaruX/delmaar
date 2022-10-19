@@ -789,6 +789,12 @@ var data = {
 
 /* START OF "Banner rezise" */
 (function() {
+  jQuery('.custom-resize').each(function () {
+    var target = jQuery(this).find('.promobox--clean').find('.rimage');
+
+    target.attr('data-original-percentage', target.css('padding-top'));
+  });
+
   jQuery(window).on('resize', function() {
     jQuery('.custom-resize').each(function () {
       var container = jQuery(this);
