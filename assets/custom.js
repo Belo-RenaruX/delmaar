@@ -789,12 +789,6 @@ var data = {
 
 /* START OF "Banner rezise" */
 (function() {
-  jQuery('.custom-resize').each(function () {
-    var container = jQuery(this);
-    var target = container.find('.promobox--clean').find('.rimage');
-    var originalHeight = target.find('img').height();
-    console.log(originalHeight);
-  });
   jQuery(window).on('resize', function() {
     jQuery('.custom-resize').each(function () {
       var container = jQuery(this);
@@ -802,15 +796,16 @@ var data = {
       var target = container.find('.promobox--clean').find('.rimage');
       var heightToUse = source.height();
       var widthToUse = source.width();
-      var originalHeight = target.find('img')[0].naturalHeight;
+      var percentageToUse = (heightToUse * 100) / widthToUse;
+      target.css('padding-top', percentageToUse + '%');
       
       // if(heightToUse > originalHeight){
-      //   var percentageToUse = (heightToUse * 100) / widthToUse;
+      //   
       //   console.log(percentageToUse);
       //   target.css('padding-top', percentageToUse + '%');
       // }
 
-      console.log(container, source, target, heightToUse, widthToUse, originalHeight)
+      console.log(container, source, target, heightToUse, widthToUse, originalHeight, percentageToUse)
     });
   });
 })();
