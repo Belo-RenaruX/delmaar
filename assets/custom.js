@@ -792,7 +792,7 @@ var data = {
   jQuery('.custom-resize').each(function () {
     var container = jQuery(this);
     var target = container.find('.promobox--clean').find('.rimage');
-    var originalHeight = target.find('img')[0];
+    var originalHeight = target.find('img').height();
     console.log(originalHeight);
   });
   jQuery(window).on('resize', function() {
