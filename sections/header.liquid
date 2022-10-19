@@ -1136,7 +1136,7 @@
         {%- capture btn_wishlist_html -%}
             {%- if settings.wishlist_type == 'default' -%}
                 <div class="ml-25 ml-lg-15">
-                    <a href="#" class="header__btn-wishlist d-none d-lg-flex align-items-center position-relative text-nowrap js-popup-button" data-js-popup-button="wishlist"{% if need_sticky_sidebar %} data-js-sticky-replace-element="wishlist"{% endif %}
+                    <a href="#" class="header__btn-wishlist d-flex align-items-center position-relative text-nowrap js-popup-button" data-js-popup-button="wishlist"{% if need_sticky_sidebar %} data-js-sticky-replace-element="wishlist"{% endif %}
                         {%- if settings.tooltips_enable and header_enable_tooltips %}
                             data-js-tooltip
                             data-tippy-content="{{ 'layout.header.tooltip.wishlist' | t }}"
