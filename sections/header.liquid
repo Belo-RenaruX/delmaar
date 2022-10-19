@@ -1078,7 +1078,7 @@
                     <div id="ssw-topauth" class="ssw-topauth">
                         {%- if customer -%}
                             <div class="ssw-tprofile ssw-dropdown">
-                                <a class="ssw-dropdown-toggle header__btn-account d-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center position-relative ml-25 ml-lg-15" data-toggle="ssw-dropdown" href="javascript:void(0);">
+                                <a class="ssw-dropdown-toggle header__btn-account d-none d-lg-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center position-relative ml-25 ml-lg-15" data-toggle="ssw-dropdown" href="javascript:void(0);">
                                     <i>{% render 'icon-theme-201' %}</i>
                                 </a>
                                 <ul class="ssw-dropdown-menu" role="menu" aria-labelledby="dLabel">
@@ -1089,7 +1089,7 @@
                                 </ul>
                             </div>
                         {%- else -%}
-                            <a id="customer_login_link" class="header__btn-account d-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center position-relative ml-25 ml-lg-15" href="javascript:void(0);" data-toggle="ssw-modal" data-target="#login_modal" onclick="trackShopStats('login_popup_view', 'all')"><i>{% render 'icon-theme-201' %}</i></a>
+                            <a id="customer_login_link" class="header__btn-account d-none d-lg-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center position-relative ml-25 ml-lg-15" href="javascript:void(0);" data-toggle="ssw-modal" data-target="#login_modal" onclick="trackShopStats('login_popup_view', 'all')"><i>{% render 'icon-theme-201' %}</i></a>
                         {%- endif -%}
                     </div>
                 {%- else -%}
