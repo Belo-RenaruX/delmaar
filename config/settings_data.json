@@ -1275,7 +1275,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-padding custom-size-text"
+              "customization_class": "custom-padding custom-size-text custom-resize-source"
             }
           },
           "e2afb8f7-54e3-40f6-b129-43a5ebaf219d": {
@@ -1341,7 +1341,7 @@
           "align_of_columns": "center",
           "disable_column_paddings": true,
           "precedence": "2,1",
-          "customization_class": ""
+          "customization_class": "custom-resize"
         }
       },
       "16572597802261c68b": {
@@ -1558,7 +1558,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-padding custom-size-text-XL"
+              "customization_class": "custom-padding custom-size-text-XL custom-resize-source"
             }
           }
         },
@@ -1575,7 +1575,7 @@
           "align_of_columns": "center_left",
           "disable_column_paddings": true,
           "precedence": "",
-          "customization_class": ""
+          "customization_class": "custom-resize"
         }
       },
       "1657510330b62cc324": {
@@ -1638,7 +1638,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-padding custom-size-text"
+              "customization_class": "custom-padding custom-size-text custom-resize-source"
             }
           },
           "d0d33c21-3fc4-4968-b858-cb47eeb61999": {
@@ -1704,7 +1704,7 @@
           "align_of_columns": "center_left",
           "disable_column_paddings": true,
           "precedence": "2,1",
-          "customization_class": ""
+          "customization_class": "custom-resize"
         }
       },
       "1659932401bafd96d5": {
