@@ -791,7 +791,11 @@ var data = {
 (function() {
   jQuery(window).on('resize', function() {
     jQuery('.custom-resize').each(function () {
-      console.log(this);
+      var container = jQuery(this);
+      var source = container.find('.custom-resize-source').height();
+      var target = container.find('.custom-resize-target').parent();
+      
+      target.css('padding-top', source+'px');
     });
   });
 })();
