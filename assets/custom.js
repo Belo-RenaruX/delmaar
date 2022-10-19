@@ -792,6 +792,7 @@ var data = {
   jQuery('.menu-item').each(function() {
     var item = jQuery(this);
     var itemText = item.find('span').text();
+    console.log(this, item, itemText);
 
     if(itemText.toUpperCase() = 'ALL SWIMWEAR') item.addClass('d-lg-none');
   })
