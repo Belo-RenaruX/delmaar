@@ -143,6 +143,9 @@
 body:not(#gift-card) .product-page-info__description {
   display: none !important;
 }
+.menu__item {
+  text-transform: uppercase;
+}
 .header__tape {
   background-color: var(--theme12) !important;
 }
