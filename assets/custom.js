@@ -792,12 +792,15 @@ var data = {
   jQuery(window).on('resize', function() {
     jQuery('.custom-resize').each(function () {
       var container = jQuery(this);
-      var source = container.find('.custom-resize-source').height();
-      var target = container.find('.rimage');
+      var source = container.find('.custom-resize-source');
+      var target = container.find('.promobox--clean').find('.rimage');
+      var heighToUse = source.height();
+      var widthToUse = source.width();
+      var originalHeight = target.find('img').height();
       
-      target.css('padding-top', source+'px');
+      //target.css('padding-top', source+'px');
 
-      console.log(container, source, target)
+      console.log(container, source, target, heighToUse, widthToUse, originalHeight)
     });
   });
 })();
