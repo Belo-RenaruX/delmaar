@@ -37,6 +37,22 @@
     </div>
     <div class="popup-navigation__menu d-lg-none{% if settings.search_show %} pt-25{% endif %} pb-25 px-10" data-js-menu-mobile>
         <div class="container" data-js-position-mobile="menu"></div>
+        <div class="container">
+            <div class="ml-25 ml-lg-15">
+                    <a href="#" class="header__btn-wishlist d-flex align-items-center position-relative text-nowrap js-popup-button" data-js-popup-button="wishlist"{% if need_sticky_sidebar %} data-js-sticky-replace-element="wishlist"{% endif %}
+                        {%- if settings.tooltips_enable and header_enable_tooltips %}
+                            data-js-tooltip
+                            data-tippy-content="{{ 'layout.header.tooltip.wishlist' | t }}"
+                            data-tippy-placement="bottom"
+                            data-tippy-distance="6"
+                        {%- endif -%}
+                    >
+                        <i>{% render 'icon-theme-180' %}</i>
+                        {% capture wishlist_count %}{% if customer %}{{ customer.metafields.wishlist | size }}{% else %}0{% endif %}{% endcapture %}
+                        <span class="header__counter" data-js-wishlist-count="{{ wishlist_count }}">{{ wishlist_count }}</span>
+                    </a>
+                </div>
+        </div>
     </div>
     <div class="popup-navigation__currency d-lg-none px-10" data-js-position-mobile="currencies"></div>
     <div class="popup-navigation__currency d-lg-none px-10" data-js-position-mobile="languages"></div>
