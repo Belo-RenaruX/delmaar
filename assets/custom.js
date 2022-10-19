@@ -792,9 +792,11 @@ var data = {
   jQuery('.menu__level-01').children().each(function() {
     var item = jQuery(this);
     var itemText = item.contents('a').contents('span').text();
-    console.log(this, item, itemText);
-
-    if(itemText.toUpperCase() === 'ALL SWIMWEAR') item.addClass('d-lg-none');
+    switch(itemText.toUpperCase()) {
+      case 'ALL SWIMWEAR':
+        item.addClass('d-lg-none');
+        break;
+    }
   });
 })();
 /* END OF "Remove mobile menu items" */
