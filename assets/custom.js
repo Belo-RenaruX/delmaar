@@ -798,7 +798,10 @@ var data = {
       var widthToUse = source.width();
       var originalHeight = target.find('img').height();
       
-      //target.css('padding-top', source+'px');
+      if(heighToUse > originalHeight){
+        var percentageToUse = (heightToUse * 100) / widthToUse;
+        target.css('padding-top', percentageToUse + '%');
+      }
 
       console.log(container, source, target, heighToUse, widthToUse, originalHeight)
     });
