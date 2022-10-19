@@ -787,6 +787,16 @@ var data = {
   };
 })();
 
+/* START OF "Banner rezise" */
+(function() {
+  jQuery(window).on('resize', function() {
+    jQuery('.custom-resize').each(function () {
+      console.log(this);
+    });
+  });
+})();
+/* END OF "Banner rezise" */
+
 /* START OF "Remove mobile menu items" */
 (function() {
   jQuery('.menu__level-01').children().each(function() {
