@@ -791,8 +791,9 @@ var data = {
 (function() {
   jQuery('.custom-resize').each(function () {
     var target = jQuery(this).find('.promobox--clean').find('.rimage');
+    var value = target.prop('style')['padding-top'].replace('%', '');
 
-    target.attr('data-percentage', target.prop('style')['padding-top']);
+    target.attr('data-percentage', value);
   });
 
   jQuery(window).on('resize', function() {
@@ -802,14 +803,13 @@ var data = {
       var target = container.find('.promobox--clean').find('.rimage');
       var heightToUse = source.height();
       var widthToUse = source.width();
+      var originalPercentage = parseInt(target.attr('data-percentage'));
       var percentageToUse = (heightToUse * 100) / widthToUse;
+      percentageToUse = percentageToUse > originalPercentage
+        ? percentageToUse
+        : originalPercentage;
+
       target.css('padding-top', percentageToUse + '%');
-      
-      // if(heightToUse > originalHeight){
-      //   
-      //   console.log(percentageToUse);
-      //   target.css('padding-top', percentageToUse + '%');
-      // }
 
       console.log(container, source, target, heightToUse, widthToUse, originalHeight, percentageToUse)
     });
