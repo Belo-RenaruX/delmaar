@@ -787,6 +787,17 @@ var data = {
   };
 })();
 
+/* START OF "Remove mobile menu items" */
+(function () {
+  jQuery('.menu-item').each(function() {
+    var item = jQuery(this);
+    var itemText = item.find('span').text();
+
+    if(itemText.toUpperCase() = 'ALL SWIMWEAR') item.addClass('d-lg-none');
+  })
+})();
+/* END OF "Remove mobile menu items" */
+
 /* START OF "Remove Pre Selected Variants" */
 (function(){
   var button = jQuery('[data-button-status="select"]')[0];
