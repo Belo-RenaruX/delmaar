@@ -800,6 +800,7 @@ var data = {
       
       if(heighToUse > originalHeight){
         var percentageToUse = (heightToUse * 100) / widthToUse;
+        console.log(percentageToUse);
         target.css('padding-top', percentageToUse + '%');
       }
 
