@@ -48,8 +48,8 @@
                         data-tippy-distance="6"
                     {%- endif -%}
                 >
-                    {{ 'layout.header.tooltip.account' | t }}
-                    <i class="ml-25">{% render 'icon-theme-201' %}</i>
+                    <i>{% render 'icon-theme-201' %}</i>
+                    <span class="ml-5">{{ 'layout.header.tooltip.account' | t }}</span>
                 </a>
             {%- endif -%}
             <a href="/products/gift-card" class="header__btn-account d-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center position-relative js-popup-button"
@@ -61,8 +61,8 @@
                     data-tippy-distance="6"
                 {%- endif -%}
             >
-                Gift Card
-                <i class="ml-25">{% render 'icon-theme-giftcard' %}</i>
+                <i>{% render 'icon-theme-giftcard' %}</i>
+                <span class="ml-5">Gift Card</span>
             </a>
             <a href="/pages/stores" class="header__btn-account d-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center position-relative js-popup-button"
                 data-js-popup-button="stores"
@@ -73,8 +73,8 @@
                     data-tippy-distance="6"
                 {%- endif -%}
             >
-                Stores
-                <i class="ml-25">{% render 'icon-theme-stores' %}</i>
+                <i>{% render 'icon-theme-stores' %}</i>
+                <span class="ml-5">Stores</span>
             </a>
         </div>
     </div>
