@@ -789,7 +789,7 @@ var data = {
 
 /* START OF "Remove mobile menu items" */
 (function() {
-  jQuery('.menu__item').each(function() {
+  jQuery('.menu__panel').children().each(function() {
     var item = jQuery(this);
     var itemText = item.find('span').text();
     console.log(this, item, itemText);
