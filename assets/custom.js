@@ -792,8 +792,8 @@ var data = {
   jQuery(window).on('resize', function() {
     jQuery('.custom-resize').each(function () {
       var container = jQuery(this);
-      var source = container.find('.custom-resize-source').height();
-      var target = container.find('.custom-resize-target').parent();
+      var source = container.height();
+      var target = container.find('.rimage');
       
       target.css('padding-top', source+'px');
 
