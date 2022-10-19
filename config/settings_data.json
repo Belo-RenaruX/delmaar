@@ -483,7 +483,7 @@
           "fixed_vertical_menu": false,
           "additional_line_info_page_content": "",
           "sticky": "desktop_and_mobile",
-          "desktop_sticky_type": "slim",
+          "desktop_sticky_type": "wide",
           "hide_sticky_when_scroll_down": true
         }
       },
