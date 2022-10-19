@@ -442,7 +442,7 @@
           "800eb514-8161-4bb1-9f7f-84aea9535c89": {
             "type": "menu",
             "settings": {
-              "for_item": "SHOP",
+              "for_item": "Shop",
               "menu": "shop-menu"
             }
           },
