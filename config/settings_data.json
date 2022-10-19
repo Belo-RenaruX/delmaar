@@ -1373,7 +1373,7 @@
               "video_mp4_url": "",
               "video_autoplay": true,
               "video_controls": false,
-              "type": "clean",
+              "type": "type-1",
               "content_position": "center",
               "content_align": "center",
               "add_container": false,
