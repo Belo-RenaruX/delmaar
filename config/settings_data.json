@@ -1151,7 +1151,7 @@
               "image": "shopify:\/\/shop_images\/Foto_06.jpg",
               "image_size": 300,
               "format_pjpg": true,
-              "disable_lazyload": false,
+              "disable_lazyload": true,
               "url": "https:\/\/www.instagram.com\/p\/Ce_TtlzuTBX\/?hl=es",
               "likes": "2391",
               "comments": "211"
