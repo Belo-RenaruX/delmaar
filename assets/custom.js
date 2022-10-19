@@ -796,6 +796,8 @@ var data = {
       var target = container.find('.custom-resize-target').parent();
       
       target.css('padding-top', source+'px');
+
+      console.log(container, source, target)
     });
   });
 })();
