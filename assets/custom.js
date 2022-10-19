@@ -797,6 +797,8 @@ var data = {
   });
 
   jQuery(window).on('resize', function() {
+    var validation = jQuery(this).width() >= 768;
+
     jQuery('.custom-resize').each(function () {
       var container = jQuery(this);
       var source = container.find('.custom-resize-source');
@@ -809,9 +811,8 @@ var data = {
         ? percentageToUse
         : originalPercentage;
 
-      target.css('padding-top', percentageToUse + '%');
-
-      console.log(container, source, target, heightToUse, widthToUse, originalHeight, percentageToUse)
+      if(validation) target.css('padding-top', percentageToUse + '%');
+      else target.css('padding-top', originalPercentage + '%');
     });
   });
 })();
