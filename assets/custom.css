@@ -273,3 +273,12 @@ body:not(#gift-card) .product-page-info__description {
   line-height: 16px;
 }
 /* END OF "Size Guide" */
+
+/* START OF "Instagram feed" */
+@media (min-width: 768px) {
+  .instafeed-container {
+    width: 33.333334% !important;
+    padding-top: 33.333334% !important;
+  }
+}
+/* END OF "Instagram feed" */
