@@ -275,10 +275,14 @@ body:not(#gift-card) .product-page-info__description {
 /* END OF "Size Guide" */
 
 /* START OF "Instagram feed" */
+#insta-feed.instafeed-container {
+  width: 33.333334% !important;
+  padding-top: 33.333334% !important;
+}
 @media (min-width: 768px) {
-  .instafeed-container {
-    width: 33.333334% !important;
-    padding-top: 33.333334% !important;
+  #insta-feed.instafeed-container {
+    width: 16.333334% !important;
+    padding-top: 16.333334% !important;
   }
 }
 /* END OF "Instagram feed" */
