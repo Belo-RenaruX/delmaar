@@ -37,7 +37,7 @@
     </div>
     <div class="popup-navigation__menu d-lg-none{% if settings.search_show %} pt-25{% endif %} pb-25 px-10" data-js-menu-mobile>
         <div class="container" data-js-position-mobile="menu"></div>
-        <div class="container">
+        <div class="container pt-40">
             {%- if settings.account_show_header_button and shop.customer_accounts_enabled -%}
                 <a href="/account" class="header__btn-account d-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center position-relative js-popup-button"
                     data-js-popup-button="account"
