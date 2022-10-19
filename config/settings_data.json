@@ -235,7 +235,7 @@
     "social_share_enable_reddit": true,
     "subscription_method": "shopify",
     "subscription_mailchimp_form_action": "\/\/myshopify.us18.list-manage.com\/subscribe\/post?u=8a50b61e56896303a04d0243e&amp;id=3c3d06b907",
-    "subscription_popup_enable": true,
+    "subscription_popup_enable": false,
     "subscription_popup_layout": "3",
     "subscription_popup_show_icon": true,
     "subscription_popup_text_line_01": "ULTIMATE SALE",
