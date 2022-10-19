@@ -794,17 +794,17 @@ var data = {
       var container = jQuery(this);
       var source = container.find('.custom-resize-source');
       var target = container.find('.promobox--clean').find('.rimage');
-      var heighToUse = source.height();
+      var heightToUse = source.height();
       var widthToUse = source.width();
       var originalHeight = target.find('img').height();
       
-      if(heighToUse > originalHeight){
+      if(heightToUse > originalHeight){
         var percentageToUse = (heightToUse * 100) / widthToUse;
         console.log(percentageToUse);
         target.css('padding-top', percentageToUse + '%');
       }
 
-      console.log(container, source, target, heighToUse, widthToUse, originalHeight)
+      console.log(container, source, target, heightToUse, widthToUse, originalHeight)
     });
   });
 })();
