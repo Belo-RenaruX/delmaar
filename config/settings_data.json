@@ -434,7 +434,7 @@
             "type": "tape",
             "settings": {
               "delay": 0,
-              "style": "2",
+              "style": "1",
               "transparent_bg": false,
               "content": "FINAL CLEARANCE: Take 20% off ‘Sale Must-Haves'"
             }
