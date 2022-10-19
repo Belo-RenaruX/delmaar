@@ -151,12 +151,21 @@ body:not(#gift-card) .product-page-info__description {
 }
 .slider__prev .icon,
 .slider__next .icon {
-  transition: var(--animation-css-low-duration) all ease;
-  fill: var(--slider-arrows-h-c);
+  transition-duration: var(--animation-css-low-duration);
+  transition-property: all;
+  fill: var(--slider-arrows-h-c) !important;
 }
 .slider__prev:hover .icon,
 .slider__next:hover .icon {
-  fill: var(--theme12);
+  fill: var(--theme12) !important;
+}
+.slider .slick-dots li {
+  transition-duration: var(--animation-css-low-duration);
+  transition-property: all;
+  background-color: var(--slider-bullets-h-bg) !important;
+}
+.slider .slick-dots li:hover {
+  background-color: var(--theme12) !important;
 }
 /* END OF "Fixes" */
 
