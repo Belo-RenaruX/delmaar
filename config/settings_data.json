@@ -1702,12 +1702,37 @@
           "arrows": true,
           "bullets": true
         }
+      },
+      "bc4f349b-dc53-4f5a-8961-ab16461ab142": {
+        "type": "spacer",
+        "settings": {
+          "margin_top": 60,
+          "margin_bottom": 0,
+          "margin_top_mobile": 0,
+          "margin_bottom_mobile": 0,
+          "container": "boxed",
+          "show_separator": false,
+          "title": ""
+        }
+      },
+      "c00eda68-163a-47ab-bf6e-aa07307826bb": {
+        "type": "spacer",
+        "settings": {
+          "margin_top": 30,
+          "margin_bottom": 0,
+          "margin_top_mobile": 0,
+          "margin_bottom_mobile": 0,
+          "container": "boxed",
+          "show_separator": false,
+          "title": ""
+        }
       }
     },
     "content_for_index": [
       "1586892776567",
       "1586892856931",
       "1586892761198",
+      "c00eda68-163a-47ab-bf6e-aa07307826bb",
       "68b80581-7ca9-405f-8ed0-b304233654ac",
       "16599371815270db48",
       "1586892752766",
@@ -1722,7 +1747,8 @@
       "1659932401bafd96d5",
       "5e7e73ef-c064-48d9-b06c-4d33619fcf4c",
       "641db58b-d354-4c1b-8da2-62f4b5228d47",
-      "1586892896381"
+      "1586892896381",
+      "bc4f349b-dc53-4f5a-8961-ab16461ab142"
     ]
   }
 }
