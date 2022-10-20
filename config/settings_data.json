@@ -504,7 +504,7 @@
             "settings": {
               "title": "",
               "show_title_on_desktop": true,
-              "menu": "",
+              "menu": "del-maar-world",
               "size": 0,
               "rows_limit": 0
             }
@@ -514,17 +514,7 @@
             "settings": {
               "title": "",
               "show_title_on_desktop": true,
-              "menu": "",
-              "size": 0,
-              "rows_limit": 0
-            }
-          },
-          "1586284530934": {
-            "type": "menu",
-            "settings": {
-              "title": "",
-              "show_title_on_desktop": true,
-              "menu": "",
+              "menu": "information",
               "size": 0,
               "rows_limit": 0
             }
@@ -566,7 +556,6 @@
           "1586284608625",
           "1586284525260",
           "1586284527889",
-          "1586284530934",
           "1586284576772",
           "1586284588048",
           "footer-0",
