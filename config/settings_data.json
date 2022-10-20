@@ -1077,7 +1077,6 @@
       },
       "1586892896381": {
         "type": "information-line",
-        "disabled": true,
         "blocks": {
           "1586892896381-0": {
             "type": "content",
@@ -1677,6 +1676,32 @@
           "show_separator": false,
           "title": "<p><a href=\"https:\/\/www.instagram.com\/delmaar_latinswimwear\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/delmaar_latinswimwear\/\">@delmaar_latinswimwear<\/a> Follow Us On Instagram<\/p>"
         }
+      },
+      "68b80581-7ca9-405f-8ed0-b304233654ac": {
+        "type": "carousel-products",
+        "blocks": {
+          "2e46b5b2-4fd6-4b2b-bdaa-091dc4af46fd": {
+            "type": "collection",
+            "settings": {
+              "title": "",
+              "collection": "all-swimwear"
+            }
+          }
+        },
+        "block_order": [
+          "2e46b5b2-4fd6-4b2b-bdaa-091dc4af46fd"
+        ],
+        "settings": {
+          "show_title": true,
+          "container": "fullwidth",
+          "size_of_columns": "4",
+          "max_count": 8,
+          "autoplay": true,
+          "speed": 5,
+          "infinite": true,
+          "arrows": true,
+          "bullets": true
+        }
       }
     },
     "content_for_index": [
@@ -1696,7 +1721,8 @@
       "1659932401bafd96d5",
       "5e7e73ef-c064-48d9-b06c-4d33619fcf4c",
       "641db58b-d354-4c1b-8da2-62f4b5228d47",
-      "1586892896381"
+      "1586892896381",
+      "68b80581-7ca9-405f-8ed0-b304233654ac"
     ]
   }
 }
