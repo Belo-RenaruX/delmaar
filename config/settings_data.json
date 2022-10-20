@@ -1693,8 +1693,8 @@
         ],
         "settings": {
           "show_title": true,
-          "container": "fullwidth",
-          "size_of_columns": "2",
+          "container": "boxed",
+          "size_of_columns": "4",
           "max_count": 8,
           "autoplay": true,
           "speed": 5,
