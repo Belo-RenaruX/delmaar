@@ -1166,7 +1166,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-resize-source"
+              "customization_class": "py-20 custom-resize-source"
             }
           },
           "e2afb8f7-54e3-40f6-b129-43a5ebaf219d": {
@@ -1332,7 +1332,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-resize-source"
+              "customization_class": "py-20 custom-resize-source"
             }
           }
         },
@@ -1449,7 +1449,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-resize-source"
+              "customization_class": "py-20 custom-resize-source"
             }
           }
         },
@@ -1529,7 +1529,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "custom-resize-source"
+              "customization_class": "py-20custom-resize-source"
             }
           },
           "d0d33c21-3fc4-4968-b858-cb47eeb61999": {
