@@ -69,9 +69,6 @@
 /* END OF "Gift Card Variants" */
 
 /* START OF "Custom Classes" */
-.custom-padding {
-  padding: 0 30px;
-}
 .custom-remove-margin {
   margin-top: -30px;
 }
@@ -80,19 +77,6 @@
   color: var(--button3-h-c);
   text-align: center;
 }
-.custom-size-text {
-  text-align: justify;
-  font-size: 15px;
-}
-.custom-size-text-l {
-  text-align: justify;
-  font-size: 20px;
-}
-.custom-size-text-XL {
-  text-align: justify;
-  font-size: 32px;
-}
-
 /* END OF "Custom Classes" */
 
 /* START OF "Fixes" */
@@ -169,6 +153,11 @@ body:not(#gift-card) .product-page-info__description {
 }
 .slider .slick-dots li:hover {
   background-color: var(--theme12) !important;
+}
+@media (max-width: 1024px) {
+  .promobox--text-8 .promobox__content {
+    max-width: 100% !important;
+  }
 }
 /* END OF "Fixes" */
 
