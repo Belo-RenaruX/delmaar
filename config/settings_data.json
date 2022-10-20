@@ -1314,7 +1314,7 @@
               "video_controls": false,
               "type": "text",
               "content_position": "center",
-              "content_align": "right",
+              "content_align": "center",
               "add_container": false,
               "content_width": 85,
               "text_width": 0,
@@ -1332,7 +1332,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "p-15 custom-resize-source"
+              "customization_class": "p-15 text-md-left custom-resize-source"
             }
           }
         },
@@ -1431,7 +1431,7 @@
               "video_controls": false,
               "type": "text-8",
               "content_position": "center",
-              "content_align": "right",
+              "content_align": "center",
               "add_container": false,
               "content_width": 85,
               "text_width": 0,
@@ -1449,7 +1449,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "p-15 custom-resize-source"
+              "customization_class": "p-15 text-md-right custom-resize-source"
             }
           }
         },
@@ -1511,7 +1511,7 @@
               "video_controls": false,
               "type": "text",
               "content_position": "center",
-              "content_align": "left",
+              "content_align": "center",
               "add_container": false,
               "content_width": 85,
               "text_width": 0,
@@ -1529,7 +1529,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "p-15 custom-resize-source"
+              "customization_class": "p-15 text-md-left custom-resize-source"
             }
           },
           "d0d33c21-3fc4-4968-b858-cb47eeb61999": {
