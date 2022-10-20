@@ -1602,7 +1602,7 @@
         "settings": {
           "margin_top": 30,
           "margin_bottom": 0,
-          "margin_top_mobile": 0,
+          "margin_top_mobile": 15,
           "margin_bottom_mobile": 0,
           "container": "boxed",
           "show_separator": false,
