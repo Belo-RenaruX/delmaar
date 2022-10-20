@@ -1332,7 +1332,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "py-20 custom-resize-source"
+              "customization_class": "p-15 custom-resize-source"
             }
           }
         },
@@ -1449,7 +1449,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "py-20 custom-resize-source"
+              "customization_class": "p-15 custom-resize-source"
             }
           }
         },
@@ -1529,7 +1529,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": "py-20custom-resize-source"
+              "customization_class": "p-15 custom-resize-source"
             }
           },
           "d0d33c21-3fc4-4968-b858-cb47eeb61999": {
