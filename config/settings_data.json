@@ -1072,7 +1072,7 @@
             "settings": {
               "icon": "theme-116",
               "title": "Free Shipping.",
-              "paragraph": "All orders of $49 or more of eligible items across any product category qualify.",
+              "paragraph": "We are currently having FREE EXPRESS SHIPPING to BRAZIL and CHILE",
               "url": ""
             }
           },
@@ -1089,8 +1089,8 @@
             "type": "content",
             "settings": {
               "icon": "theme-009",
-              "title": "Returns & Refunds.",
-              "paragraph": "You can return any item purchased on Shella within 20 days of the delivery date.",
+              "title": "Returns & Exchanges.",
+              "paragraph": "We accept exchanges and returns (excluding the cost of original shipping) on all our pieces!",
               "url": ""
             }
           }
