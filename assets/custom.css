@@ -154,6 +154,9 @@ body:not(#gift-card) .product-page-info__description {
 .slider .slick-dots li:hover {
   background-color: var(--theme12) !important;
 }
+.popup-product-contact {
+  max-width: 785px !important;
+}
 @media (max-width: 1024px) {
   .promobox--text-8 .promobox__content {
     max-width: 100% !important;
