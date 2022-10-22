@@ -860,17 +860,19 @@ jQuery('.label--pre-order').on('cssClassChanged', function(e){
 
 /* START OF "Size Guide" */
 (function(){
-  var main = jQuery('#main-selector');
-  var firstOption = main.find('button').first();
+  $(window).on('load', function() {
+    var main = jQuery('#main-selector');
+    var firstOption = main.find('button').first();
 
-  main.children().each(function() {
-    var element = jQuery(this);
-    element.on('click', function(e) {
-      refresh(element);
+    main.children().each(function() {
+      var element = jQuery(this);
+      element.on('click', function(e) {
+        refresh(element);
+      });
     });
-  });
 
-  refresh(firstOption);
+    refresh(firstOption);
+  });
 })();
 
 function refresh(element) {
