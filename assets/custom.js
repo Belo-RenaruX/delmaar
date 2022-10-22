@@ -860,7 +860,7 @@ jQuery('.label--pre-order').on('cssClassChanged', function(e){
 
 /* START OF "Size Guide" */
 (function(){
-  $(window).on('load', function() {
+  jQuery(window).on('load', function() {
     var main = jQuery('#main-selector');
     var firstOption = main.find('button').first();
 
