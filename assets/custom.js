@@ -863,7 +863,7 @@ jQuery('.label--pre-order').on('cssClassChanged', function(e){
   jQuery(window).on('load', function() {
     var main = jQuery('#main-selector');
     var firstOption = main.find('button').first();
-    console.log(main);
+    
     main.children().each(function() {
       var element = jQuery(this);
       element.on('click', function(e) {
