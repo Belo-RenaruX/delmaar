@@ -791,34 +791,18 @@ var data = {
 
   /* START OF "Custom Onload Events" */
   jQuery(window).on('load', function() {
-    /* START OF "Banner rezise" */
+    /* START OF "Banner Resize" */
     jQuery('.custom-resize').each(function () {
       var target = jQuery(this).find('.promobox--clean').find('.rimage');
       var value = target.prop('style')['padding-top'].replace('%', '');
   
       target.attr('data-percentage', value);
     });
+
+    bannerResize();
   
-    jQuery(window).on('resize', function() {
-      var validation = jQuery(this).width() >= 768;
-  
-      jQuery('.custom-resize').each(function () {
-        var container = jQuery(this);
-        var source = container.find('.custom-resize-source');
-        var target = container.find('.promobox--clean').find('.rimage');
-        var heightToUse = source.height();
-        var widthToUse = source.width();
-        var originalPercentage = parseFloat(target.attr('data-percentage'));
-        var percentageToUse = (heightToUse * 100) / widthToUse;
-        percentageToUse = percentageToUse > originalPercentage
-          ? percentageToUse
-          : originalPercentage;
-  
-        if(validation) target.css('padding-top', percentageToUse + '%');
-        else target.css('padding-top', originalPercentage + '%');
-      });
-    });
-    /* END OF "Banner rezise" */
+    jQuery(window).on('resize', bannerResize);
+    /* END OF "Banner Resize" */
 
     /* START OF "Remove mobile menu items" */
     jQuery('.menu__level-01').children().each(function() {
@@ -870,6 +854,28 @@ var data = {
 })();
 /* END OF "Init Function" */
 
+/* START OF "Banner Resize Functions" */
+function bannerResize() {
+  var validation = jQuery(window).width() >= 768;
+  
+  jQuery('.custom-resize').each(function () {
+    var container = jQuery(this);
+    var source = container.find('.custom-resize-source');
+    var target = container.find('.promobox--clean').find('.rimage');
+    var heightToUse = source.height();
+    var widthToUse = source.width();
+    var originalPercentage = parseFloat(target.attr('data-percentage'));
+    var percentageToUse = (heightToUse * 100) / widthToUse;
+    percentageToUse = percentageToUse > originalPercentage
+      ? percentageToUse
+      : originalPercentage;
+
+    if(validation) target.css('padding-top', percentageToUse + '%');
+    else target.css('padding-top', originalPercentage + '%');
+  });
+};
+/* END OF "Banner Resize Functions" */
+
 /* START OF "Size Guide Functions" */
 function refresh(element) {
   var value = element.data('value');
@@ -895,7 +901,7 @@ function refresh(element) {
       result(value);
       break;
   }
-}
+};
 
 function fill(model, selector, prevValue) {
   var defaultValue;
@@ -995,5 +1001,5 @@ function option(element, model, container){
       result(model);
       break;
   }
-}
+};
 /* END OF "Size Guide Functions" */
