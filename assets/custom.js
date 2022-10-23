@@ -186,22 +186,22 @@ var data = {
     }
   },
   top: {
-    regions: ['AU', 'US', 'EU', 'UK', 'FR', 'CZ'],
+    regions: ['AU', 'US', 'EU', 'UK', 'SP', 'IT'],
     names: {
       AU: 'Australia / New Zealand',
       US: 'USA / Latam',
       EU: 'Europe / Japan',
       UK: 'United Kingdom',
-      FR: 'France / Spain / Belgium',
-      CZ: 'Czech Republic / Italy'
+      SP: 'Spain / France / Belgium',
+      IT: 'Italy / Czech Republic'
     },
     sizes: {
       AU: [8, 10, 12, 14, 16],
       US: [30, 32, 34, 36, 38],
       EU: [65, 70, 75, 80, 85],
       UK: [30, 32, 34, 36, 38],
-      FR: [80, 85, 90, 95, 100],
-      CZ: [0, 1, 2, 3, 4]
+      SP: [80, 85, 90, 95, 100],
+      IT: [0, 1, 2, 3, 4]
     },
     cups: {
       AU8: ['AA', 'A'],
@@ -224,16 +224,16 @@ var data = {
       UK34: ['A', 'B', 'C', 'D', 'DD'],
       UK36: ['A', 'B', 'C', 'D', 'DD'],
       UK38: ['A', 'B', 'C', 'D'],
-      FR80: ['A', 'B'],
-      FR85: ['A', 'B', 'C', 'D', 'E', 'F'],
-      FR90: ['A', 'B', 'C', 'D', 'E'],
-      FR95: ['A', 'B', 'C', 'D', 'E'],
-      FR100: ['A', 'B', 'C', 'D'],
-      CZ0: ['A', 'B'],
-      CZ1: ['A', 'B', 'C', 'D', 'E', 'F'],
-      CZ2: ['A', 'B', 'C', 'D', 'E'],
-      CZ3: ['A', 'B', 'C', 'D', 'E'],
-      CZ4: ['A', 'B', 'C', 'D']
+      SP80: ['A', 'B'],
+      SP85: ['A', 'B', 'C', 'D', 'E', 'F'],
+      SP90: ['A', 'B', 'C', 'D', 'E'],
+      SP95: ['A', 'B', 'C', 'D', 'E'],
+      SP100: ['A', 'B', 'C', 'D'],
+      IT0: ['A', 'B'],
+      IT1: ['A', 'B', 'C', 'D', 'E', 'F'],
+      IT2: ['A', 'B', 'C', 'D', 'E'],
+      IT3: ['A', 'B', 'C', 'D', 'E'],
+      IT4: ['A', 'B', 'C', 'D']
     },
     results: {
       AU8AA: { 
@@ -584,179 +584,179 @@ var data = {
         size: 'XXL',
         measurements: []
       },
-      FR80A: { 
+      SP80A: { 
         size: 'XS',
         measurements: []
       },
-      FR80B: { 
+      SP80B: { 
         size: 'XS',
         measurements: []
       },
-      FR85A: { 
+      SP85A: { 
         size: 'XS',
         measurements: []
       },
-      FR85B: { 
+      SP85B: { 
         size: 'S',
         measurements: []
       },
-      FR85C: { 
+      SP85C: { 
         size: 'M',
         measurements: []
       },
-      FR85D: { 
+      SP85D: { 
         size: 'M/L',
         measurements: []
       },
-      FR85E: { 
+      SP85E: { 
         size: 'L',
         measurements: []
       },
-      FR85F: { 
+      SP85F: { 
         size: 'XL',
         measurements: []
       },
-      FR90A: { 
+      SP90A: { 
         size: 'XS',
         measurements: []
       },
-      FR90B: { 
+      SP90B: { 
         size: 'S',
         measurements: []
       },
-      FR90C: { 
+      SP90C: { 
         size: 'M',
         measurements: []
       },
-      FR90D: { 
+      SP90D: { 
         size: 'L',
         measurements: []
       },
-      FR90E: { 
+      SP90E: { 
         size: 'XL',
         measurements: []
       },
-      FR95A: { 
+      SP95A: { 
         size: 'S',
         measurements: []
       },
-      FR95B: { 
+      SP95B: { 
         size: 'M',
         measurements: []
       },
-      FR95C: { 
+      SP95C: { 
         size: 'L',
         measurements: []
       },
-      FR95D: { 
+      SP95D: { 
         size: 'XL',
         measurements: []
       },
-      FR95E: { 
+      SP95E: { 
         size: 'XXL',
         measurements: []
       },
-      FR100A: { 
+      SP100A: { 
         size: 'M',
         measurements: []
       },
-      FR100B: { 
+      SP100B: { 
         size: 'L',
         measurements: []
       },
-      FR100C: { 
+      SP100C: { 
         size: 'XL',
         measurements: []
       },
-      FR100D: { 
+      SP100D: { 
         size: 'XXL',
         measurements: []
       },
-      CZ0A: { 
+      IT0A: { 
         size: 'XS',
         measurements: []
       },
-      CZ0B: { 
+      IT0B: { 
         size: 'XS',
         measurements: []
       },
-      CZ1A: { 
+      IT1A: { 
         size: 'XS',
         measurements: []
       },
-      CZ1B: { 
+      IT1B: { 
         size: 'S',
         measurements: []
       },
-      CZ1C: { 
+      IT1C: { 
         size: 'M',
         measurements: []
       },
-      CZ1D: { 
+      IT1D: { 
         size: 'M/L',
         measurements: []
       },
-      CZ1E: { 
+      IT1E: { 
         size: 'L',
         measurements: []
       },
-      CZ1F: { 
+      IT1F: { 
         size: 'XL',
         measurements: []
       },
-      CZ2A: { 
+      IT2A: { 
         size: 'XS',
         measurements: []
       },
-      CZ2B: { 
+      IT2B: { 
         size: 'S',
         measurements: []
       },
-      CZ2C: { 
+      IT2C: { 
         size: 'M',
         measurements: []
       },
-      CZ2D: { 
+      IT2D: { 
         size: 'L',
         measurements: []
       },
-      CZ2E: { 
+      IT2E: { 
         size: 'XL',
         measurements: []
       },
-      CZ3A: { 
+      IT3A: { 
         size: 'S',
         measurements: []
       },
-      CZ3B: { 
+      IT3B: { 
         size: 'M',
         measurements: []
       },
-      CZ3C: { 
+      IT3C: { 
         size: 'L',
         measurements: []
       },
-      CZ3D: { 
+      IT3D: { 
         size: 'XL',
         measurements: []
       },
-      CZ3E: { 
+      IT3E: { 
         size: 'XXL',
         measurements: []
       },
-      CZ4A: { 
+      IT4A: { 
         size: 'M',
         measurements: []
       },
-      CZ4B: { 
+      IT4B: { 
         size: 'L',
         measurements: []
       },
-      CZ4C: { 
+      IT4C: { 
         size: 'XL',
         measurements: []
       },
-      CZ4D: { 
+      IT4D: { 
         size: 'XXL',
         measurements: []
       }
@@ -863,7 +863,7 @@ jQuery('.label--pre-order').on('cssClassChanged', function(e){
   jQuery(window).on('load', function() {
     var main = jQuery('#main-selector');
     var firstOption = main.find('button').first();
-    
+
     main.children().each(function() {
       var element = jQuery(this);
       element.on('click', function(e) {
@@ -950,6 +950,7 @@ function result(model) {
 
   attrToUse = attrToUse.replace(/[^0-9a-zA-Z]+/, '');
   var resultToUse = data[model].results[attrToUse];
+  console.log(attrToUse, resultToUse);
   var size = resultToUse.size;
   var measurements = resultToUse.measurements
   
