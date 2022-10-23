@@ -984,7 +984,8 @@ function option(element, model, container){
   switch(container.attr('id')) {
     case 'regions':
       jQuery('#names').text(nameToUse);
-      fill(model, 'sizes', valueToUse);
+      var currentSize = fill(model, 'sizes', valueToUse);
+      if(model == 'top') fill(model, 'cups', valueToUse + currentSize);
       result(model);
       break;
     case 'sizes':
