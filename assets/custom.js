@@ -763,9 +763,11 @@ var data = {
     }
   }
 };
-/* END OF "Size GuideData " */
+/* END OF "Size GuideData" */
 
+/* START OF "Init Function" */
 (function(){
+  /* START OF "Custom jQuery Events" */
   const originalAddClassMethod = jQuery.fn.addClass;
   const originalRemoveClassMethod = jQuery.fn.removeClass;
   const originalTextChangeMethod = jQuery.fn.text;
@@ -785,96 +787,92 @@ var data = {
     jQuery(this).trigger('textChanged');
     return result;
   };
-})();
+  /* END OF "Custom jQuery Events" */
 
-/* START OF "Banner rezise" */
-(function() {
-  jQuery('.custom-resize').each(function () {
-    var target = jQuery(this).find('.promobox--clean').find('.rimage');
-    var value = target.prop('style')['padding-top'].replace('%', '');
-
-    target.attr('data-percentage', value);
-  });
-
-  jQuery(window).on('resize', function() {
-    var validation = jQuery(this).width() >= 768;
-
-    jQuery('.custom-resize').each(function () {
-      var container = jQuery(this);
-      var source = container.find('.custom-resize-source');
-      var target = container.find('.promobox--clean').find('.rimage');
-      var heightToUse = source.height();
-      var widthToUse = source.width();
-      var originalPercentage = parseFloat(target.attr('data-percentage'));
-      var percentageToUse = (heightToUse * 100) / widthToUse;
-      percentageToUse = percentageToUse > originalPercentage
-        ? percentageToUse
-        : originalPercentage;
-
-      if(validation) target.css('padding-top', percentageToUse + '%');
-      else target.css('padding-top', originalPercentage + '%');
-    });
-  });
-})();
-/* END OF "Banner rezise" */
-
-/* START OF "Remove mobile menu items" */
-(function() {
-  jQuery('.menu__level-01').children().each(function() {
-    var item = jQuery(this);
-    var itemText = item.contents('a').contents('span').text();
-    switch(itemText.toUpperCase()) {
-      case 'ALL SWIMWEAR':
-        item.addClass('d-lg-none');
-        break;
-    }
-  });
-})();
-/* END OF "Remove mobile menu items" */
-
-/* START OF "Remove Pre Selected Variants" */
-(function(){
-  var button = jQuery('[data-button-status="select"]')[0];
-  if(button) jQuery('[data-label-value]').html('');
-})();
-
-jQuery('[data-label-value]').on('textChanged', function(e) {
-  jQuery('[data-disable-auto-select]').each(function(e) {
-    jQuery(this).prev().find('[data-label-value]').html('');
-  });
-});
-/* END OF "Remove Pre Selected Variants" */
-
-/* START OF "Toggle Pre Order Text Function" */
-jQuery('.label--pre-order').on('cssClassChanged', function(e){
-  var validation = jQuery(this).hasClass('d-none-important');
-  var element = jQuery('[data-custom-pre-date]');
-  if(validation) {
-    element.addClass('d-none-important');
-  }
-  else {
-    element.removeClass('d-none-important');
-  }
-});
-/* END OF "Toggle Pre Order Text Function" */
-
-/* START OF "Size Guide" */
-(function(){
+  /* START OF "Custom Onload Events" */
   jQuery(window).on('load', function() {
-    var main = jQuery('#main-selector');
-    var firstOption = main.find('button').first();
-
-    main.children().each(function() {
-      var element = jQuery(this);
-      element.on('click', function(e) {
-        refresh(element);
+    /* START OF "Banner rezise" */
+    jQuery('.custom-resize').each(function () {
+      var target = jQuery(this).find('.promobox--clean').find('.rimage');
+      var value = target.prop('style')['padding-top'].replace('%', '');
+  
+      target.attr('data-percentage', value);
+    });
+  
+    jQuery(window).on('resize', function() {
+      var validation = jQuery(this).width() >= 768;
+  
+      jQuery('.custom-resize').each(function () {
+        var container = jQuery(this);
+        var source = container.find('.custom-resize-source');
+        var target = container.find('.promobox--clean').find('.rimage');
+        var heightToUse = source.height();
+        var widthToUse = source.width();
+        var originalPercentage = parseFloat(target.attr('data-percentage'));
+        var percentageToUse = (heightToUse * 100) / widthToUse;
+        percentageToUse = percentageToUse > originalPercentage
+          ? percentageToUse
+          : originalPercentage;
+  
+        if(validation) target.css('padding-top', percentageToUse + '%');
+        else target.css('padding-top', originalPercentage + '%');
       });
     });
+    /* END OF "Banner rezise" */
 
-    refresh(firstOption);
+    /* START OF "Remove mobile menu items" */
+    jQuery('.menu__level-01').children().each(function() {
+      var item = jQuery(this);
+      var itemText = item.contents('a').contents('span').text();
+      switch(itemText.toUpperCase()) {
+        case 'ALL SWIMWEAR':
+          item.addClass('d-lg-none');
+          break;
+      }
+    });
+    /* END OF "Remove mobile menu items" */
+
+    /* START OF "Remove Pre Selected Variants" */
+    var button = jQuery('[data-button-status="select"]')[0];
+    if(button) jQuery('[data-label-value]').html('');
+
+    jQuery('[data-label-value]').on('textChanged', function(e) {
+      jQuery('[data-disable-auto-select]').each(function(e) {
+        jQuery(this).prev().find('[data-label-value]').html('');
+      });
+    });
+    /* END OF "Remove Pre Selected Variants" */
+
+    /* START OF "Toggle Pre Order Text Function" */
+    jQuery('.label--pre-order').on('cssClassChanged', function(e){
+      var validation = jQuery(this).hasClass('d-none-important');
+      var element = jQuery('[data-custom-pre-date]');
+      if(validation) element.addClass('d-none-important');
+      else element.removeClass('d-none-important');
+    });
+    /* END OF "Toggle Pre Order Text Function" */
+
+    /* START OF "Size Guide" */
+    jQuery(window).on('load', function() {
+      var main = jQuery('#main-selector');
+      var firstOption = main.find('button').first();
+  
+      main.children().each(function() {
+        var element = jQuery(this);
+        element.on('click', function(e) {
+          refresh(element);
+        });
+      });
+  
+      refresh(firstOption);
+    });
+    /* END OF "Size Guide" */
   });
+  /* END OF "Custom Onload Events" */
 })();
+/* END OF "Init Function" */
 
+/* START OF "Size Guide Functions" */
 function refresh(element) {
   var value = element.data('value');
   var cups = jQuery('#cups');
@@ -950,7 +948,6 @@ function result(model) {
 
   attrToUse = attrToUse.replace(/[^0-9a-zA-Z]+/, '');
   var resultToUse = data[model].results[attrToUse];
-  console.log(attrToUse, resultToUse);
   var size = resultToUse.size;
   var measurements = resultToUse.measurements
   
@@ -1001,4 +998,4 @@ function option(element, model, container){
       break;
   }
 }
-/* END OF "Size Guide" */
+/* END OF "Size Guide Functions" */
