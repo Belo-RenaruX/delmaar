@@ -853,19 +853,17 @@ var data = {
     /* END OF "Toggle Pre Order Text Function" */
 
     /* START OF "Size Guide" */
-    jQuery(window).on('load', function() {
-      var main = jQuery('#main-selector');
-      var firstOption = main.find('button').first();
-  
-      main.children().each(function() {
-        var element = jQuery(this);
-        element.on('click', function(e) {
-          refresh(element);
-        });
+    var main = jQuery('#main-selector');
+    var firstOption = main.find('button').first();
+
+    main.children().each(function() {
+      var element = jQuery(this);
+      element.on('click', function(e) {
+        refresh(element);
       });
-  
-      refresh(firstOption);
     });
+
+    refresh(firstOption);
     /* END OF "Size Guide" */
   });
   /* END OF "Custom Onload Events" */
