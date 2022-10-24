@@ -78,7 +78,7 @@
 
 /* START OF "Fixes" */
 .slider__slick {
-  max-height: 100vh !important;
+  max-height: calc(100vh - 130px) !important;
 }
 .tabs__content ul {
   padding: 20px;
