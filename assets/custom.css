@@ -43,13 +43,9 @@
   padding-bottom: 4px;
 }
 
-.custom-image-svg {
-  -webkit-transition: var(--animation-css-low-duration) -webkit-filter ease;
-  -moz-transition: var(--animation-css-low-duration) -moz-filter ease;
-  -moz-transition: var(--animation-css-low-duration) filter ease;
-  -ms-transition: var(--animation-css-low-duration) -ms-filter ease;
-  -o-transition: var(--animation-css-low-duration) -o-filter ease;
-  transition: var(--animation-css-low-duration) filter ease, var(--animation-css-low-duration) -webkit-filter ease;
+.custom-image-svg svg {
+  transition-duration: var(--animation-css-low-duration);
+  transition-property: all;
   margin-bottom: 2px;
   fill: var(--button3-h-c);
 }
