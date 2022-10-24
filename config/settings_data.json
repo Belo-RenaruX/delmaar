@@ -138,7 +138,7 @@
     "product_info_show_title": true,
     "product_info_show_reviews": false,
     "product_info_hide_reviews_counter": true,
-    "product_info_show_sku": true,
+    "product_info_show_sku": false,
     "product_info_show_barcode": false,
     "product_info_show_availability": false,
     "product_info_show_type": false,
