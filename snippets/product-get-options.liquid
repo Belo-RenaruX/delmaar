@@ -150,22 +150,19 @@
                                        data-scale="2"
                                   >{{ value | replace: '<', '&lt;' | replace: '>', '&gt;' }}<span></span></div>
                                 {% else %}
-                                  {% capture check_value %}
-                                    {% render 'product-get-options-strip-symbols' with value: value %}
-                                  {% endcapture %}
                                   <div class="product-options__value product-options__value--large-text d-flex flex-center border cursor-pointer{% if disabled_value %} disabled{% elsif hidden_value %} disabled-hidden{% endif %}{% if active_value %} active{% endif %}"
                                        data-js-option-value
                                        data-value="{% render 'product-get-options-strip-symbols' with value: value %}"
                                        {{ trigger_attr }}
                                        data-scale="2"
                                   >
-                                    {% if check_value == 'latinacut' %}
+                                    {% if value == 'Latina Cut' %}
                                         <i class="custom-image-svg">{% render 'icon-theme-latina' %}</i>
-                                    {% elsif check_value == 'cheekycut' %}
+                                    {% elsif value == 'Cheeky Cut' %}
                                         <i class="custom-image-svg">{% render 'icon-theme-cheeky' %}</i>
-                                    {% elsif check_value == 'moderatecut' %}
+                                    {% elsif value == 'Moderate Cut' %}
                                         <i class="custom-image-svg">{% render 'icon-theme-moderate' %}</i>
-                                    {% elsif check_value == 'braziliancut' %}
+                                    {% elsif value == 'Brazilian Cut' %}
                                         <i class="custom-image-svg">{% render 'icon-theme-brazilian' %}</i>
                                     {% endif %}
                                     {% render 'icon-theme-latina' %}
