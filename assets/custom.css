@@ -77,6 +77,17 @@
   color: var(--button3-h-c);
   text-align: center;
 }
+.custom-style-order .promobox__text-1 {
+  order: 2;
+  text-align: center;
+  font-style: italic;
+  margin-top: 20px
+}
+
+.custom-style-order .promobox__text-3 {
+  order: 1;
+  margin: 0 !important;
+}
 /* END OF "Custom Classes" */
 
 /* START OF "Fixes" */
