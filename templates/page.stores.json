@@ -86,6 +86,20 @@
         "title": ""
       }
     },
+    "d0ae30b9-5258-406a-932d-c55f3381cd91": {
+      "type": "home-builder",
+      "settings": {
+        "title": "",
+        "container": "boxed",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
+      }
+    },
     "1662708883c02ed32f": {
       "type": "home-builder",
       "blocks": {
@@ -262,13 +276,43 @@
         "show_separator": false,
         "title": ""
       }
+    },
+    "5ef03670-c592-48e3-87b2-d990b3014a40": {
+      "type": "carousel-reviews",
+      "blocks": {
+        "15f38ed8-0f71-4ff9-90eb-06ee1af787bb": {
+          "type": "slide",
+          "settings": {
+            "title": "TITLEm",
+            "stars": 2,
+            "paragraph": "Paragraphkjjbkjbj",
+            "user_image": "shopify:\/\/shop_images\/Slider_inicio_banners_5.png",
+            "user_text_line_1": "User",
+            "user_text_line_2": "Text"
+          }
+        }
+      },
+      "block_order": [
+        "15f38ed8-0f71-4ff9-90eb-06ee1af787bb"
+      ],
+      "settings": {
+        "title": "",
+        "type": "1",
+        "style": "1",
+        "size_of_columns": "3",
+        "autoplay": true,
+        "speed": 5,
+        "arrows": true
+      }
     }
   },
   "order": [
     "main",
     "166244802909f6df2d",
     "16627087840e8becf7",
+    "d0ae30b9-5258-406a-932d-c55f3381cd91",
     "1662708883c02ed32f",
-    "16631325807fd7cc69"
+    "16631325807fd7cc69",
+    "5ef03670-c592-48e3-87b2-d990b3014a40"
   ]
 }
