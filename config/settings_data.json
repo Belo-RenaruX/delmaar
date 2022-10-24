@@ -905,12 +905,12 @@
           "101ec139-2cb5-4939-93ea-53930c5b5fcf": {
             "type": "slick_slider",
             "settings": {
-              "height": "fullscreen_header",
+              "height": "auto",
               "min_height": 0,
               "size_of_column": "auto",
               "arrows": true,
               "bullets": true,
-              "speed": 3
+              "speed": 5
             }
           },
           "27ad15e6-a6a0-4afa-a09a-6ecff85b4924": {
