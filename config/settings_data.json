@@ -905,7 +905,7 @@
           "101ec139-2cb5-4939-93ea-53930c5b5fcf": {
             "type": "slick_slider",
             "settings": {
-              "height": "auto",
+              "height": "fullscreen_header",
               "min_height": 0,
               "size_of_column": "auto",
               "arrows": true,
