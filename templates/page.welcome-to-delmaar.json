@@ -78,7 +78,7 @@
     "1663134821e73f92c7": {
       "type": "spacer",
       "settings": {
-        "margin_top": 30,
+        "margin_top": 50,
         "margin_bottom": 0,
         "margin_top_mobile": 0,
         "margin_bottom_mobile": 0,
@@ -147,7 +147,7 @@
             "image_position_x": 50,
             "color_image_mask": "",
             "image_mask_opacity": 0.5,
-            "text_line_1": "On a very hot day, we were enjoying a Sunday in Manly, Sydney, and admiring the fascination of Australians for the sun, sea and outdoor life. We thought that a great way to complement that fascination for life was to bring something from us to them, something from our Latin-American culture.<br><br>We found ourselves motivated by the cultural exchange and the welcome that Aussies have towards world cultures. We saw the opportunity to bring products with pure Latin essence that could boost Australian fashion. This belief motivated us to expand the same idea to international shores when we noticed the amazing welcome and the huge desire of girls from many wonderful countries for embracing Latin fashion.<br><br>For us fashion is passion and it reflects cultural roots. We want to share with all the girls around the world bikinis and swimwear with pure Latin-American essence. We bring to you and to the world’s beaches, our culture and our nature so you can make it your own.",
+            "text_line_1": "On a very hot day, we were enjoying a Sunday in Manly, Sydney, and admiring the fascination of Australians for the sun, sea and outdoor life. We thought that a great way to complement that fascination for life was to bring something from us to them, something from our Latin-American culture.We found ourselves motivated by the cultural exchange and the welcome that Aussies have towards world cultures. We saw the opportunity to bring products with pure Latin essence that could boost Australian fashion. This belief motivated us to expand the same idea to international shores when we noticed the amazing welcome and the huge desire of girls from many wonderful countries for embracing Latin fashion.For us fashion is passion and it reflects cultural roots. We want to share with all the girls around the world bikinis and swimwear with pure Latin-American essence. We bring to you and to the world’s beaches, our culture and our nature so you can make it your own.",
             "text_line_2": "",
             "text_line_3": "",
             "style": "2",
@@ -206,7 +206,7 @@
     "16627008562479d70c": {
       "type": "spacer",
       "settings": {
-        "margin_top": 40,
+        "margin_top": 50,
         "margin_bottom": 0,
         "margin_top_mobile": 0,
         "margin_bottom_mobile": 0,
@@ -285,7 +285,7 @@
     "1662704392189bfb8c": {
       "type": "spacer",
       "settings": {
-        "margin_top": 30,
+        "margin_top": 50,
         "margin_bottom": 0,
         "margin_top_mobile": 0,
         "margin_bottom_mobile": 0,
@@ -373,9 +373,9 @@
             "image_position_x": 50,
             "color_image_mask": "",
             "image_mask_opacity": 0.5,
-            "text_line_1": "DEL MAAR is a “Latino-Australian” brand thatfeatures exclusive swimwear handmade in Peru.Our pieces embrace a trendy Latin bikini stylethrough their Brazilian\/Latin bottom shape, theirexplosive mix of colors and prints, and theirunique designs full of handmade details on them.We believe each country has countless wondersand each culture is unique and beautiful. So weaim to link cultures around the world throughfashion. We are here for you to feel LatinoAmerica.",
+            "text_line_1": "How we dress goes beyond physical appearance, it is an expression of what is within us. The clothes we wear can add or subtract from our essential nature. We wholeheartedly desire that our swimsuitsserve as an element of expression of art, creativity, beauty and well-being for eachwoman who wears them.",
             "text_line_2": "",
-            "text_line_3": "How we dress goes beyond physicalappearance, it is an expression of what iswithin us. The clothes we wear can add orsubtract from our essential nature. Wewholeheartedly desire that our swimsuitsserve as an element of expression of art,creativity, beauty and well-being for eachwoman who wears them",
+            "text_line_3": "DEL MAAR is a “Latino-Australian” brand thatfeatures exclusive swimwear handmade in Peru. Our pieces embrace a trendy Latin bikini stylethrough their Brazilian\/Latin bottom shape, their explosive mix of colors and prints, and their unique designs full of handmade details on them. We believe each country has countless wondersand each culture is unique and beautiful. So we aim to link cultures around the world through fashion. We are here for you to feel Latino America.",
             "style": "4",
             "button_1": "",
             "button_1_url": "",
@@ -393,7 +393,7 @@
             "content_position": "center",
             "content_align": "left",
             "add_container": false,
-            "content_width": 70,
+            "content_width": 100,
             "text_width": 0,
             "height": "auto",
             "min_height": 0,
@@ -468,7 +468,7 @@
       ],
       "settings": {
         "title": "",
-        "container": "fullwidth",
+        "container": "boxed",
         "size_of_columns": "2",
         "size_of_columns_mobile": "1",
         "margins_for_columns": "none",
@@ -481,7 +481,7 @@
     "1662596615730d2e18": {
       "type": "spacer",
       "settings": {
-        "margin_top": 30,
+        "margin_top": 50,
         "margin_bottom": 0,
         "margin_top_mobile": 0,
         "margin_bottom_mobile": 0,
