@@ -77,6 +77,9 @@
 /* END OF "Custom Classes" */
 
 /* START OF "Fixes" */
+.slider__slick {
+  max-height: 100vh !important;
+}
 .tabs__content ul {
   padding: 20px;
   list-style: disc;
