@@ -150,13 +150,22 @@
                                        data-scale="2"
                                   >{{ value | replace: '<', '&lt;' | replace: '>', '&gt;' }}<span></span></div>
                                 {% else %}
+                                  {% assign check_value = render 'product-get-options-strip-symbols' with value: value %}
                                   <div class="product-options__value product-options__value--large-text d-flex flex-center border cursor-pointer{% if disabled_value %} disabled{% elsif hidden_value %} disabled-hidden{% endif %}{% if active_value %} active{% endif %}"
                                        data-js-option-value
                                        data-value="{% render 'product-get-options-strip-symbols' with value: value %}"
                                        {{ trigger_attr }}
                                        data-scale="2"
                                   >
-                                    <img class="custom-image-svg" src="{{ 'latina-cut.svg' | asset_url }}"/>
+                                    {% if check_value == 'latinacut' %}
+                                        <i class="custom-image-svg">{% render 'icon-theme-latina' %}</i>
+                                    {% elsif check_value == 'cheekycut' %}
+                                        <i class="custom-image-svg">{% render 'icon-theme-cheeky' %}</i>
+                                    {% elsif check_value == 'moderatecut' %}
+                                        <i class="custom-image-svg">{% render 'icon-theme-moderate' %}</i>
+                                    {% elsif check_value == 'braziliancut' %}
+                                        <i class="custom-image-svg">{% render 'icon-theme-brazilian' %}</i>
+                                    {% endif %}
                                     {{ value | replace: '<', '&lt;' | replace: '>', '&gt;' }}
                                   </div>
                                 {% endunless %}
