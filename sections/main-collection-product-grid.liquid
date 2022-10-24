@@ -82,13 +82,13 @@
                                                                                 <label class="collection-filters__label caption-large mb-0 mr-5" for="SortByClone">{{ 'collection_template.sort_by_label' | t }}:</label>
                                                                                 <select name="sort_by_clone" class="collection-filters__sort select__select caption-large p-0 pr-10 pr-lg-25 mb-0 border-0 cursor-pointer" id="SortByClone">
                                                                                     {%- for option in collection.sort_options -%}
-                                                                                        {%- unless option.value contains 'manual' or option.value contains 'best-selling' -%}
+                                                                                        {%- if option.value contains 'manual' or option.value contains 'best-selling' -%}
                                                                                             <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
                                                                                             {%- capture dropdown_options -%}
                                                                                                 {{ dropdown_options }}
                                                                                                 <span data-value="{{ option.value | escape }}"{% if option.value == sort_by %} class="selected"{% endif %}>{{ option.name | escape }}</span>
                                                                                             {%- endcapture -%}
-                                                                                        {%- endunless -%}
+                                                                                        {%- endif -%}
                                                                                     {%- endfor -%}
                                                                                 </select>
                                                                                 <i class="position-absolute d-none d-lg-inline right-0">{% render 'icon-theme-229' %}</i>
