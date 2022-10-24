@@ -23,12 +23,11 @@
         },
         "16965e1c-70f3-4981-950d-436766d0e581": {
           "type": "collections",
-          "disabled": true,
           "settings": {
-            "title": "SIZE GUIDE",
+            "title": "FIT GUIDE",
             "default_state": "open",
-            "menu": "",
-            "show_collection_product_count": true
+            "menu": "fit-guide",
+            "show_collection_product_count": false
           }
         },
         "1d579a9a-34e3-41b6-91f6-69e755a1f034": {
@@ -81,37 +80,10 @@
         "uppercase_filter_title": true,
         "show_filter_border": true
       }
-    },
-    "163354805241cf56f6": {
-      "type": "carousel-products",
-      "blocks": {
-        "4985fe23-32be-494f-a8ee-f689fe835c90": {
-          "type": "collection",
-          "settings": {
-            "title": "",
-            "collection": "best-sellers"
-          }
-        }
-      },
-      "block_order": [
-        "4985fe23-32be-494f-a8ee-f689fe835c90"
-      ],
-      "settings": {
-        "show_title": true,
-        "container": "boxed",
-        "size_of_columns": "4",
-        "max_count": 6,
-        "autoplay": true,
-        "speed": 5,
-        "infinite": true,
-        "arrows": true,
-        "bullets": true
-      }
     }
   },
   "order": [
     "page-heading",
-    "product-grid",
-    "163354805241cf56f6"
+    "product-grid"
   ]
 }
