@@ -24,7 +24,7 @@
         "1d579a9a-34e3-41b6-91f6-69e755a1f034": {
           "type": "custom_html",
           "settings": {
-            "title": "CUSTOM BLOCK",
+            "title": "",
             "default_state": "fixed",
             "page_content": ""
           }
