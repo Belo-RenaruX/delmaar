@@ -168,7 +168,7 @@
                                     {% elsif check_value == 'braziliancut' %}
                                         <i class="custom-image-svg">{% render 'icon-theme-brazilian' %}</i>
                                     {% endif %}
-                                    {{ check_value }}
+                                    {% render 'icon-theme-latina' %}
                                     {{ value | replace: '<', '&lt;' | replace: '>', '&gt;' }}
                                   </div>
                                 {% endunless %}
