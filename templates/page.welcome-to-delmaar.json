@@ -358,7 +358,7 @@
         "align_of_columns": "top_center",
         "disable_column_paddings": false,
         "precedence": "",
-        "customization_class": ""
+        "customization_class": "px-30"
       }
     },
     "166259107991a86501": {
@@ -471,7 +471,7 @@
         "container": "boxed",
         "size_of_columns": "2",
         "size_of_columns_mobile": "1",
-        "margins_for_columns": "none",
+        "margins_for_columns": "preset_1",
         "align_of_columns": "stretch_center",
         "disable_column_paddings": false,
         "precedence": "",
@@ -481,7 +481,7 @@
     "1662596615730d2e18": {
       "type": "spacer",
       "settings": {
-        "margin_top": 50,
+        "margin_top": 35,
         "margin_bottom": 0,
         "margin_top_mobile": 0,
         "margin_bottom_mobile": 0,
