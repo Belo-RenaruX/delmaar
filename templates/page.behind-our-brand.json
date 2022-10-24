@@ -100,9 +100,9 @@
             "color_image_mask": "",
             "image_mask_opacity": 0.5,
             "text_line_1": "",
-            "text_line_2": "At Del Maar, each piece is unique as they are made by the hands of women artisans, making each bikini is a true piece of art. We seek to empower every woman who wears the bikini, but also all those behind each piece.Meet Vivi, Teresa and Rosi, some of the amazing women that make our dreams come true.",
+            "text_line_2": "At Del Maar, each piece is unique as they are made by the hands of women artisans, making each bikini is a true piece of art. We seek to empower every woman who wears the bikini, but also all those behind each piece.<br><br>Meet Vivi, Teresa and Rosi, some of the amazing women that make our dreams come true.",
             "text_line_3": "",
-            "style": "2",
+            "style": "4",
             "button_1": "",
             "button_1_url": "",
             "color_button_type_1": "default-transparent",
@@ -115,7 +115,7 @@
             "video_mp4_url": "",
             "video_autoplay": true,
             "video_controls": false,
-            "type": "text",
+            "type": "text-8",
             "content_position": "center",
             "content_align": "center",
             "add_container": false,
@@ -135,7 +135,7 @@
             "color_text_3": "",
             "color_text_bg": "",
             "color_curtain_bg": "",
-            "customization_class": "custom-size-text-l"
+            "customization_class": ""
           }
         }
       },
@@ -144,7 +144,7 @@
       ],
       "settings": {
         "title": "",
-        "container": "boxed",
+        "container": "fullwidth",
         "size_of_columns": "1",
         "size_of_columns_mobile": "1",
         "margins_for_columns": "none",
