@@ -26,7 +26,7 @@
           "settings": {
             "title": "",
             "default_state": "fixed",
-            "page_content": ""
+            "page_content": "collection-sidebar"
           }
         }
       },
