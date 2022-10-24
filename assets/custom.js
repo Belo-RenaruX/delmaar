@@ -804,17 +804,6 @@ var data = {
     jQuery(window).on('resize', bannerResize);
     /* END OF "Banner Resize" */
 
-    /* START OF "Collection Dropdown Delete" */
-    jQuery('.collection-control [data-js-select-dropdown] div').children().each(function () {
-      var element = jQuery(this);
-      if(element.attr('data-value') == 'manual') element.click();
-      if(element.attr('data-value') != 'manual' || element.attr('data-value') != 'best-selling'){
-        element.remove();
-      }
-    });
-    /* END OF "Collection Dropdown Delete" */
-    
-
     /* START OF "Remove mobile menu items" */
     jQuery('.menu__level-01').children().each(function() {
       var item = jQuery(this);
