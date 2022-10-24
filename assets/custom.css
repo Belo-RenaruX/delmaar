@@ -69,6 +69,9 @@
 .custom-remove-margin {
   margin-top: -30px;
 }
+.custom-font-italic .promobox__text-2 {
+  font-style: italic;
+}
 .custom-pre-date {
   margin: 5px 0 0 0;
   color: var(--button3-h-c);
