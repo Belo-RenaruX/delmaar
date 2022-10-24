@@ -119,7 +119,7 @@
             "content_position": "center",
             "content_align": "center",
             "add_container": false,
-            "content_width": 45,
+            "content_width": 70,
             "text_width": 0,
             "height": "auto",
             "min_height": 0,
@@ -157,7 +157,7 @@
     "16627008562479d70c": {
       "type": "spacer",
       "settings": {
-        "margin_top": 40,
+        "margin_top": 30,
         "margin_bottom": 0,
         "margin_top_mobile": 0,
         "margin_bottom_mobile": 0,
@@ -236,7 +236,7 @@
     "16627009239f6a283c": {
       "type": "spacer",
       "settings": {
-        "margin_top": 40,
+        "margin_top": 30,
         "margin_bottom": 0,
         "margin_top_mobile": 0,
         "margin_bottom_mobile": 0,
@@ -248,70 +248,23 @@
     "1662702070f0ce46ec": {
       "type": "home-builder",
       "blocks": {
-        "fe6d4736-a2d0-42e3-9938-2353262cbdaa": {
-          "type": "promobox",
-          "settings": {
-            "url": "",
-            "image_size": 1450,
-            "image_mobile_size": 550,
-            "image_position_x": 50,
-            "color_image_mask": "",
-            "image_mask_opacity": 0.5,
-            "text_line_1": "",
-            "text_line_2": "",
-            "text_line_3": "",
-            "style": "1",
-            "button_1": "",
-            "button_1_url": "",
-            "color_button_type_1": "default",
-            "button_2": "",
-            "button_2_url": "",
-            "color_button_type_2": "default",
-            "list_1": "",
-            "custom_html": "",
-            "video_external_url": "",
-            "video_mp4_url": "",
-            "video_autoplay": true,
-            "video_controls": false,
-            "type": "text-5",
-            "content_position": "center",
-            "content_align": "center",
-            "add_container": false,
-            "content_width": 70,
-            "text_width": 0,
-            "height": "auto",
-            "min_height": 0,
-            "size_of_column": "auto",
-            "visible": "desktop_mobile",
-            "parallax": "disable",
-            "animation_to": "none",
-            "animation_from": "none",
-            "animation_opacity": "none",
-            "animation_text": "none",
-            "color_text_1": "",
-            "color_text_2": "",
-            "color_text_3": "",
-            "color_text_bg": "",
-            "color_curtain_bg": "",
-            "customization_class": ""
-          }
-        },
         "e4b17ad6-b744-4abd-8420-68af19a2da6e": {
           "type": "slick_slider",
           "settings": {
-            "height": "preset_1",
+            "height": "auto",
             "min_height": 0,
             "size_of_column": "auto",
             "arrows": false,
             "bullets": true,
-            "speed": 3
+            "speed": 5
           }
         },
         "19ac3bc6-ed62-473e-8307-4610e177c586": {
           "type": "slick_slide",
           "settings": {
-            "url": "shopify:\/\/pages\/faqs",
-            "image_size": 900,
+            "url": "",
+            "image": "shopify:\/\/shop_images\/Crocheteras.jpg",
+            "image_size": 2000,
             "image_mobile_size": 550,
             "image_position_x": 50,
             "color_image_mask": "",
@@ -350,7 +303,8 @@
           "type": "slick_slide",
           "settings": {
             "url": "",
-            "image_size": 900,
+            "image": "shopify:\/\/shop_images\/Crocheteras.jpg",
+            "image_size": 2000,
             "image_mobile_size": 550,
             "image_position_x": 50,
             "color_image_mask": "",
@@ -387,7 +341,6 @@
         }
       },
       "block_order": [
-        "fe6d4736-a2d0-42e3-9938-2353262cbdaa",
         "e4b17ad6-b744-4abd-8420-68af19a2da6e",
         "19ac3bc6-ed62-473e-8307-4610e177c586",
         "a5a0340b-d7d0-4d5a-b5ec-ba815aca7791"
