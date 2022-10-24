@@ -13,77 +13,7 @@
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
-        "16965e1c-70f3-4981-950d-436766d0e581": {
-          "type": "collections",
-          "disabled": true,
-          "settings": {
-            "title": "COLLECTION",
-            "default_state": "open",
-            "menu": "",
-            "show_collection_product_count": true
-          }
-        },
-        "1bd2be8d-e28d-4447-8afe-bbf42c113535": {
-          "type": "tags",
-          "settings": {
-            "title": "TOP",
-            "default_state": "open",
-            "show_checkbox": true,
-            "make_as_color": false,
-            "tags_list": "Halter\nBandeau\nTriangle tops\nCrop tops\nV Wire tops\nUnderwire tops\nPadded cups\nBra Style",
-            "layout": "2_col",
-            "max_column_size": 6,
-            "for_collections": ""
-          }
-        },
-        "e3394038-06af-4231-977d-72cc3b85d31e": {
-          "type": "tags",
-          "settings": {
-            "title": "BOTTOM",
-            "default_state": "open",
-            "show_checkbox": true,
-            "make_as_color": false,
-            "tags_list": "Tie side\nClassic\nHigh waisted",
-            "layout": "1_col",
-            "max_column_size": 8,
-            "for_collections": ""
-          }
-        },
-        "82d2d489-852c-4bb9-96d6-2d0db4b5ee2c": {
-          "type": "tags",
-          "settings": {
-            "title": "BY STYLE",
-            "default_state": "open",
-            "show_checkbox": true,
-            "make_as_color": false,
-            "tags_list": "One Piece\nTwo Piece\nRevesible\nAll Swimwear",
-            "layout": "1_col",
-            "max_column_size": 8,
-            "for_collections": ""
-          }
-        },
-        "969622e0-171a-456c-9a6b-1af1e7699132": {
-          "type": "tags",
-          "settings": {
-            "title": "BY NEEDS",
-            "default_state": "open",
-            "show_checkbox": true,
-            "make_as_color": false,
-            "tags_list": "Perfect bronze\nSupportive top",
-            "layout": "1_col",
-            "max_column_size": 8,
-            "for_collections": ""
-          }
-        },
-        "02aecce4-51e9-4ec0-ac9c-9ded1b5fa681": {
-          "type": "current_filters",
-          "settings": {
-            "title": "CURRENT FILTERS",
-            "default_state": "open",
-            "show_group": true
-          }
-        },
-        "48ad317a-ffbe-487b-b9b8-4db5add49b84": {
+        "d86b5e0b-934c-4f63-aa6a-fce575a3dfaf": {
           "type": "filters",
           "settings": {
             "default_state": "open",
@@ -91,83 +21,29 @@
             "max_column_size": 8
           }
         },
-        "a76651dd-1cd6-4d78-8c4d-bc9a5854f2e8": {
-          "type": "filter_settings",
+        "16965e1c-70f3-4981-950d-436766d0e581": {
+          "type": "collections",
           "disabled": true,
           "settings": {
-            "filter_name": "Size",
-            "title": "",
+            "title": "SIZE GUIDE",
             "default_state": "open",
-            "make_as_color": false,
-            "layout": "2_col",
-            "max_column_size": 8
-          }
-        },
-        "2180ec65-ff2f-45ac-aa0f-edb46937e54d": {
-          "type": "products",
-          "disabled": true,
-          "settings": {
-            "title": "FEATURED PRODUCTS",
-            "default_state": "fixed",
-            "collection": "featured-products",
-            "max_count": 3,
-            "product_type": "short"
+            "menu": "",
+            "show_collection_product_count": true
           }
         },
         "1d579a9a-34e3-41b6-91f6-69e755a1f034": {
           "type": "custom_html",
-          "disabled": true,
           "settings": {
             "title": "CUSTOM BLOCK",
             "default_state": "fixed",
             "page_content": ""
           }
-        },
-        "b8f0b47b-2d12-47a4-853f-e5adae3a8071": {
-          "type": "promobox",
-          "disabled": true,
-          "settings": {
-            "title": "PROMOBOX",
-            "default_state": "without_title",
-            "url": "shopify:\/\/products\/copy-of-cotton-blend-field-jacket",
-            "image_size": 900,
-            "color_image_mask": "",
-            "image_mask_opacity": 0.5,
-            "text_line_1": "NEW IN",
-            "text_line_2": "Spring\/Summer 2021 Collection",
-            "text_line_3": "Text line #3",
-            "style": "1",
-            "button_1": "Button #1 text",
-            "button_1_url": "",
-            "color_button_type_1": "default-transparent",
-            "button_2": "Button #2 text",
-            "button_2_url": "",
-            "color_button_type_2": "default-transparent",
-            "list_1": "",
-            "custom_html": "",
-            "video_external_url": "",
-            "video_mp4_url": "",
-            "video_autoplay": true,
-            "video_controls": false,
-            "type": "type-3",
-            "animation_to": "none",
-            "animation_from": "none",
-            "animation_opacity": "none"
-          }
         }
       },
       "block_order": [
+        "d86b5e0b-934c-4f63-aa6a-fce575a3dfaf",
         "16965e1c-70f3-4981-950d-436766d0e581",
-        "1bd2be8d-e28d-4447-8afe-bbf42c113535",
-        "e3394038-06af-4231-977d-72cc3b85d31e",
-        "82d2d489-852c-4bb9-96d6-2d0db4b5ee2c",
-        "969622e0-171a-456c-9a6b-1af1e7699132",
-        "02aecce4-51e9-4ec0-ac9c-9ded1b5fa681",
-        "48ad317a-ffbe-487b-b9b8-4db5add49b84",
-        "a76651dd-1cd6-4d78-8c4d-bc9a5854f2e8",
-        "2180ec65-ff2f-45ac-aa0f-edb46937e54d",
-        "1d579a9a-34e3-41b6-91f6-69e755a1f034",
-        "b8f0b47b-2d12-47a4-853f-e5adae3a8071"
+        "1d579a9a-34e3-41b6-91f6-69e755a1f034"
       ],
       "settings": {
         "container": "boxed",
