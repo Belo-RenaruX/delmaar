@@ -47,14 +47,14 @@
   transition-duration: var(--animation-css-low-duration);
   transition-property: all;
   margin-bottom: 2px;
-  stroke: var(--button3-h-c) !important;
+  stroke: var(--button3-h-c);
   width: 50px;
 }
 
 .product-options__section[data-property="bottomcoverage"] .product-options__value:hover .custom-image-svg svg,
 .product-options__section[data-property="bottomcoverage"][data-disable-auto-select] .product-options__value.active:hover .custom-image-svg svg,
 .product-options__section:not([data-disable-auto-select]) .product-options__value.active .custom-image-svg svg{
-  stroke: var(--button3-c) !important;
+  stroke: var(--button3-c);
 }
 /* END OF "Image Button Variants" */
 
@@ -120,6 +120,9 @@
 }
 #gift-card .product-page-info__description p:last-of-type{
   margin-bottom: 0 !important;
+}
+#gift-card .product-page-info__details-buttons {
+  display: none;
 }
 body:not(#gift-card) .product-page-info__description {
   display: none !important;
