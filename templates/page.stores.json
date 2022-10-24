@@ -88,12 +88,65 @@
     },
     "d0ae30b9-5258-406a-932d-c55f3381cd91": {
       "type": "home-builder",
+      "blocks": {
+        "92fa4c74-650b-494e-b413-e0181b64acd6": {
+          "type": "promobox",
+          "settings": {
+            "url": "",
+            "image_size": 1450,
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "AUSTRALIA<br>Del Maar Latin Swimwear",
+            "text_line_2": "",
+            "text_line_3": "<a href=\"#\">www.delmaar.com.au<\/a>",
+            "style": "2",
+            "button_1": "",
+            "button_1_url": "",
+            "color_button_type_1": "default",
+            "button_2": "",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "list_1": "",
+            "custom_html": "",
+            "video_external_url": "",
+            "video_mp4_url": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "type": "text",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "height": "auto",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "visible": "desktop_mobile",
+            "parallax": "disable",
+            "animation_to": "none",
+            "animation_from": "none",
+            "animation_opacity": "none",
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "92fa4c74-650b-494e-b413-e0181b64acd6"
+      ],
       "settings": {
         "title": "",
         "container": "boxed",
-        "size_of_columns": "1",
-        "size_of_columns_mobile": "1",
-        "margins_for_columns": "none",
+        "size_of_columns": "3",
+        "size_of_columns_mobile": "2",
+        "margins_for_columns": "preset_2",
         "align_of_columns": "top_center",
         "disable_column_paddings": false,
         "precedence": "",
@@ -276,34 +329,6 @@
         "show_separator": false,
         "title": ""
       }
-    },
-    "5ef03670-c592-48e3-87b2-d990b3014a40": {
-      "type": "carousel-reviews",
-      "blocks": {
-        "15f38ed8-0f71-4ff9-90eb-06ee1af787bb": {
-          "type": "slide",
-          "settings": {
-            "title": "TITLEm",
-            "stars": 2,
-            "paragraph": "Paragraphkjjbkjbj",
-            "user_image": "shopify:\/\/shop_images\/Slider_inicio_banners_5.png",
-            "user_text_line_1": "User",
-            "user_text_line_2": "Text"
-          }
-        }
-      },
-      "block_order": [
-        "15f38ed8-0f71-4ff9-90eb-06ee1af787bb"
-      ],
-      "settings": {
-        "title": "",
-        "type": "1",
-        "style": "1",
-        "size_of_columns": "3",
-        "autoplay": true,
-        "speed": 5,
-        "arrows": true
-      }
     }
   },
   "order": [
@@ -312,7 +337,6 @@
     "16627087840e8becf7",
     "d0ae30b9-5258-406a-932d-c55f3381cd91",
     "1662708883c02ed32f",
-    "16631325807fd7cc69",
-    "5ef03670-c592-48e3-87b2-d990b3014a40"
+    "16631325807fd7cc69"
   ]
 }
