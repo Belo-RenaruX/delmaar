@@ -151,7 +151,7 @@
         "align_of_columns": "top_center",
         "disable_column_paddings": false,
         "precedence": "",
-        "customization_class": "px-20"
+        "customization_class": "px-30"
       }
     },
     "16627008562479d70c": {
@@ -433,7 +433,7 @@
         "align_of_columns": "top_center",
         "disable_column_paddings": false,
         "precedence": "",
-        "customization_class": ""
+        "customization_class": "px-30"
       }
     },
     "4549f662-9921-4ccd-9a31-3931dacefecb": {
