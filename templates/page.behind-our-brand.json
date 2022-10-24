@@ -401,7 +401,7 @@
             "content_position": "center",
             "content_align": "center",
             "add_container": false,
-            "content_width": 70,
+            "content_width": 100,
             "text_width": 0,
             "height": "auto",
             "min_height": 0,
@@ -426,7 +426,7 @@
       ],
       "settings": {
         "title": "",
-        "container": "fullwidth",
+        "container": "boxed",
         "size_of_columns": "1",
         "size_of_columns_mobile": "1",
         "margins_for_columns": "none",
