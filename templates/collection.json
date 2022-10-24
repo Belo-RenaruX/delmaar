@@ -21,15 +21,6 @@
             "max_column_size": 8
           }
         },
-        "16965e1c-70f3-4981-950d-436766d0e581": {
-          "type": "collections",
-          "settings": {
-            "title": "FIT GUIDE",
-            "default_state": "open",
-            "menu": "fit-guide",
-            "show_collection_product_count": false
-          }
-        },
         "1d579a9a-34e3-41b6-91f6-69e755a1f034": {
           "type": "custom_html",
           "settings": {
@@ -41,7 +32,6 @@
       },
       "block_order": [
         "d86b5e0b-934c-4f63-aa6a-fce575a3dfaf",
-        "16965e1c-70f3-4981-950d-436766d0e581",
         "1d579a9a-34e3-41b6-91f6-69e755a1f034"
       ],
       "settings": {
