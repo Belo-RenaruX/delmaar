@@ -533,8 +533,8 @@
         "added": "Added",
         "sold_out": "Sold Out",
         "pre_order": "Pre-Order",
-        "select_options": "Select Options",
-        "select_options_mobile": "Select Opt"
+        "select_options": "Select Size",
+        "select_options_mobile": "Select Size"
       },
       "add_to_widhlist": {
         "title": "Add To Wishlist",
