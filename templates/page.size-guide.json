@@ -25,6 +25,18 @@
       "settings": {
       }
     },
+    "c9111608-1e85-44e8-9729-9cd53dee7707": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 60,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
     "01f638e0-23e5-4fc9-8912-0c71344ce533": {
       "type": "home-builder",
       "blocks": {
@@ -42,7 +54,7 @@
             "text_line_3": "",
             "style": "1",
             "button_1": "Need Help?",
-            "button_1_url": "",
+            "button_1_url": "shopify:\/\/pages\/message-us",
             "color_button_type_1": "default",
             "button_2": "",
             "button_2_url": "",
@@ -109,6 +121,7 @@
     "main",
     "89e878ae-32aa-4ea1-899c-1592ac959845",
     "9a59d52b-6cd4-41fd-9979-89476c753d96",
+    "c9111608-1e85-44e8-9729-9cd53dee7707",
     "01f638e0-23e5-4fc9-8912-0c71344ce533",
     "48794350-61a3-4faf-be24-83d077032c60"
   ]
