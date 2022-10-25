@@ -838,25 +838,12 @@
         "precedence": "",
         "customization_class": ""
       }
-    },
-    "16631325807fd7cc69": {
-      "type": "spacer",
-      "settings": {
-        "margin_top": 60,
-        "margin_bottom": 0,
-        "margin_top_mobile": 0,
-        "margin_bottom_mobile": 0,
-        "container": "boxed",
-        "show_separator": false,
-        "title": ""
-      }
     }
   },
   "order": [
     "main",
     "166244802909f6df2d",
     "16627087840e8becf7",
-    "d0ae30b9-5258-406a-932d-c55f3381cd91",
-    "16631325807fd7cc69"
+    "d0ae30b9-5258-406a-932d-c55f3381cd91"
   ]
 }
