@@ -14,7 +14,7 @@
         "show_input_label": true,
         "button_type": "invert",
         "show_info_column": true,
-        "page_content": "contact-1",
+        "page_content": "contact-sidebar",
         "contact_map_code": ""
       }
     },
