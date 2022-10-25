@@ -214,6 +214,7 @@ body:not(#gift-card) .product-page-info__description {
   margin-bottom: 20px;
 }
 .fit-title {
+  color: var(--product-page-title-c);
   font-size: 14px;
   line-height: 20px;
   margin-bottom: 10px;
@@ -221,6 +222,7 @@ body:not(#gift-card) .product-page-info__description {
   display: block;
 }
 .fit-sub-title {
+  color: var(--product-page-title-c);
   font-size: 12px;
   line-height: 18px;
   margin-top: -5px;
@@ -230,6 +232,7 @@ body:not(#gift-card) .product-page-info__description {
   font-weight: 700;
 }
 .fit-option-label {
+  color: var(--product-page-title-c);
   display: block;
   text-align: center;
   font-size: 14px;
@@ -268,16 +271,13 @@ body:not(#gift-card) .product-page-info__description {
   opacity: 1;
 }
 .fit-result-title {
-  font-size: 28px;
-  line-height: 30px;
-  font-weight: 700;
-}
-.fit-result-title {
+  color: var(--product-page-title-c);
   font-size: 28px;
   line-height: 30px;
   font-weight: 700;
 }
 .fit-result-label {
+  color: var(--product-page-title-c);
   display: block;
   text-align: center;
   font-size: 14px;
