@@ -235,7 +235,7 @@ body:not(#gift-card) .product-page-info__description {
   color: var(--product-page-title-c);
   display: block;
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 16px;
 }
 .fit-option-image {
