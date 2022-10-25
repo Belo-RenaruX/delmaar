@@ -12,10 +12,10 @@
       "settings": {
         "title": "",
         "show_input_label": true,
-        "button_type": "default",
+        "button_type": "invert",
         "show_info_column": true,
         "page_content": "contact-1",
-        "contact_map_code": "<iframe width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" src=\"https:\/\/www.google.com\/maps\/embed\/v1\/place?key=AIzaSyBwY_0PWuwH_A5y4iwNAqpaUbUjRPySkFc%0A%20%20%20%20&q=7563%20St.%20Vicent%20Place,%20Glasgow\" allowfullscreen=\"\"><\/iframe>"
+        "contact_map_code": ""
       }
     },
     "1628287292f47cc491": {
