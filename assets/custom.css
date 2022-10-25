@@ -83,7 +83,6 @@
   font-style: italic;
   margin-top: 20px
 }
-
 .custom-style-order .promobox__text-3 {
   order: 1;
   margin: 0 !important;
@@ -91,6 +90,9 @@
 /* END OF "Custom Classes" */
 
 /* START OF "Fixes" */
+.popup-services {
+  width: 310px !important;
+}
 .slider__slick {
   max-height: 100vh !important;
 }
