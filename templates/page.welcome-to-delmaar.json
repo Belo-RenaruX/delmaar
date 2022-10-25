@@ -475,7 +475,7 @@
         "align_of_columns": "stretch_center",
         "disable_column_paddings": false,
         "precedence": "",
-        "customization_class": "custom-padding"
+        "customization_class": "px-30"
       }
     },
     "1662596615730d2e18": {
