@@ -81,7 +81,8 @@
   order: 2;
   text-align: center;
   font-style: italic;
-  margin-top: 20px
+  margin-top: 20px;
+  letter-spacing: .5px;
 }
 .custom-style-order .promobox__text-3 {
   order: 1;
@@ -90,6 +91,9 @@
 /* END OF "Custom Classes" */
 
 /* START OF "Fixes" */
+.label.label--pre-order {
+  color: var(--header-tape-c);
+}
 .popup-services {
   width: 310px !important;
 }

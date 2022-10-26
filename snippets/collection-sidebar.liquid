@@ -195,7 +195,7 @@
                                                                     {% endif %}
                                                                 </span>
                                                                 {%- if make_as_color != true or settings_block.settings.layout contains 'col' -%}
-                                                                    <span>{{ value.label | escape }}{% if section.settings.show_filter_product_count %} ({{ value.count }}){% endif %}</span>
+                                                                    <span>{{ value.label | escape }}{% if section.settings.show_filter_product_count %} {{section.settings.show_filter_product_count}} ({{ value.count }}){% endif %}</span>
                                                                 {%- endif -%}
                                                             </label>
                                                         {%- endfor -%}
