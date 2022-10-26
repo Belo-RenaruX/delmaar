@@ -880,147 +880,12 @@
               "color_curtain_bg": "",
               "customization_class": ""
             }
-          },
-          "820363f5-1677-41fe-ac2c-40eba8f4d638": {
-            "type": "slick_slider",
-            "settings": {
-              "height": "auto",
-              "min_height": 0,
-              "size_of_column": "auto",
-              "arrows": true,
-              "bullets": true,
-              "speed": 7
-            }
-          },
-          "50f7daa7-2a50-41d4-9aea-474d6601f0c8": {
-            "type": "slick_slide",
-            "settings": {
-              "url": "",
-              "image": "shopify:\/\/shop_images\/Carino_mio.png",
-              "image_size": 900,
-              "image_mobile_size": 550,
-              "image_position_x": 50,
-              "color_image_mask": "",
-              "image_mask_opacity": 0.5,
-              "text_line_1": "Text line #1",
-              "text_line_2": "Text line #2",
-              "text_line_3": "Text line #3",
-              "style": "1",
-              "button_1": "Button #1 text",
-              "button_1_url": "",
-              "color_button_type_1": "default",
-              "button_2": "Button #2 text",
-              "button_2_url": "",
-              "color_button_type_2": "default",
-              "custom_html": "",
-              "video_external_url": "",
-              "video_mp4_url": "",
-              "video_autoplay": true,
-              "video_controls": false,
-              "type": "clean",
-              "content_position": "center",
-              "content_align": "center",
-              "add_container": false,
-              "content_width": 100,
-              "text_width": 0,
-              "animation_text": "none",
-              "color_text_1": "",
-              "color_text_2": "",
-              "color_text_3": "",
-              "color_text_bg": "",
-              "color_curtain_bg": "",
-              "customization_class": ""
-            }
-          },
-          "e1319d98-f126-446e-ac1f-7c614b73602b": {
-            "type": "slick_slide",
-            "settings": {
-              "url": "",
-              "image": "shopify:\/\/shop_images\/Reversible.png",
-              "image_size": 900,
-              "image_mobile_size": 550,
-              "image_position_x": 50,
-              "color_image_mask": "",
-              "image_mask_opacity": 0.5,
-              "text_line_1": "Text line #1",
-              "text_line_2": "Text line #2",
-              "text_line_3": "Text line #3",
-              "style": "1",
-              "button_1": "Button #1 text",
-              "button_1_url": "",
-              "color_button_type_1": "default",
-              "button_2": "Button #2 text",
-              "button_2_url": "",
-              "color_button_type_2": "default",
-              "custom_html": "",
-              "video_external_url": "",
-              "video_mp4_url": "",
-              "video_autoplay": true,
-              "video_controls": false,
-              "type": "clean",
-              "content_position": "center",
-              "content_align": "center",
-              "add_container": false,
-              "content_width": 100,
-              "text_width": 0,
-              "animation_text": "none",
-              "color_text_1": "",
-              "color_text_2": "",
-              "color_text_3": "",
-              "color_text_bg": "",
-              "color_curtain_bg": "",
-              "customization_class": ""
-            }
-          },
-          "84b97602-3894-4932-b0e0-f8b08e638979": {
-            "type": "slick_slide",
-            "settings": {
-              "url": "",
-              "image": "shopify:\/\/shop_images\/Shop.png",
-              "image_size": 900,
-              "image_mobile_size": 550,
-              "image_position_x": 50,
-              "color_image_mask": "",
-              "image_mask_opacity": 0.5,
-              "text_line_1": "Text line #1",
-              "text_line_2": "Text line #2",
-              "text_line_3": "Text line #3",
-              "style": "1",
-              "button_1": "Button #1 text",
-              "button_1_url": "",
-              "color_button_type_1": "default",
-              "button_2": "Button #2 text",
-              "button_2_url": "",
-              "color_button_type_2": "default",
-              "custom_html": "",
-              "video_external_url": "",
-              "video_mp4_url": "",
-              "video_autoplay": true,
-              "video_controls": false,
-              "type": "clean",
-              "content_position": "center",
-              "content_align": "center",
-              "add_container": false,
-              "content_width": 100,
-              "text_width": 0,
-              "animation_text": "none",
-              "color_text_1": "",
-              "color_text_2": "",
-              "color_text_3": "",
-              "color_text_bg": "",
-              "color_curtain_bg": "",
-              "customization_class": ""
-            }
           }
         },
         "block_order": [
           "1586892768288",
           "a06618e0-aae3-4501-af1b-1dd8aee02587",
-          "1586892765687",
-          "820363f5-1677-41fe-ac2c-40eba8f4d638",
-          "50f7daa7-2a50-41d4-9aea-474d6601f0c8",
-          "e1319d98-f126-446e-ac1f-7c614b73602b",
-          "84b97602-3894-4932-b0e0-f8b08e638979"
+          "1586892765687"
         ],
         "settings": {
           "title": "",
@@ -1908,11 +1773,56 @@
           "precedence": "",
           "customization_class": "mb-15"
         }
+      },
+      "f97ac931-507f-4386-94cd-8a057ea948bc": {
+        "type": "carousel-brands",
+        "blocks": {
+          "44310299-8b7c-4c4b-b5a3-89a181b9a9d4": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Carino_mio.png",
+              "link": ""
+            }
+          },
+          "60100d55-ddc4-4582-a75d-3b27ee265447": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Reversible.png",
+              "link": ""
+            }
+          },
+          "ece7d76c-f6e6-48f2-ab17-ca69136e1a68": {
+            "type": "brand",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Shop.png",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "44310299-8b7c-4c4b-b5a3-89a181b9a9d4",
+          "60100d55-ddc4-4582-a75d-3b27ee265447",
+          "ece7d76c-f6e6-48f2-ab17-ca69136e1a68"
+        ],
+        "settings": {
+          "title": "",
+          "layout": "slider",
+          "size_of_columns": "4",
+          "image_max_width": 0,
+          "bordered_links": true,
+          "border_radius": "",
+          "autoplay": true,
+          "speed": 5,
+          "infinite": true,
+          "arrows": true,
+          "bullets": false
+        }
       }
     },
     "content_for_index": [
       "1586892776567",
       "1586892856931",
+      "f97ac931-507f-4386-94cd-8a057ea948bc",
       "1586892761198",
       "c00eda68-163a-47ab-bf6e-aa07307826bb",
       "3d0c0814-7abf-4fe3-b398-10b5cb2725a3",
