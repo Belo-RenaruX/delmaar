@@ -39,7 +39,7 @@
         "products_per_page": 12,
         "enable_default_filtering": true,
         "show_selected_filters_counter": true,
-        "show_filter_product_count": true,
+        "show_filter_product_count": false,
         "hide_disabled_filters": true,
         "make_availability_as_rounded": true,
         "price_filter_type": "inputs",
