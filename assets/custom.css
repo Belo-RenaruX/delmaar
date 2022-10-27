@@ -91,6 +91,9 @@
 /* END OF "Custom Classes" */
 
 /* START OF "Fixes" */
+.header__logo--mobile {
+  width: 120px !important;
+}
 .label.label--pre-order {
   color: var(--header-tape-c);
 }
