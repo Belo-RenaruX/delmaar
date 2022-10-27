@@ -473,7 +473,7 @@
           "type": "2",
           "style": "1",
           "transparent_bg": "disable",
-          "logo_mobile_centered": false,
+          "logo_mobile_centered": true,
           "height": 0,
           "items_padding": 0,
           "menu": "main-menu",
