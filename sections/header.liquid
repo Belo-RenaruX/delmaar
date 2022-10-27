@@ -1136,7 +1136,7 @@
         {%- capture btn_wishlist_html -%}
             {%- if settings.wishlist_type == 'default' -%}
                 <div class="ml-25 ml-lg-15">
-                    <a href="#" class="header__btn-wishlist d-flex align-items-center position-relative text-nowrap js-popup-button" data-js-popup-button="wishlist"{% if need_sticky_sidebar %} data-js-sticky-replace-element="wishlist"{% endif %}
+                    <a href="#" class="header__btn-wishlist d-none d-lg-flex align-items-center position-relative text-nowrap js-popup-button" data-js-popup-button="wishlist"{% if need_sticky_sidebar %} data-js-sticky-replace-element="wishlist"{% endif %}
                         {%- if settings.tooltips_enable and header_enable_tooltips %}
                             data-js-tooltip
                             data-tippy-content="{{ 'layout.header.tooltip.wishlist' | t }}"
@@ -1161,7 +1161,7 @@
         {%- capture btn_compare_html -%}
             {%- if settings.compare_type == 'default' -%}
                 <div class="ml-25 ml-lg-15">
-                    <a href="#" class="header__btn-compare d-flex align-items-center position-relative text-nowrap js-popup-button" data-js-popup-button="compare-full"{% if need_sticky_sidebar %} data-js-sticky-replace-element="compare"{% endif %}
+                    <a href="#" class="header__btn-compare d-none d-lg-flex align-items-center position-relative text-nowrap js-popup-button" data-js-popup-button="compare-full"{% if need_sticky_sidebar %} data-js-sticky-replace-element="compare"{% endif %}
                         {%- if settings.tooltips_enable and header_enable_tooltips %}
                             data-js-tooltip
                             data-tippy-content="{{ 'layout.header.tooltip.compare' | t }}"
@@ -1361,7 +1361,7 @@
         {%- endcapture -%}
         {%- capture services_html -%}
             {%- if settings.services_show_header_button -%}
-                <a href="/pages/customer-service" class="header__btn-services position-relative d-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center ml-25 ml-lg-15 js-popup-button"
+                <a href="/pages/customer-service" class="header__btn-services position-relative d-none d-lg-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center ml-25 ml-lg-15 js-popup-button"
                    data-js-popup-button="services"
                    {%- if settings.tooltips_enable and header_enable_tooltips %}
                        data-js-tooltip
