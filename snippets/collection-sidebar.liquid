@@ -160,7 +160,7 @@
                                                     {%- capture filters_html -%}
                                                         {%- assign items_counter = 0 -%}
                                                         {%- for value in filter.values -%}
-                                                            {%- value.label contains 'Tela' -%}
+                                                            {%- unless value.label contains 'Tela' -%}
                                                                 {%- assign disable_checkbox = false -%}
                                                                 {%- if value.count == 0 and value.active == false -%}
                                                                     {%- assign disable_checkbox = true -%}
