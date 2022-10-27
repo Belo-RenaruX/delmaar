@@ -806,19 +806,6 @@ var data = {
 
     /* START OF "Collection Filters" */
     filterAvailable();
-
-    jQuery('.collection-filters__checkbox').each(function() {
-      var element = jQuery(this);
-      var text = element.find('span').not('.position-relative').text();
-      console.log(text);
-      var regex = /^Tela.*/g;
-      if(regex.test(text) ||
-      text.toUpperCase() === 'ALL SWIMWEAR' ||
-      text.toUpperCase() === 'ONE PIECE' ||
-      text.toUpperCase() === 'TWO PIECE')  {
-        element.remove();
-      }
-    });
     /* END OF "Collection Filters" */
 
     /* START OF "Remove mobile menu items" */

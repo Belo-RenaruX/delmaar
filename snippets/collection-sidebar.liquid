@@ -160,50 +160,51 @@
                                                     {%- capture filters_html -%}
                                                         {%- assign items_counter = 0 -%}
                                                         {%- for value in filter.values -%}
-                                                            {%- assign disable_checkbox = false -%}
-                                                            {%- if value.count == 0 and value.active == false -%}
-                                                                {%- assign disable_checkbox = true -%}
-                                                            {%- else -%}
-                                                                {%- assign hide_section = false -%}
-                                                            {%- endif -%}
-                                                            {%- if disable_checkbox and section.settings.hide_disabled_filters -%}
-                                                                {%- continue -%}
-                                                            {%- endif -%}
-                                                            {%- if settings_block.settings.layout contains 'col' and layout_columns > 1 and settings_block.settings.max_column_size != 0 -%}
-                                                                {%- if items_counter != 0 -%}
-                                                                    {%- assign items_counter_modulo = items_counter | modulo: settings_block.settings.max_column_size -%}
-                                                                    {%- if items_counter_modulo == 0 -%}
-                                                                        </div>
-                                                                        <div class="col-{{ 12 | divided_by: layout_columns }} mb-10">
+                                                            {%- unless value.label == 'All Swimwwar' or value.label == 'One Piece' or value.label == 'Two Piece' -%}
+                                                                {%- assign disable_checkbox = false -%}
+                                                                {%- if value.count == 0 and value.active == false -%}
+                                                                    {%- assign disable_checkbox = true -%}
+                                                                {%- else -%}
+                                                                    {%- assign hide_section = false -%}
+                                                                {%- endif -%}
+                                                                {%- if disable_checkbox and section.settings.hide_disabled_filters -%}
+                                                                    {%- continue -%}
+                                                                {%- endif -%}
+                                                                {%- if settings_block.settings.layout contains 'col' and layout_columns > 1 and settings_block.settings.max_column_size != 0 -%}
+                                                                    {%- if items_counter != 0 -%}
+                                                                        {%- assign items_counter_modulo = items_counter | modulo: settings_block.settings.max_column_size -%}
+                                                                        {%- if items_counter_modulo == 0 -%}
+                                                                            </div>
+                                                                            <div class="col-{{ 12 | divided_by: layout_columns }} mb-10">
+                                                                        {%- endif -%}
                                                                     {%- endif -%}
+                                                                    {%- assign items_counter = items_counter | plus: 1 -%}
                                                                 {%- endif -%}
-                                                                {%- assign items_counter = items_counter | plus: 1 -%}
-                                                            {%- endif -%}
-                                                            <label for="Filter-{{ filter.label | escape }}-{{ forloop.index }}" class="collection-filters__checkbox{% if disable_checkbox %} collection-filters__checkbox--disabled{% if section.settings.hide_disabled_filters %} d-none-important{% endif %}{% endif %} {% if make_as_rounded %}input-boolean{% else %}input-checkbox{% endif %} d-flex align-items-center mb-15 mb-lg-10{% if settings_block.settings.layout == 'row' %} mr-15{% if make_as_color %} mr-lg-10 input-checkbox--unbordered{% endif %}{% endif %} cursor-pointer">
-                                                                <input type="checkbox"
-                                                                class="d-none"
-                                                                name="{{ value.param_name }}"
-                                                                value="{{ value.value }}"
-                                                                id="Filter-{{ filter.label | escape }}-{{ forloop.index }}"
-                                                                {% if value.active %}checked{% endif %}
-                                                                {% if disable_checkbox %}disabled{% endif %}>
-                                                                <span class="position-relative {% if make_as_rounded %}d-flex border{% else %}d-block{% endif %}{% if make_as_color %}{% if settings_block.settings.layout contains 'col' %} mr-8{% endif %} rounded-circle standard-color-default standard-color-{% render 'product-get-options-strip-symbols' with value: value.label %}{% else %} mr-8 border{% endif %}"{% if make_as_color %} data-value="{% render 'product-get-options-strip-symbols' with value: value.label %}"{% endif %}>
-                                                                    {% if make_as_rounded %}
-                                                                        <span class="position-absolute d-block border"></span>
-                                                                    {% else %}
-                                                                        <i class="d-none{% if make_as_color %} standard-color-arrow{% endif %}">{% render 'icon-theme-146' %}</i>
-                                                                    {% endif %}
-                                                                </span>
-                                                                {%- if make_as_color != true or settings_block.settings.layout contains 'col' -%}
-                                                                    <span>{{ value.label | escape }}{% if section.settings.show_filter_product_count %} ({{ value.count }}){% endif %}</span>
-                                                                {%- endif -%}
-                                                            </label>
+                                                                <label for="Filter-{{ filter.label | escape }}-{{ forloop.index }}" class="collection-filters__checkbox{% if disable_checkbox %} collection-filters__checkbox--disabled{% if section.settings.hide_disabled_filters %} d-none-important{% endif %}{% endif %} {% if make_as_rounded %}input-boolean{% else %}input-checkbox{% endif %} d-flex align-items-center mb-15 mb-lg-10{% if settings_block.settings.layout == 'row' %} mr-15{% if make_as_color %} mr-lg-10 input-checkbox--unbordered{% endif %}{% endif %} cursor-pointer">
+                                                                    <input type="checkbox"
+                                                                    class="d-none"
+                                                                    name="{{ value.param_name }}"
+                                                                    value="{{ value.value }}"
+                                                                    id="Filter-{{ filter.label | escape }}-{{ forloop.index }}"
+                                                                    {% if value.active %}checked{% endif %}
+                                                                    {% if disable_checkbox %}disabled{% endif %}>
+                                                                    <span class="position-relative {% if make_as_rounded %}d-flex border{% else %}d-block{% endif %}{% if make_as_color %}{% if settings_block.settings.layout contains 'col' %} mr-8{% endif %} rounded-circle standard-color-default standard-color-{% render 'product-get-options-strip-symbols' with value: value.label %}{% else %} mr-8 border{% endif %}"{% if make_as_color %} data-value="{% render 'product-get-options-strip-symbols' with value: value.label %}"{% endif %}>
+                                                                        {% if make_as_rounded %}
+                                                                            <span class="position-absolute d-block border"></span>
+                                                                        {% else %}
+                                                                            <i class="d-none{% if make_as_color %} standard-color-arrow{% endif %}">{% render 'icon-theme-146' %}</i>
+                                                                        {% endif %}
+                                                                    </span>
+                                                                    {%- if make_as_color != true or settings_block.settings.layout contains 'col' -%}
+                                                                        <span>{{ value.label | escape }}{% if section.settings.show_filter_product_count %} ({{ value.count }}){% endif %}</span>
+                                                                    {%- endif -%}
+                                                                </label>
+                                                            {%- endunless -%}
                                                         {%- endfor -%}
                                                     {%- endcapture -%}
                                                     {%- if settings_block.settings.layout contains 'col' -%}
                                                         <div class="col-{{ 12 | divided_by: layout_columns }} mb-10">
-                                                            {{ filters_html }}
-                                                        </div>
+                                                            {{ filters_html }}`
                                                     {%- else -%}
                                                         {{ filters_html }}
                                                     {%- endif -%}
