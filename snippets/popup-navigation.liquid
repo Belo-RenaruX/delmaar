@@ -52,6 +52,37 @@
                     <span class="ml-15">{{ 'layout.header.tooltip.account' | t }}</span>
                 </a>
             {%- endif -%}
+            {%- if settings.services_show_header_button -%}
+                <a href="/pages/customer-service" class="header__btn-services position-relative d-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center ml-25 ml-lg-15 js-popup-button"
+                   data-js-popup-button="services"
+                   {%- if settings.tooltips_enable and header_enable_tooltips %}
+                       data-js-tooltip
+                       data-tippy-content="{{ 'layout.header.tooltip.services' | t }}"
+                       data-tippy-placement="bottom"
+                       data-tippy-distance="6"
+                   {%- endif -%}
+                >
+                    <i>{% render 'icon-theme-172' %}</i>
+                    <span class="ml-15">{{ 'layout.header.tooltip.services' | t }}</span>
+                </a>
+            {%- endif -%}
+            {%- if settings.wishlist_type == 'default' -%}
+                <div class="ml-25 ml-lg-15">
+                    <a href="#" class="header__btn-wishlist d-flex align-items-center position-relative text-nowrap js-popup-button" data-js-popup-button="wishlist"{% if need_sticky_sidebar %} data-js-sticky-replace-element="wishlist"{% endif %}
+                        {%- if settings.tooltips_enable and header_enable_tooltips %}
+                            data-js-tooltip
+                            data-tippy-content="{{ 'layout.header.tooltip.wishlist' | t }}"
+                            data-tippy-placement="bottom"
+                            data-tippy-distance="6"
+                        {%- endif -%}
+                    >
+                        <i>{% render 'icon-theme-180' %}</i>
+                        {% capture wishlist_count %}{% if customer %}{{ customer.metafields.wishlist | size }}{% else %}0{% endif %}{% endcapture %}
+                        <span class="header__counter" data-js-wishlist-count="{{ wishlist_count }}">{{ wishlist_count }}</span>
+                        <span class="ml-15">{{ 'layout.header.tooltip.wishlist' | t }}</span>
+                    </a>
+                </div>
+            {%- endif -%}
             <a href="/products/gift-card" class="header__btn-account d-flex{% if section.settings.type == '5' or section.settings.type == '6' or section.settings.type == '7' %} d-lg-none{% endif %} align-items-center position-relative js-popup-button"
                 data-js-popup-button="gift card"
                 {%- if settings.tooltips_enable and header_enable_tooltips %}
