@@ -804,6 +804,21 @@ var data = {
     jQuery(window).on('resize', bannerResize);
     /* END OF "Banner Resize" */
 
+    /* START OF "Collection Filters" */
+    jQuery('#Filter-Availability-1').click();
+    jQuery('.collection-filters__checkbox').each(function() {
+      var element = jQuery(this);
+      var text = element.find('span').not('.position-relative').text();
+      var regex = /^Tela.*/g;
+      if(regex.test(text) ||
+      text.toUpperCase() === 'ALL SWIMWEAR' ||
+      text.toUpperCase() === 'ONE PIECE' ||
+      text.toUpperCase() === 'TWO PIECE')  {
+        element.remove();
+      }
+    });
+    /* END OF "Collection Filters" */
+
     /* START OF "Remove mobile menu items" */
     jQuery('.menu__level-01').children().each(function() {
       var item = jQuery(this);
