@@ -160,7 +160,7 @@
                                                     {%- capture filters_html -%}
                                                         {%- assign items_counter = 0 -%}
                                                         {%- for value in filter.values -%}
-                                                            {%- unless value.label == 'All Swimwear' or value.label == 'One Piece' or value.label == 'Two Piece' or value.label contains 'Tela' -%}
+                                                            {%- value.label contains 'Tela' -%}
                                                                 {%- assign disable_checkbox = false -%}
                                                                 {%- if value.count == 0 and value.active == false -%}
                                                                     {%- assign disable_checkbox = true -%}
