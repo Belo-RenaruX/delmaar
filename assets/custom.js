@@ -805,10 +805,12 @@ var data = {
     /* END OF "Banner Resize" */
 
     /* START OF "Collection Filters" */
-    jQuery('#Filter-Availability-1').click();
+    filterAvailable();
+
     jQuery('.collection-filters__checkbox').each(function() {
       var element = jQuery(this);
       var text = element.find('span').not('.position-relative').text();
+      console.log(text);
       var regex = /^Tela.*/g;
       if(regex.test(text) ||
       text.toUpperCase() === 'ALL SWIMWEAR' ||
@@ -870,6 +872,10 @@ var data = {
 /* END OF "Init Function" */
 
 /* START OF "Banner Resize Functions" */
+function filterAvailable() {
+  var input = jQuery('#Filter-Availability-1');
+  if(!input.is(":checked")) input.click();
+}
 function bannerResize() {
   var validation = jQuery(window).width() >= 768;
   
