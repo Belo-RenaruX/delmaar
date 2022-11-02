@@ -88,6 +88,24 @@
   order: 1;
   margin: 0 !important;
 }
+.custom-white-arrows .slider__prev .icon,
+.custom-white-arrows .slider__next .icon {
+  transition-duration: var(--animation-css-low-duration);
+  transition-property: all;
+  fill: var(--slider-arrows-h-c) !important;
+}
+.custom-white-arrows .slider__prev:hover .icon,
+.custom-white-arrows .slider__next:hover .icon {
+  fill: var(--theme12) !important;
+}
+.custom-white-arrows .slider .slick-dots li {
+  transition-duration: var(--animation-css-low-duration);
+  transition-property: all;
+  background-color: var(--slider-bullets-h-bg) !important;
+}
+.custom-white-arrows .slider .slick-dots li:hover {
+  background-color: var(--theme12) !important;
+}
 /* END OF "Custom Classes" */
 
 /* START OF "Fixes" */
@@ -161,24 +179,6 @@ body:not(#gift-card) .product-page-info__description {
 }
 .header__tape .icon {
   fill: var(--header-tape-c) !important;
-}
-.slider__prev .icon,
-.slider__next .icon {
-  transition-duration: var(--animation-css-low-duration);
-  transition-property: all;
-  fill: var(--slider-arrows-h-c) !important;
-}
-.slider__prev:hover .icon,
-.slider__next:hover .icon {
-  fill: var(--theme12) !important;
-}
-.slider .slick-dots li {
-  transition-duration: var(--animation-css-low-duration);
-  transition-property: all;
-  background-color: var(--slider-bullets-h-bg) !important;
-}
-.slider .slick-dots li:hover {
-  background-color: var(--theme12) !important;
 }
 .popup-product-contact {
   max-width: 785px !important;
