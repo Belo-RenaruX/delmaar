@@ -107,9 +107,17 @@
 .custom-white-arrows .slider .slick-dots li:hover {
   background-color: var(--theme12) !important;
 }
-/* .custom-block-spacing .col-12.col-md-4 {
-  padding: 20px 0;
-} */
+@media (min-width: 768px) {
+  .custom-block-spacing .col-12.col-md-4:first-child {
+    padding-bottom: 20px;
+  }
+  .custom-block-spacing .col-12.col-md-4:not(:first-child):not(:last-child) {
+    padding: 20px 0;
+  }
+  .custom-block-spacing .col-12.col-md-4:last-child {
+    padding-top: 20px;
+  }
+}
 /* END OF "Custom Classes" */
 
 /* START OF "Fixes" */
