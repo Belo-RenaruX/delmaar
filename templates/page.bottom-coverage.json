@@ -74,6 +74,18 @@
         "customization_class": ""
       }
     },
+    "666e990e-bcad-43cd-811a-feba5fdea60a": {
+      "type": "spacer",
+      "settings": {
+        "margin_top": 50,
+        "margin_bottom": 0,
+        "margin_top_mobile": 0,
+        "margin_bottom_mobile": 0,
+        "container": "boxed",
+        "show_separator": false,
+        "title": ""
+      }
+    },
     "ef28f77c-2cfb-4f7a-a0b1-36c3b6aee3a5": {
       "type": "home-builder",
       "blocks": {
@@ -296,6 +308,7 @@
   "order": [
     "main",
     "d3ffa1f1-12df-47e9-bc71-32bcd6f58a74",
+    "666e990e-bcad-43cd-811a-feba5fdea60a",
     "ef28f77c-2cfb-4f7a-a0b1-36c3b6aee3a5"
   ]
 }
