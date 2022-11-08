@@ -255,7 +255,7 @@
             "min_height": 0,
             "size_of_column": "auto",
             "arrows": false,
-            "bullets": false,
+            "bullets": true,
             "speed": 5
           }
         },
