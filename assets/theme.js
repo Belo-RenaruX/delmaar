@@ -1349,9 +1349,9 @@
           var handle = $product.attr('data-product-handle'),
               variant_url = '';
   
-        //   if(!$product.get(0).hasAttribute('data-qv-check-change') || !$product.find('[data-property][data-disable-auto-select]').length) {
-        //       variant_url = '?variant=' + $product.attr('data-product-variant-id');
-        //   }
+          if(!$product.get(0).hasAttribute('data-qv-check-change') || !$product.find('[data-property][data-disable-auto-select]').length) {
+            //   variant_url = '?variant=' + $product.attr('data-product-variant-id');
+          }
   
           if(handle) {
               this.ajax = $.ajax({
@@ -1787,7 +1787,8 @@
   
                   $product.attr('data-product-variant-id', k);
                   $product.attr('data-product-handle', v);
-                  $links.attr('href', '/products/' + v + '?variant=' + k);
+                //   $links.attr('href', '/products/' + v + '?variant=' + k);
+                  $links.attr('href', '/products/' + v);
                   $title.html(product.title);
                   $image.attr('srcset', Shopify.resizeImage(image, '120x') + ' 1x, ' + Shopify.resizeImage(image, '240x') + ' 2x');
   
