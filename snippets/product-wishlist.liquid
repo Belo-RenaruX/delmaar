@@ -91,7 +91,7 @@
             {%- endif -%}
             <div class="d-flex flex-column">
                 {%- if show_button_add_to_cart -%}
-                    <div class="product-wishlist__variants d-none">
+                    <div class="product-wishlist__variants d-block">
                         {% render 'product-get-variants' with product: product current_variant: current_variant show_options: show_options show_custom_options: show_custom_options %}
                     </div>
                 {%- endif -%}
