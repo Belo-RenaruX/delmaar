@@ -62,7 +62,7 @@
     <div class="product-collection__wrapper mb-30 mb-lg-{{ product_margin_bottom }}">
         {% form "product", product, id: null, class: "d-flex flex-column m-0", data-js-product-form: '' %}
             <div class="product-collection__image product-image product-image--hover-{{ settings.product_hover_animation_type }} position-relative w-100 js-product-images-navigation js-product-images-hovered-end{% if settings.product_replace_images_hover %} js-product-images-hover{% endif %}"{% if settings.product_replace_images_hover and hover_image != blank %} data-js-product-image-hover="{{ img_hover_url }}" data-js-product-image-hover-id="{{ hover_image.id }}"{% endif %}>
-                {%- assign clean_url = url | split: "?" | first -%}
+                {%- assign clean_url = url | split: '?' | first -%}
                 {% render 'product-get-images' with url: clean_url image: current_image image_size: image_size title: title %}
                 {%- if show_label_in_stock or show_label_pre_order or show_label_out_stock or show_label_sale or show_label_new or show_label_hot -%}
                     {%- assign label_present = true -%}
@@ -223,7 +223,7 @@
                         <div class="product-collection__buttons d-flex flex-column flex-lg-row align-items-lg-center flex-wrap{% if show_button_add_to_cart %} mt-5 mt-lg-10{% endif %}">
                             {%- if show_button_add_to_cart -%}
                                 <div class="product-collection__button-add-to-cart mb-10">
-                                    {% include 'product-get-button-cart' %}
+                                    {% include 'product-get-button-cart' with url: clean_url %}
                                 </div>
                             {%- endif -%}
                             {%- if show_button_add_to_wishlist or show_button_add_to_compare or show_button_quick_view -%}
@@ -302,7 +302,7 @@
                     {%- endif -%}
                     {%- if show_button_add_to_cart -%}
                         <div class="product-collection__list-v2-button-add-to-cart mt-25">
-                            {% include 'product-get-button-cart' with button_colorize: 2 %}
+                            {% include 'product-get-button-cart' with url: clean_url button_colorize: 2 %}
                         </div>
                     {%- endif -%}
                     {%- if show_button_add_to_wishlist or show_button_add_to_compare -%}
