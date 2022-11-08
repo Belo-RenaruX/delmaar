@@ -817,6 +817,16 @@ var data = {
           item.addClass('d-lg-none');
           break;
       }
+      
+    });
+    jQuery('.menu__level-03').children().each(function() {
+      var item = jQuery(this);
+      var itemText = item.contents('a').contents('span').text();
+      switch(itemText.toUpperCase()) {
+        case 'ALL SWIMWEAR':
+          item.addClass('d-none d-lg-block');
+          break;
+      }
     });
     /* END OF "Remove mobile menu items" */
 
