@@ -1350,7 +1350,7 @@
             "type": "slick_slider",
             "settings": {
               "height": "auto",
-              "min_height": 270,
+              "min_height": 260,
               "size_of_column": "auto",
               "arrows": true,
               "bullets": true,
