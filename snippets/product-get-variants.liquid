@@ -2,9 +2,9 @@
     {% unless product.selected_variant %}
         {%- assign enable_select_options_button = true -%}
     {% endunless %}
-    {%- if product.variants.size == 1 and product.variants.first.title contains 'Default Title' -%}
+    {%- comment -%} {%- if product.variants.size == 1 and product.variants.first.title contains 'Default Title' -%}
 		{%- assign enable_select_options_button = false -%}
-	{%- endif -%}
+	{%- endif -%} {%- endcomment -%}
 {%- endif -%}
 {%- capture default_title -%}{{ 'products.product.default_variant_title' | t }}{%- endcapture -%}
 {%- if show_custom_options == true -%}

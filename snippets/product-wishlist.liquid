@@ -92,7 +92,7 @@
             <div class="d-flex flex-column">
                 {%- if show_button_add_to_cart -%}
                     <div class="product-wishlist__variants d-block">
-                        {% render 'product-get-variants' with product: product show_options: show_options show_custom_options: show_custom_options %}
+                        {% render 'product-get-variants' with product: product current_variant: current_variant show_options: show_options show_custom_options: show_custom_options %}
                     </div>
                 {%- endif -%}
                 {%- if show_button_add_to_cart or show_button_quick_view -%}
