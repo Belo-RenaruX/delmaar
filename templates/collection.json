@@ -16,7 +16,7 @@
         "d86b5e0b-934c-4f63-aa6a-fce575a3dfaf": {
           "type": "filters",
           "settings": {
-            "default_state": "open",
+            "default_state": "close",
             "layout": "1_col",
             "max_column_size": 8
           }
