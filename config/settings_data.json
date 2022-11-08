@@ -897,7 +897,7 @@
           "align_of_columns": "top_center",
           "disable_column_paddings": false,
           "precedence": "",
-          "customization_class": "px-50 px-md-0"
+          "customization_class": "px-50 px-md-0 custom-block-spacing"
         }
       },
       "1586892776567": {
