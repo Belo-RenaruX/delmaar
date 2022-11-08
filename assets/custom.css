@@ -107,6 +107,9 @@
 .custom-white-arrows .slider .slick-dots li:hover {
   background-color: var(--theme12) !important;
 }
+.custom-block-spacing .col-12.col-md-4 {
+  padding: 20px 0;
+}
 /* END OF "Custom Classes" */
 
 /* START OF "Fixes" */
