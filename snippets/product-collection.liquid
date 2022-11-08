@@ -34,6 +34,7 @@
 {%- assign hide_reviews_counter = hide_reviews_counter | default: settings.product_collection_hide_reviews_counter -%}
 {%- assign hide_reviews_mobile_counter = hide_reviews_mobile_counter | default: settings.product_collection_hide_reviews_mobile_counter -%}
 {%- assign show_list_quantity = show_list_quantity | default: settings.product_collection_list_show_quantity -%}
+{%- assign clean_url = url | split: '?' | first -%}
 {%- if settings.compare_type == 'disable' -%}
     {%- assign show_button_add_to_compare = false -%}
 {%- endif -%}
@@ -62,7 +63,6 @@
     <div class="product-collection__wrapper mb-30 mb-lg-{{ product_margin_bottom }}">
         {% form "product", product, id: null, class: "d-flex flex-column m-0", data-js-product-form: '' %}
             <div class="product-collection__image product-image product-image--hover-{{ settings.product_hover_animation_type }} position-relative w-100 js-product-images-navigation js-product-images-hovered-end{% if settings.product_replace_images_hover %} js-product-images-hover{% endif %}"{% if settings.product_replace_images_hover and hover_image != blank %} data-js-product-image-hover="{{ img_hover_url }}" data-js-product-image-hover-id="{{ hover_image.id }}"{% endif %}>
-                {%- assign clean_url = url | split: '?' | first -%}
                 {% render 'product-get-images' with url: clean_url image: current_image image_size: image_size title: title %}
                 {%- if show_label_in_stock or show_label_pre_order or show_label_out_stock or show_label_sale or show_label_new or show_label_hot -%}
                     {%- assign label_present = true -%}

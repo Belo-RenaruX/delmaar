@@ -12,10 +12,11 @@
 {%- assign show_button_add_to_cart = show_button_add_to_cart | default: settings.product_collection_show_button_add_to_cart -%}
 {%- assign show_button_quick_view = show_button_quick_view | default: settings.product_collection_show_button_quick_view -%}
 {%- assign show_button_remove = show_button_remove | default: true -%}
+{%- assign clean_url = url | split: '?' | first -%}
 <product-item class="product-wishlist{% if settings.product_collection_centered_info %} product-wishlist--centered{% endif %} d-flex flex-column mb-30" data-js-product data-js-store-lists-product-wishlist data-product-handle="{{ product.handle }}" data-product-variant-id="{{ current_variant_id }}">
     {% form "product", product, id: null, class: "d-flex flex-column m-0", data-js-product-form: '' %}
         <div class="product-wishlist__image product-image product-image--hover-{{ settings.product_hover_animation_type }} position-relative w-100 js-product-images-navigation js-product-images-hovered-end">
-            {% render 'product-get-images' with url: url image: image image_size: image_size title: title %}
+            {% render 'product-get-images' with url: clean_url image: image image_size: image_size title: title %}
             {%- if show_label_in_stock or show_label_pre_order or show_label_out_stock or show_label_sale or show_label_new or show_label_hot -%}
                 {%- assign label_present = true -%}
             {%- else -%}
@@ -80,7 +81,7 @@
             {%- if show_title -%}
                 <div class="product-wishlist__title mb-3">
                     <h3 class="m-0">
-                        <a href="{{ url }}">{{ title }}</a>
+                        <a href="{{ clean_url }}">{{ title }}</a>
                     </h3>
                 </div>
             {%- endif -%}
