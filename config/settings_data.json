@@ -781,7 +781,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": ""
+              "customization_class": "py-15 py-md-0"
             }
           },
           "a06618e0-aae3-4501-af1b-1dd8aee02587": {
@@ -830,7 +830,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": ""
+              "customization_class": "py-15 py-md-0"
             }
           },
           "1586892765687": {
@@ -879,7 +879,7 @@
               "color_text_3": "",
               "color_text_bg": "",
               "color_curtain_bg": "",
-              "customization_class": ""
+              "customization_class": "py-15 py-md-0"
             }
           }
         },
@@ -893,11 +893,11 @@
           "container": "fullwidth",
           "size_of_columns": "3",
           "size_of_columns_mobile": "1",
-          "margins_for_columns": "preset_1",
+          "margins_for_columns": "none",
           "align_of_columns": "top_center",
           "disable_column_paddings": false,
           "precedence": "",
-          "customization_class": "px-30 px-md-0"
+          "customization_class": "px-50 px-md-0"
         }
       },
       "1586892776567": {
