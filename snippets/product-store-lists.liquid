@@ -7,7 +7,7 @@
 {%- assign show_button_remove = show_button_remove | default: true -%}
 <div class="product-store-lists d-flex flex-row align-items-start mb-20" data-js-product data-product-handle="{{ product.handle }}" data-product-variant-id="{{ id }}">
     <div class="product-store-lists__image mr-15">
-        <a href="{{ url }}" class="d-block">
+        <a href="{{ url | split: '?' | first }}" class="d-block">
             <img>
         </a>
     </div>
@@ -15,7 +15,7 @@
         {%- if show_title -%}
             <div class="product-store-lists__title mb-3">
                 <h3 class="h6 m-0">
-                    <a href="{{ url }}">{{ title }}</a>
+                    <a href="{{ url | split: '?' | first }}">{{ title }}</a>
                 </h3>
             </div>
         {%- endif -%}
