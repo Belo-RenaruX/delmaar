@@ -424,7 +424,7 @@
                     {%- if products.size > 0 -%}
                         {%- for product in products limit: products_limit -%}
                             {%- if block.settings.product_type == 'full' -%}
-                                {% include 'product-collection' %}
+                                {% include 'product-collection' with url_without_collection: true %}
                             {%- else -%}
                                 {% include 'product-featured' %}
                             {%- endif -%}
