@@ -72,7 +72,7 @@
     "product_show_custom_options": true,
     "product_enable_variants_section": true,
     "product_hide_options_without_availability_variants": false,
-    "product_variant_auto_select": "disable",
+    "product_variant_auto_select": "enable",
     "product_auto_selected_options": "",
     "product_collection_set_first_image_by_variant": false,
     "product_info_set_first_image_by_variant": false,
