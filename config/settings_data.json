@@ -1353,9 +1353,9 @@
               "height": "auto",
               "min_height": 260,
               "size_of_column": "auto",
-              "arrows": true,
+              "arrows": false,
               "bullets": true,
-              "speed": 7
+              "speed": 5
             }
           },
           "4765237e-20bd-4718-8a50-cb074c3da507": {
