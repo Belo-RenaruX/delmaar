@@ -332,7 +332,7 @@
     {%- if section.settings.view_grid_list_design == '2' -%}
         <div class="product-collection__list-v2-border d-none mb-30 border-bottom"></div>
     {%- endif -%}
-    {%- comment -%} {%- if template contains 'collection' -%}
+    {%- if template contains 'collection' -%}
         <script type="application/ld+json">
         {
             "@context": "http://schema.org/",
@@ -367,6 +367,6 @@
             ]
         }
         </script>
-    {%- endif -%} {%- endcomment -%}
+    {%- endif -%}
 </product-item>
 {% include 'product-res-variables-clear' %}
