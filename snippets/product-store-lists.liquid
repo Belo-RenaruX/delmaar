@@ -19,10 +19,10 @@
                 </h3>
             </div>
         {%- endif -%}
-        {%- if show_variant -%}
+        {%- comment -%} {%- if show_variant -%}
             {% capture default_variant_title %}{{ 'products.product.default_variant_title' | t }}{% endcapture %}
             <div class="product-store-lists__variant{% if variant_title == 'Default Title' %} d-none{% endif %}">{{ variant_title | replace: 'Default Title', default_variant_title }}</div>
-        {%- endif -%}
+        {%- endif -%} {%- endcomment -%}
         {%- if show_price -%}
             <div class="product-store-lists__price mt-10 mb-10">
                 {% include 'product-get-price' %}
