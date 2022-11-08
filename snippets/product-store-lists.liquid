@@ -2,7 +2,7 @@
 {% include 'product-cart-res-variables' %}
 {%- assign image_size = '100x' -%}
 {%- assign show_title = show_title | default: true -%}
-{%- assign show_variant = show_variant | default: true -%}
+{%- assign show_variant = show_variant | default: false -%}
 {%- assign show_price = show_price | default: true -%}
 {%- assign show_button_remove = show_button_remove | default: true -%}
 {%- assign clean_url = url | split: '?' | first -%}
