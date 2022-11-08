@@ -111,7 +111,7 @@
 
 /* START OF "Fixes" */
 .header__logo--mobile {
-  width: 120px !important;
+  width: 150px !important;
 }
 .label.label--pre-order {
   color: var(--header-tape-c);
