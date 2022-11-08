@@ -1702,18 +1702,6 @@
           "html_area": ""
         }
       },
-      "5e7e73ef-c064-48d9-b06c-4d33619fcf4c": {
-        "type": "spacer",
-        "settings": {
-          "margin_top": 0,
-          "margin_bottom": 0,
-          "margin_top_mobile": 0,
-          "margin_bottom_mobile": 0,
-          "container": "boxed",
-          "show_separator": false,
-          "title": "<p><a href=\"https:\/\/www.instagram.com\/delmaar_latinswimwear\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/delmaar_latinswimwear\/\">@delmaar_latinswimwear<\/a> Follow Us On Instagram<\/p>"
-        }
-      },
       "68b80581-7ca9-405f-8ed0-b304233654ac": {
         "type": "carousel-products",
         "blocks": {
@@ -1818,6 +1806,73 @@
           "precedence": "",
           "customization_class": "mb-15"
         }
+      },
+      "60b89780-f05d-44b3-a74c-83b6ff98e5a5": {
+        "type": "home-builder",
+        "blocks": {
+          "1227628b-a58f-4851-9f65-039e1190a29b": {
+            "type": "promobox",
+            "settings": {
+              "url": "",
+              "image_size": 1450,
+              "image_mobile_size": 550,
+              "image_position_x": 50,
+              "color_image_mask": "",
+              "image_mask_opacity": 0.5,
+              "text_line_1": "<a href=\"https:\/\/www.instagram.com\/delmaar_latinswimwear\/\">@delmaar_latinswimwear<\/a> Follow Us On Instagram",
+              "text_line_2": "",
+              "text_line_3": "",
+              "style": "1",
+              "button_1": "",
+              "button_1_url": "",
+              "color_button_type_1": "default",
+              "button_2": "",
+              "button_2_url": "",
+              "color_button_type_2": "default",
+              "list_1": "",
+              "custom_html": "",
+              "video_external_url": "",
+              "video_mp4_url": "",
+              "video_autoplay": true,
+              "video_controls": false,
+              "type": "text",
+              "content_position": "center",
+              "content_align": "center",
+              "add_container": false,
+              "content_width": 100,
+              "text_width": 0,
+              "height": "auto",
+              "min_height": 0,
+              "size_of_column": "auto",
+              "visible": "desktop_mobile",
+              "parallax": "disable",
+              "animation_to": "none",
+              "animation_from": "none",
+              "animation_opacity": "none",
+              "animation_text": "none",
+              "color_text_1": "",
+              "color_text_2": "",
+              "color_text_3": "",
+              "color_text_bg": "",
+              "color_curtain_bg": "",
+              "customization_class": ""
+            }
+          }
+        },
+        "block_order": [
+          "1227628b-a58f-4851-9f65-039e1190a29b"
+        ],
+        "settings": {
+          "title": "",
+          "container": "boxed",
+          "size_of_columns": "1",
+          "size_of_columns_mobile": "1",
+          "margins_for_columns": "none",
+          "align_of_columns": "top_center",
+          "disable_column_paddings": false,
+          "precedence": "",
+          "customization_class": ""
+        }
       }
     },
     "content_for_index": [
@@ -1838,7 +1893,7 @@
       "1659934265a0f5e3a0",
       "16573170968abf3fbf",
       "1659932401bafd96d5",
-      "5e7e73ef-c064-48d9-b06c-4d33619fcf4c",
+      "60b89780-f05d-44b3-a74c-83b6ff98e5a5",
       "641db58b-d354-4c1b-8da2-62f4b5228d47",
       "1586892896381"
     ]
