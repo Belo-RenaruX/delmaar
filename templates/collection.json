@@ -68,7 +68,7 @@
         "default_view_grid_xs": "1",
         "current_filters_visibility": "hide",
         "uppercase_filter_title": true,
-        "show_filter_border": true
+        "show_filter_border": false
       }
     }
   },
