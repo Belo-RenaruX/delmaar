@@ -77,7 +77,7 @@
     "product_collection_set_first_image_by_variant": false,
     "product_info_set_first_image_by_variant": false,
     "product_options_listing_visibility": "all",
-    "product_variant_change_on_hover": true,
+    "product_variant_change_on_hover": false,
     "product_options_type_circle_color": "",
     "product_options_type_circle_image": "",
     "product_options_type_square_color": "",
