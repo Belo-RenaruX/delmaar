@@ -1349,9 +1349,9 @@
           var handle = $product.attr('data-product-handle'),
               variant_url = '';
   
-          if(!$product.get(0).hasAttribute('data-qv-check-change') || !$product.find('[data-property][data-disable-auto-select]').length) {
-              variant_url = '?variant=' + $product.attr('data-product-variant-id');
-          }
+        //   if(!$product.get(0).hasAttribute('data-qv-check-change') || !$product.find('[data-property][data-disable-auto-select]').length) {
+        //       variant_url = '?variant=' + $product.attr('data-product-variant-id');
+        //   }
   
           if(handle) {
               this.ajax = $.ajax({
