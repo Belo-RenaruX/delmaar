@@ -65,7 +65,15 @@
                                name="contact[phone]"
                                id="ContactFormPhone"
                                placeholder="{{ 'contact.form.phone_placeholder' | t }}"
-                               value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+                               value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+                        {%- if section.settings.show_input_label -%}
+                            <label for="ContactFormCountry" class="label-required">COUNTRY (required)</label>
+                        {%- endif -%}
+                        <input type="text"
+                               name="contact[country]"
+                               id="ContactFormCountry"
+                               placeholder="Enter please your country"
+                               value="{% if form[country] %}{{ form[country] }}{% endif %}"
                                required="required">
                         {%- if section.settings.show_input_label -%}
                             <label for="ContactFormMessage" class="label-required">{{ 'contact.form.message_title' | t }}</label>
