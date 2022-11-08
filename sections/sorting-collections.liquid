@@ -34,7 +34,7 @@
                                 {%- for product in products limit: section.settings.max_count -%}
                                     <div class="{{ grid }}">
                                         {%- assign disable_lazyload = sorting_collections_image_lazyload_disable -%}
-                                        {% include 'product-collection' with url_without_collection: true %}
+                                        {% include 'product-collection' with url_without_collection: true product_margin_bottom: offset_collection_page_product_margin_bottom_d %}
                                     </div>
                                 {%- endfor -%}
                             {%- endif -%}
