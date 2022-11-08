@@ -819,7 +819,7 @@ var data = {
       }
       
     });
-    jQuery('.menu__level-03').children().each(function() {
+    jQuery('.menu__level-03').find('.col-lg').find('.menu__list--styled').children().each(function() {
       var item = jQuery(this);
       var itemText = item.contents('a').contents('span').text();
       switch(itemText.toUpperCase()) {
