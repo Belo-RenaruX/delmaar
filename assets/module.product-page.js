@@ -28,7 +28,7 @@
                         dots: false,
                         arrows: true,
                         infinite: true,
-                        touchMove: false,
+                        touchMove: true,
                         adaptiveHeight: true,
                         rtl: theme.rtl
                     }
