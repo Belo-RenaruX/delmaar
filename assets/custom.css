@@ -204,7 +204,7 @@ body:not(#gift-card) .product-page-info__description {
 
 /* START OF "Size Guide" */
 .fit-hide {
-  display: none;
+  display: none !important;
 }
 .fit-flex-column {
   display: flex;
