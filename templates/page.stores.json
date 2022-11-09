@@ -834,7 +834,7 @@
         "size_of_columns_mobile": "1",
         "margins_for_columns": "preset_2",
         "align_of_columns": "center",
-        "disable_column_paddings": true,
+        "disable_column_paddings": false,
         "precedence": "",
         "customization_class": ""
       }
