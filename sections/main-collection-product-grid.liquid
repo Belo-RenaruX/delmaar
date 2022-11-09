@@ -83,6 +83,9 @@
                                                                                 {{ collection.handle }}
                                                                                 <select name="sort_by_clone" class="collection-filters__sort select__select caption-large p-0 pr-10 pr-lg-25 mb-0 border-0 cursor-pointer" id="SortByClone">
                                                                                     {%- for option in collection.sort_options -%}
+                                                                                        {%- unless collection.title contains 'Best Sellers' -%}
+                                                                                            
+                                                                                        {%- endunless -%}
                                                                                         {%- if option.value contains 'manual' or option.value contains 'best-selling' -%}
                                                                                             <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
                                                                                             {%- capture dropdown_options -%}
