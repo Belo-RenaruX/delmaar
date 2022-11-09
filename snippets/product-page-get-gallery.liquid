@@ -246,7 +246,7 @@
         </div>
         {%- if show_arrows -%}
             <div class="product-gallery__main_arrows product-gallery__main_arrows--type-{% if template_layout == '2' and sidebar == 'off' %}2{% else %}1{% endif %}">
-                <div class="product-gallery__main_arrow product-gallery__main_arrow--type-prev position-absolute d-flex flex-center rounded-circle overflow-hidden cursor-pointer{% if first_load_index == 0 %} slick-disabled{% endif %}" data-js-product-gallery-main-arrow-prev><i class="position-relative mr-1">{% render 'icon-theme-006' %}</i></div>
+                <div class="product-gallery__main_arrow product-gallery__main_arrow--type-prev position-absolute d-flex flex-center rounded-circle overflow-hidden cursor-pointer" data-js-product-gallery-main-arrow-prev><i class="position-relative mr-1">{% render 'icon-theme-006' %}</i></div>
                 <div class="product-gallery__main_arrow product-gallery__main_arrow--type-next position-absolute d-flex flex-center rounded-circle overflow-hidden cursor-pointer" data-js-product-gallery-main-arrow-next><i class="position-relative ml-4">{% render 'icon-theme-007' %}</i></div>
             </div>
         {%- endif -%}
