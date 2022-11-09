@@ -80,19 +80,25 @@
                                                                             {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
                                                                             <div class="d-flex align-items-center" data-js-dropdown-button>
                                                                                 <label class="collection-filters__label caption-large mb-0 mr-5" for="SortByClone">{{ 'collection_template.sort_by_label' | t }}:</label>
-                                                                                {{ collection.handle }}
                                                                                 <select name="sort_by_clone" class="collection-filters__sort select__select caption-large p-0 pr-10 pr-lg-25 mb-0 border-0 cursor-pointer" id="SortByClone">
                                                                                     {%- for option in collection.sort_options -%}
-                                                                                        {%- unless collection.title contains 'Best Sellers' -%}
-                                                                                            
+                                                                                        {%- unless collection.handle contains 'best-sellers' -%}
+                                                                                            {%- if option.value contains 'manual' or option.value contains 'best-selling' -%}
+                                                                                                <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
+                                                                                                {%- capture dropdown_options -%}
+                                                                                                    {{ dropdown_options }}
+                                                                                                    <span data-value="{{ option.value | escape }}"{% if option.value == sort_by %} class="selected"{% endif %}>{{ option.name | escape }}</span>
+                                                                                                {%- endcapture -%}
+                                                                                            {%- endif -%}
+                                                                                        {%- else -%}
+                                                                                            {%- if option.value contains 'manual' -%}
+                                                                                                <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
+                                                                                                {%- capture dropdown_options -%}
+                                                                                                    {{ dropdown_options }}
+                                                                                                    <span data-value="{{ option.value | escape }}"{% if option.value == sort_by %} class="selected"{% endif %}>{{ option.name | escape }}</span>
+                                                                                                {%- endcapture -%}
+                                                                                            {%- endif -%}
                                                                                         {%- endunless -%}
-                                                                                        {%- if option.value contains 'manual' or option.value contains 'best-selling' -%}
-                                                                                            <option value="{{ option.value | escape }}"{% if option.value == sort_by %} selected="selected"{% endif %}>{{ option.name | escape }}</option>
-                                                                                            {%- capture dropdown_options -%}
-                                                                                                {{ dropdown_options }}
-                                                                                                <span data-value="{{ option.value | escape }}"{% if option.value == sort_by %} class="selected"{% endif %}>{{ option.name | escape }}</span>
-                                                                                            {%- endcapture -%}
-                                                                                        {%- endif -%}
                                                                                     {%- endfor -%}
                                                                                 </select>
                                                                                 <i class="position-absolute d-none d-lg-inline right-0">{% render 'icon-theme-229' %}</i>
