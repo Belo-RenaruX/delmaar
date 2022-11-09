@@ -47,20 +47,10 @@
                    placeholder="{{ 'contact.form.phone_placeholder' | t }}"
                    value="{% if form[phone] %}{{ form[phone] }}{% elsif customer %}{{ customer.phone }}{% endif %}"
                    required="required">
-            <input type="text"
-                   name="contact[top_size]"
-                   id="ContactFormTopSize"
-                   placeholder="Enter please your top size"
-                   required="required">
-            <input type="text"
-                   name="contact[bottom_size]"
-                   id="ContactFormBottomSize"
-                   placeholder="Enter please your bottom size"
-                   required="required">
             <textarea rows="8"
                    name="contact[additional_comments]"
                    id="ContactFormMessage"
-                   placeholder="Enter please any additional comments"
+                   placeholder="Enter your customization (customizing) request"
                    required="required">
               {%- if form.body -%}
                   {{ form.body }}
