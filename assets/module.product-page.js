@@ -27,7 +27,7 @@
                         slidesToScroll: 1,
                         dots: false,
                         arrows: true,
-                        infinite: false,
+                        infinite: true,
                         touchMove: false,
                         adaptiveHeight: true,
                         rtl: theme.rtl
