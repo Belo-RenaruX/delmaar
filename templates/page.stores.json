@@ -831,10 +831,10 @@
         "title": "",
         "container": "boxed",
         "size_of_columns": "3",
-        "size_of_columns_mobile": "2",
+        "size_of_columns_mobile": "1",
         "margins_for_columns": "preset_2",
-        "align_of_columns": "top_center",
-        "disable_column_paddings": false,
+        "align_of_columns": "center",
+        "disable_column_paddings": true,
         "precedence": "",
         "customization_class": ""
       }
