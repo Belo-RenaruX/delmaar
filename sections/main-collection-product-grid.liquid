@@ -80,6 +80,7 @@
                                                                             {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
                                                                             <div class="d-flex align-items-center" data-js-dropdown-button>
                                                                                 <label class="collection-filters__label caption-large mb-0 mr-5" for="SortByClone">{{ 'collection_template.sort_by_label' | t }}:</label>
+                                                                                {{ collection }}
                                                                                 <select name="sort_by_clone" class="collection-filters__sort select__select caption-large p-0 pr-10 pr-lg-25 mb-0 border-0 cursor-pointer" id="SortByClone">
                                                                                     {%- for option in collection.sort_options -%}
                                                                                         {%- if option.value contains 'manual' or option.value contains 'best-selling' -%}
