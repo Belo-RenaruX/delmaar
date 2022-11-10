@@ -122,7 +122,7 @@
 
 /* START OF "Fixes" */
 collection-pagination.d-block {
-  display: none !important;
+  opacity: 0 !important;
 }
 .header__logo--mobile {
   width: 150px !important;
