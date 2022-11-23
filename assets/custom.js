@@ -848,6 +848,13 @@ var data = {
       if(validation) element.addClass('d-none-important');
       else element.removeClass('d-none-important');
     });
+
+    jQuery('.label--out-stock').on('cssClassChanged', function(e){
+      var validation = jQuery(this).hasClass('d-none-important');
+      var element = jQuery('[data-custom-out-stock]');
+      if(validation) element.addClass('d-none-important');
+      else element.removeClass('d-none-important');
+    });
     /* END OF "Toggle Pre Order Text Function" */
 
     /* START OF "Size Guide" */

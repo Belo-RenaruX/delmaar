@@ -73,7 +73,8 @@
   font-style: italic;
   letter-spacing: .5px;
 }
-.custom-pre-date {
+.custom-pre-date,
+.custom-out-stock {
   margin: 5px 0 0 0;
   color: var(--button3-h-c);
   text-align: center;
@@ -198,6 +199,12 @@ body:not(#gift-card) .product-page-info__description {
 .popup-product-contact {
   max-width: 785px !important;
   margin: auto;
+}
+.tabs__content a {
+  font-weight: 700;
+}
+[data-popup-content] a {
+  font-weight: 700;
 }
 @media (max-width: 1024px) {
   .promobox--text-8 .promobox__content {
