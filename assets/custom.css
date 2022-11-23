@@ -197,6 +197,7 @@ body:not(#gift-card) .product-page-info__description {
 }
 .popup-product-contact {
   max-width: 785px !important;
+  margin: auto;
 }
 @media (max-width: 1024px) {
   .promobox--text-8 .promobox__content {

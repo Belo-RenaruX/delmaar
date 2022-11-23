@@ -964,7 +964,7 @@ function fill(model, selector, prevValue) {
 function result(model) {
   var resultContainer = jQuery('#fit-result');
   var measurementContainer = jQuery('#fit-measurement');
-  var customized = jQuery('#customized');
+  var customized = jQuery('#fit-customized');
   var currentRegion = jQuery('#regions').find('.fit-option-line-active').text();
   var currentSize = jQuery('#sizes').find('.fit-option-line-active').text();
   var currentCup = jQuery('#cups').find('.fit-option-line-active').text();
