@@ -14,18 +14,6 @@
                 <p class="form-success">{{ 'contact.form.post_success' | t }}</p>
             {%- endif -%}
             <input type="text"
-                   name="contact[product_url]"
-                   id="ContactFormProductUrl"
-                   value="{{ shop.domain }}{{ url }}?variant={{ current_variant_id }}"
-                   hidden="hidden"
-                   required="required">
-            <input type="text"
-                   name="contact[product_sku]"
-                   id="ContactFormProductSKU"
-                   value="{{ sku }}"
-                   hidden="hidden"
-                   required="required">
-            <input type="text"
                    name="contact[name]"
                    id="ContactFormName"
                    placeholder="{{ 'contact.form.name_placeholder' | t }}"
