@@ -199,6 +199,12 @@ body:not(#gift-card) .product-page-info__description {
   max-width: 785px !important;
   margin: auto;
 }
+.tabs__content a {
+  font-weight: 700;
+}
+[data-popup-content] a {
+  font-weight: 700;
+}
 @media (max-width: 1024px) {
   .promobox--text-8 .promobox__content {
     max-width: 100% !important;
