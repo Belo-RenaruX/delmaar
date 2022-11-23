@@ -73,7 +73,8 @@
   font-style: italic;
   letter-spacing: .5px;
 }
-.custom-pre-date {
+.custom-pre-date,
+.custom-out-stock {
   margin: 5px 0 0 0;
   color: var(--button3-h-c);
   text-align: center;
