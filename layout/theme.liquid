@@ -13,7 +13,9 @@
     {% render 'fast_bundle_service' %}
 {% endif %}
 
-</head>
+
+                        {% include 'otRegion' %}            
+                        </head>
 <body{% render 'layout-get-body-attributes' %}>
 {% include 'layout-get-includes-start' %}
 {%- if settings.product_show_custom_options and settings.product_enable_variants_section -%}
