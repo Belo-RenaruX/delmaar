@@ -3,12 +3,84 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "show_title": true,
-        "show_content": true
+        "show_title": false,
+        "show_content": false
+      }
+    },
+    "b047fee4-185a-4b3d-977e-cc1e7d989b9d": {
+      "type": "home-builder",
+      "blocks": {
+        "285bcf0e-f7fe-4f8c-a1e4-f86c7ca8e2a5": {
+          "type": "slick_slider",
+          "settings": {
+            "height": "fullscreen_header",
+            "min_height": 0,
+            "size_of_column": "auto",
+            "arrows": true,
+            "bullets": true,
+            "speed": 7
+          }
+        },
+        "0918e084-c41c-499b-8325-6ecd468e2bca": {
+          "type": "slick_slide",
+          "settings": {
+            "url": "",
+            "image": "shopify:\/\/shop_images\/Banner_31b89e5b-d043-4199-8f2b-86e3e86421d2.jpg",
+            "image_size": 900,
+            "image_mobile_size": 550,
+            "image_position_x": 50,
+            "color_image_mask": "",
+            "image_mask_opacity": 0.5,
+            "text_line_1": "Text line #1",
+            "text_line_2": "Text line #2",
+            "text_line_3": "Text line #3",
+            "style": "1",
+            "button_1": "Button #1 text",
+            "button_1_url": "",
+            "color_button_type_1": "default",
+            "button_2": "Button #2 text",
+            "button_2_url": "",
+            "color_button_type_2": "default",
+            "custom_html": "",
+            "video_external_url": "",
+            "video_mp4_url": "",
+            "video_autoplay": true,
+            "video_controls": false,
+            "type": "clean",
+            "content_position": "center",
+            "content_align": "center",
+            "add_container": false,
+            "content_width": 100,
+            "text_width": 0,
+            "animation_text": "none",
+            "color_text_1": "",
+            "color_text_2": "",
+            "color_text_3": "",
+            "color_text_bg": "",
+            "color_curtain_bg": "",
+            "customization_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "285bcf0e-f7fe-4f8c-a1e4-f86c7ca8e2a5",
+        "0918e084-c41c-499b-8325-6ecd468e2bca"
+      ],
+      "settings": {
+        "title": "",
+        "container": "fullwidth",
+        "size_of_columns": "1",
+        "size_of_columns_mobile": "1",
+        "margins_for_columns": "none",
+        "align_of_columns": "top_center",
+        "disable_column_paddings": false,
+        "precedence": "",
+        "customization_class": ""
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "b047fee4-185a-4b3d-977e-cc1e7d989b9d"
   ]
 }
