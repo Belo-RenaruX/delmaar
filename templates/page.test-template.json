@@ -47,7 +47,7 @@
             "video_mp4_url": "",
             "video_autoplay": true,
             "video_controls": false,
-            "type": "clean",
+            "type": "type-1-curtain-3",
             "content_position": "center",
             "content_align": "center",
             "add_container": false,
@@ -78,10 +78,39 @@
         "precedence": "",
         "customization_class": ""
       }
+    },
+    "b081d3a2-aa0b-4b8c-a7bb-4d9b3bc0c849": {
+      "type": "carousel-reviews",
+      "blocks": {
+        "ec05dff3-a0bc-4ff1-8cbb-8465bc0f65ef": {
+          "type": "slide",
+          "settings": {
+            "title": "TITLE",
+            "stars": 5,
+            "paragraph": "Paragraph",
+            "user_image": "shopify:\/\/shop_images\/Vivi_2.jpg",
+            "user_text_line_1": "renato",
+            "user_text_line_2": "berrocal"
+          }
+        }
+      },
+      "block_order": [
+        "ec05dff3-a0bc-4ff1-8cbb-8465bc0f65ef"
+      ],
+      "settings": {
+        "title": "",
+        "type": "1",
+        "style": "1",
+        "size_of_columns": "3",
+        "autoplay": true,
+        "speed": 5,
+        "arrows": true
+      }
     }
   },
   "order": [
     "main",
-    "b047fee4-185a-4b3d-977e-cc1e7d989b9d"
+    "b047fee4-185a-4b3d-977e-cc1e7d989b9d",
+    "b081d3a2-aa0b-4b8c-a7bb-4d9b3bc0c849"
   ]
 }
