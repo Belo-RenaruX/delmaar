@@ -15,6 +15,7 @@
     },
     "related-products": {
       "type": "carousel-related-products",
+      "disabled": true,
       "settings": {
         "show_section": true,
         "type": "related",
