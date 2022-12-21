@@ -444,7 +444,7 @@
             "type": "menu",
             "settings": {
               "for_item": "Shop",
-              "menu": ""
+              "menu": "shop-menu"
             }
           },
           "a87b98ac-ca74-4cda-86dc-f922e77a0a1d": {
