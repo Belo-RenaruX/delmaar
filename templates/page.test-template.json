@@ -92,18 +92,73 @@
             "user_text_line_1": "renato",
             "user_text_line_2": "berrocal"
           }
+        },
+        "4a80218d-661c-49bf-9032-eeb184ca16c4": {
+          "type": "slide",
+          "settings": {
+            "title": "TITLE",
+            "stars": 5,
+            "paragraph": "Paragraph",
+            "user_text_line_1": "User",
+            "user_text_line_2": "Text"
+          }
+        },
+        "6f3c1494-8e3b-410f-b5d1-10ccf9b63006": {
+          "type": "slide",
+          "settings": {
+            "title": "TITLE",
+            "stars": 5,
+            "paragraph": "Paragraph",
+            "user_text_line_1": "User",
+            "user_text_line_2": "Text"
+          }
+        },
+        "2ca1d8be-4406-44c8-8e30-9566567eb7d5": {
+          "type": "slide",
+          "settings": {
+            "title": "TITLE",
+            "stars": 5,
+            "paragraph": "Paragraph",
+            "user_text_line_1": "User",
+            "user_text_line_2": "Text"
+          }
+        },
+        "fb2b55a4-ec7a-4f29-b17c-77af959da843": {
+          "type": "slide",
+          "settings": {
+            "title": "TITLE",
+            "stars": 5,
+            "paragraph": "Paragraph",
+            "user_text_line_1": "User",
+            "user_text_line_2": "Text"
+          }
+        },
+        "cb293b2d-1919-4a8d-87c9-cef5508611a5": {
+          "type": "slide",
+          "settings": {
+            "title": "TITLE",
+            "stars": 5,
+            "paragraph": "Paragraph",
+            "user_text_line_1": "User",
+            "user_text_line_2": "Text"
+          }
         }
       },
       "block_order": [
-        "ec05dff3-a0bc-4ff1-8cbb-8465bc0f65ef"
+        "ec05dff3-a0bc-4ff1-8cbb-8465bc0f65ef",
+        "4a80218d-661c-49bf-9032-eeb184ca16c4",
+        "6f3c1494-8e3b-410f-b5d1-10ccf9b63006",
+        "2ca1d8be-4406-44c8-8e30-9566567eb7d5",
+        "fb2b55a4-ec7a-4f29-b17c-77af959da843",
+        "cb293b2d-1919-4a8d-87c9-cef5508611a5"
       ],
       "settings": {
         "title": "",
         "type": "1",
         "style": "1",
-        "size_of_columns": "3",
+        "size_of_columns": "2",
         "autoplay": true,
-        "speed": 5,
+        "speed": 2,
         "arrows": true
       }
     }
