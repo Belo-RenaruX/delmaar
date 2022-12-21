@@ -444,7 +444,7 @@
             "type": "menu",
             "settings": {
               "for_item": "Shop",
-              "menu": "shop"
+              "menu": ""
             }
           },
           "a87b98ac-ca74-4cda-86dc-f922e77a0a1d": {
@@ -1859,6 +1859,11 @@
           "precedence": "",
           "customization_class": ""
         }
+      },
+      "78aa65f4-6519-43d3-9b09-8606f588c56b": {
+        "type": "size-guide",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
@@ -1881,7 +1886,8 @@
       "1659932401bafd96d5",
       "60b89780-f05d-44b3-a74c-83b6ff98e5a5",
       "641db58b-d354-4c1b-8da2-62f4b5228d47",
-      "1586892896381"
+      "1586892896381",
+      "78aa65f4-6519-43d3-9b09-8606f588c56b"
     ]
   }
 }
