@@ -1424,6 +1424,46 @@
               "customization_class": ""
             }
           },
+          "dcb4923d-af37-445c-9092-0a95f64147f3": {
+            "type": "slick_slide",
+            "settings": {
+              "url": "",
+              "image": "shopify:\/\/shop_images\/Del_Maar_Babes_3.jpg",
+              "image_size": 900,
+              "image_mobile_size": 550,
+              "image_position_x": 50,
+              "color_image_mask": "",
+              "image_mask_opacity": 0.5,
+              "text_line_1": "Text line #1",
+              "text_line_2": "Text line #2",
+              "text_line_3": "Text line #3",
+              "style": "1",
+              "button_1": "Button #1 text",
+              "button_1_url": "",
+              "color_button_type_1": "default",
+              "button_2": "Button #2 text",
+              "button_2_url": "",
+              "color_button_type_2": "default",
+              "custom_html": "",
+              "video_external_url": "",
+              "video_mp4_url": "",
+              "video_autoplay": true,
+              "video_controls": false,
+              "type": "clean",
+              "content_position": "center",
+              "content_align": "center",
+              "add_container": false,
+              "content_width": 100,
+              "text_width": 0,
+              "animation_text": "none",
+              "color_text_1": "",
+              "color_text_2": "",
+              "color_text_3": "",
+              "color_text_bg": "",
+              "color_curtain_bg": "",
+              "customization_class": ""
+            }
+          },
           "b6bbdebb-b79f-44aa-b096-c457820d6d4c": {
             "type": "promobox",
             "settings": {
@@ -1477,6 +1517,7 @@
           "a0409176-d71b-4858-8dc8-b506ee88f3ac",
           "4765237e-20bd-4718-8a50-cb074c3da507",
           "6b67e6e8-a802-445b-967d-71ba33db43bc",
+          "dcb4923d-af37-445c-9092-0a95f64147f3",
           "b6bbdebb-b79f-44aa-b096-c457820d6d4c"
         ],
         "settings": {
