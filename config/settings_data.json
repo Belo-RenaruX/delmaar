@@ -945,9 +945,9 @@
             "type": "slick_slide",
             "settings": {
               "url": "",
-              "image": "shopify:\/\/shop_images\/Slider_inicio_banners_2.png",
+              "image": "shopify:\/\/shop_images\/Banner_2.jpg",
               "image_size": 2000,
-              "image_mobile": "shopify:\/\/shop_images\/Slider_inicio_banners_5.png",
+              "image_mobile": "shopify:\/\/shop_images\/Banner_R2.jpg",
               "image_mobile_size": 2000,
               "image_position_x": 50,
               "color_image_mask": "",
