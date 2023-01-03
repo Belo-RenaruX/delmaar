@@ -725,7 +725,7 @@
             "type": "promobox",
             "settings": {
               "url": "shopify:\/\/collections\/new-arrivals",
-              "image": "shopify:\/\/shop_images\/New.jpg",
+              "image": "shopify:\/\/shop_images\/New_363b6276-90f0-4b81-9242-f6a88c4556bd.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
@@ -774,7 +774,7 @@
             "type": "promobox",
             "settings": {
               "url": "shopify:\/\/collections\/reversibles",
-              "image": "shopify:\/\/shop_images\/Solid.jpg",
+              "image": "shopify:\/\/shop_images\/Solid_85da1f09-56f3-4939-9346-b9e22f44efc0.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
