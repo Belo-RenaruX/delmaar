@@ -904,7 +904,7 @@
             "type": "slick_slide",
             "settings": {
               "url": "",
-              "image": "shopify:\/\/shop_images\/Slider_inicio_banners_1.png",
+              "image": "shopify:\/\/shop_images\/Banner_1.jpg",
               "image_size": 2000,
               "image_mobile": "shopify:\/\/shop_images\/Slider_inicio_banners_4.png",
               "image_mobile_size": 2000,
