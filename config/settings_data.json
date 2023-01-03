@@ -903,7 +903,7 @@
           "27ad15e6-a6a0-4afa-a09a-6ecff85b4924": {
             "type": "slick_slide",
             "settings": {
-              "url": "",
+              "url": "shopify:\/\/collections\/new-arrivals",
               "image": "shopify:\/\/shop_images\/Banner_1.jpg",
               "image_size": 2000,
               "image_mobile": "shopify:\/\/shop_images\/Banner_R1.jpg",
