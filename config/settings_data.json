@@ -725,7 +725,7 @@
             "type": "promobox",
             "settings": {
               "url": "shopify:\/\/collections\/new-arrivals",
-              "image": "shopify:\/\/shop_images\/Carino_mio.png",
+              "image": "shopify:\/\/shop_images\/New.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
@@ -774,7 +774,7 @@
             "type": "promobox",
             "settings": {
               "url": "shopify:\/\/collections\/reversibles",
-              "image": "shopify:\/\/shop_images\/Reversible.png",
+              "image": "shopify:\/\/shop_images\/Solid.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
@@ -823,7 +823,7 @@
             "type": "promobox",
             "settings": {
               "url": "shopify:\/\/collections\/all-swimwear",
-              "image": "shopify:\/\/shop_images\/Shop.png",
+              "image": "shopify:\/\/shop_images\/Shop.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
