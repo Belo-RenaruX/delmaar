@@ -304,7 +304,7 @@
           "type": "slick_slide",
           "settings": {
             "url": "",
-            "image": "shopify:\/\/shop_images\/3_0238bbe8-d72c-4120-b54a-a9ffea408b6a.jpg",
+            "image": "shopify:\/\/shop_images\/3.2.jpg",
             "image_size": 2000,
             "image_mobile_size": 550,
             "image_position_x": 50,
@@ -346,6 +346,7 @@
             "url": "",
             "image": "shopify:\/\/shop_images\/5.jpg",
             "image_size": 900,
+            "image_mobile": "shopify:\/\/shop_images\/5.2_5a1e4b3b-4207-431d-abaf-bc87ae54f71a.jpg",
             "image_mobile_size": 550,
             "image_position_x": 50,
             "color_image_mask": "",
