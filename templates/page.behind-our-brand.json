@@ -500,8 +500,9 @@
           "type": "promobox",
           "settings": {
             "url": "",
-            "image": "shopify:\/\/shop_images\/4.png",
+            "image": "shopify:\/\/shop_images\/4_88433c25-8a40-4f27-95a0-97e6d4b84750.png",
             "image_size": 1450,
+            "image_mobile": "shopify:\/\/shop_images\/4.png",
             "image_mobile_size": 550,
             "image_position_x": 50,
             "color_image_mask": "",
