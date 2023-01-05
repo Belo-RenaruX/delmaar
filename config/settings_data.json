@@ -444,7 +444,7 @@
             "type": "menu",
             "settings": {
               "for_item": "Shop",
-              "menu": "shop"
+              "menu": "shop-menu"
             }
           },
           "a87b98ac-ca74-4cda-86dc-f922e77a0a1d": {
@@ -676,9 +676,9 @@
               "list_1": "",
               "custom_html": "",
               "video_external_url": "",
-              "video_mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b5a3093fff55454fbc903dc05e7ed8b9.mov",
+              "video_mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/16bb49ffc54047e68ec7c87f6993cb75.mov",
               "video_autoplay": true,
-              "video_controls": false,
+              "video_controls": true,
               "type": "clean",
               "content_position": "center",
               "content_align": "center",
@@ -725,7 +725,7 @@
             "type": "promobox",
             "settings": {
               "url": "shopify:\/\/collections\/new-arrivals",
-              "image": "shopify:\/\/shop_images\/Carino_mio.png",
+              "image": "shopify:\/\/shop_images\/New_363b6276-90f0-4b81-9242-f6a88c4556bd.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
@@ -774,7 +774,7 @@
             "type": "promobox",
             "settings": {
               "url": "shopify:\/\/collections\/reversibles",
-              "image": "shopify:\/\/shop_images\/Reversible.png",
+              "image": "shopify:\/\/shop_images\/Solid_85da1f09-56f3-4939-9346-b9e22f44efc0.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
@@ -822,8 +822,8 @@
           "1586892765687": {
             "type": "promobox",
             "settings": {
-              "url": "shopify:\/\/collections\/all",
-              "image": "shopify:\/\/shop_images\/Shop.png",
+              "url": "shopify:\/\/collections\/all-swimwear",
+              "image": "shopify:\/\/shop_images\/Shop.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
@@ -903,10 +903,10 @@
           "27ad15e6-a6a0-4afa-a09a-6ecff85b4924": {
             "type": "slick_slide",
             "settings": {
-              "url": "",
-              "image": "shopify:\/\/shop_images\/Slider_inicio_banners_1.png",
+              "url": "shopify:\/\/collections\/new-arrivals",
+              "image": "shopify:\/\/shop_images\/Banner_1.jpg",
               "image_size": 2000,
-              "image_mobile": "shopify:\/\/shop_images\/Slider_inicio_banners_4.png",
+              "image_mobile": "shopify:\/\/shop_images\/Banner_R1.jpg",
               "image_mobile_size": 2000,
               "image_position_x": 50,
               "color_image_mask": "",
@@ -945,9 +945,9 @@
             "type": "slick_slide",
             "settings": {
               "url": "",
-              "image": "shopify:\/\/shop_images\/Slider_inicio_banners_2.png",
+              "image": "shopify:\/\/shop_images\/Banner_2.jpg",
               "image_size": 2000,
-              "image_mobile": "shopify:\/\/shop_images\/Slider_inicio_banners_5.png",
+              "image_mobile": "shopify:\/\/shop_images\/Banner_R2.jpg",
               "image_mobile_size": 2000,
               "image_position_x": 50,
               "color_image_mask": "",
@@ -986,9 +986,9 @@
             "type": "slick_slide",
             "settings": {
               "url": "",
-              "image": "shopify:\/\/shop_images\/Slider_inicio_banners_3.png",
+              "image": "shopify:\/\/shop_images\/Banner_3.jpg",
               "image_size": 2000,
-              "image_mobile": "shopify:\/\/shop_images\/Slider_inicio_banners_4.png",
+              "image_mobile": "shopify:\/\/shop_images\/Banner_R3.jpg",
               "image_mobile_size": 2000,
               "image_position_x": 50,
               "color_image_mask": "",
@@ -1151,7 +1151,7 @@
             "type": "promobox",
             "settings": {
               "url": "",
-              "image": "shopify:\/\/shop_images\/Banner_concepto.png",
+              "image": "shopify:\/\/shop_images\/Banner_concepto.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
@@ -1220,7 +1220,7 @@
             "type": "promobox",
             "settings": {
               "url": "",
-              "image": "shopify:\/\/shop_images\/Banner_crocheteras.png",
+              "image": "shopify:\/\/shop_images\/Banner_crocheteras.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,
@@ -1348,7 +1348,7 @@
             "type": "slick_slide",
             "settings": {
               "url": "",
-              "image": "shopify:\/\/shop_images\/Crocheteras.jpg",
+              "image": "shopify:\/\/shop_images\/Del_Maar_Babes_1.jpg",
               "image_size": 900,
               "image_mobile_size": 550,
               "image_position_x": 50,
@@ -1388,7 +1388,7 @@
             "type": "slick_slide",
             "settings": {
               "url": "",
-              "image": "shopify:\/\/shop_images\/Crocheteras.jpg",
+              "image": "shopify:\/\/shop_images\/Del_Maar_Babes_2.jpg",
               "image_size": 900,
               "image_mobile_size": 550,
               "image_position_x": 50,
@@ -1402,6 +1402,46 @@
               "button_1_url": "",
               "color_button_type_1": "default",
               "button_2": "",
+              "button_2_url": "",
+              "color_button_type_2": "default",
+              "custom_html": "",
+              "video_external_url": "",
+              "video_mp4_url": "",
+              "video_autoplay": true,
+              "video_controls": false,
+              "type": "clean",
+              "content_position": "center",
+              "content_align": "center",
+              "add_container": false,
+              "content_width": 100,
+              "text_width": 0,
+              "animation_text": "none",
+              "color_text_1": "",
+              "color_text_2": "",
+              "color_text_3": "",
+              "color_text_bg": "",
+              "color_curtain_bg": "",
+              "customization_class": ""
+            }
+          },
+          "dcb4923d-af37-445c-9092-0a95f64147f3": {
+            "type": "slick_slide",
+            "settings": {
+              "url": "",
+              "image": "shopify:\/\/shop_images\/Del_Maar_Babes_3.jpg",
+              "image_size": 900,
+              "image_mobile_size": 550,
+              "image_position_x": 50,
+              "color_image_mask": "",
+              "image_mask_opacity": 0.5,
+              "text_line_1": "Text line #1",
+              "text_line_2": "Text line #2",
+              "text_line_3": "Text line #3",
+              "style": "1",
+              "button_1": "Button #1 text",
+              "button_1_url": "",
+              "color_button_type_1": "default",
+              "button_2": "Button #2 text",
               "button_2_url": "",
               "color_button_type_2": "default",
               "custom_html": "",
@@ -1477,6 +1517,7 @@
           "a0409176-d71b-4858-8dc8-b506ee88f3ac",
           "4765237e-20bd-4718-8a50-cb074c3da507",
           "6b67e6e8-a802-445b-967d-71ba33db43bc",
+          "dcb4923d-af37-445c-9092-0a95f64147f3",
           "b6bbdebb-b79f-44aa-b096-c457820d6d4c"
         ],
         "settings": {
@@ -1558,7 +1599,7 @@
             "type": "promobox",
             "settings": {
               "url": "",
-              "image": "shopify:\/\/shop_images\/Banner_arte_crochet.png",
+              "image": "shopify:\/\/shop_images\/Banner_arte_crochet.jpg",
               "image_size": 1450,
               "image_mobile_size": 550,
               "image_position_x": 50,

@@ -14,8 +14,9 @@
           "type": "promobox",
           "settings": {
             "url": "",
-            "image": "shopify:\/\/shop_images\/The_Art_of_Crochet.jpg",
+            "image": "shopify:\/\/shop_images\/1_fa02b627-c6ed-47c7-b262-4d6e6e78fc54.jpg",
             "image_size": 1450,
+            "image_mobile": "shopify:\/\/shop_images\/2_00bc1ac6-a32b-454d-b6a5-b11f86ecf3a3.jpg",
             "image_mobile_size": 550,
             "image_position_x": 50,
             "color_image_mask": "",
@@ -240,9 +241,9 @@
             "list_1": "",
             "custom_html": "",
             "video_external_url": "",
-            "video_mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/b5a3093fff55454fbc903dc05e7ed8b9.mov",
+            "video_mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/244bd844caab42c78de7c88d0aeccf97.mov",
             "video_autoplay": true,
-            "video_controls": false,
+            "video_controls": true,
             "type": "clean",
             "content_position": "center",
             "content_align": "center",
@@ -380,7 +381,7 @@
           "type": "promobox",
           "settings": {
             "url": "",
-            "image": "shopify:\/\/shop_images\/Hands02.jpg",
+            "image": "shopify:\/\/shop_images\/3_0e2d6d2c-e2ce-4054-ae70-7f591a86dda8.jpg",
             "image_size": 1450,
             "image_mobile_size": 550,
             "image_position_x": 50,
@@ -429,7 +430,7 @@
           "type": "promobox",
           "settings": {
             "url": "",
-            "image": "shopify:\/\/shop_images\/Hands02.jpg",
+            "image": "shopify:\/\/shop_images\/4_9dea7342-d289-4b13-a7c3-88ee65d94ddc.jpg",
             "image_size": 2000,
             "image_mobile_size": 550,
             "image_position_x": 50,
@@ -478,7 +479,7 @@
           "type": "promobox",
           "settings": {
             "url": "",
-            "image": "shopify:\/\/shop_images\/Hands_3.jpg",
+            "image": "shopify:\/\/shop_images\/5_6f03b196-955f-4ea7-9b97-97f44e188364.jpg",
             "image_size": 1450,
             "image_mobile_size": 550,
             "image_position_x": 50,
@@ -639,7 +640,7 @@
           "type": "promobox",
           "settings": {
             "url": "",
-            "image": "shopify:\/\/shop_images\/Collage.jpg",
+            "image": "shopify:\/\/shop_images\/4.png",
             "image_size": 1450,
             "image_mobile_size": 550,
             "image_position_x": 50,
