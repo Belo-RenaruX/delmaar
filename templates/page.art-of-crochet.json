@@ -243,7 +243,7 @@
             "video_external_url": "",
             "video_mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/244bd844caab42c78de7c88d0aeccf97.mov",
             "video_autoplay": true,
-            "video_controls": false,
+            "video_controls": true,
             "type": "clean",
             "content_position": "center",
             "content_align": "center",
