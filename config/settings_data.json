@@ -678,7 +678,7 @@
               "video_external_url": "",
               "video_mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/16bb49ffc54047e68ec7c87f6993cb75.mov",
               "video_autoplay": true,
-              "video_controls": false,
+              "video_controls": true,
               "type": "clean",
               "content_position": "center",
               "content_align": "center",
