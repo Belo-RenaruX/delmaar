@@ -347,7 +347,7 @@
           "settings": {
             "url": "",
             "image": "shopify:\/\/shop_images\/5.jpg",
-            "image_size": 900,
+            "image_size": 2000,
             "image_mobile": "shopify:\/\/shop_images\/5.2_943b3f0d-37fe-451c-8be6-8340180b0f3c.jpg",
             "image_mobile_size": 550,
             "image_position_x": 50,
