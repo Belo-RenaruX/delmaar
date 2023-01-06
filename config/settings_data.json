@@ -1428,6 +1428,7 @@
             "type": "slick_slide",
             "settings": {
               "url": "",
+              "image": "shopify:\/\/shop_images\/Del_Maar_Babes_3.jpg",
               "image_size": 900,
               "image_mobile_size": 550,
               "image_position_x": 50,
