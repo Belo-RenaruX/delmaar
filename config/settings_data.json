@@ -444,7 +444,7 @@
             "type": "menu",
             "settings": {
               "for_item": "Shop",
-              "menu": "shop-menu"
+              "menu": ""
             }
           },
           "a87b98ac-ca74-4cda-86dc-f922e77a0a1d": {
@@ -1110,7 +1110,7 @@
               "image_mask_opacity": 0.5,
               "text_line_1": "",
               "text_line_2": "Welcome To del Maar World",
-              "text_line_3": "Del Maar it is a Latin-Australian brand of bikinis with Latin style, handmade in collaboration with Peruvian artisans\/weavers. Our products are designed and manufactured by high quality and well-known Latin American bikini designers.",
+              "text_line_3": "Del Maar it is a Latin-Australian brand of bikinis with Latin style, handmade in collaboration with Peruvian artisans\/weavers. Our pieces are created by Latin American bikini designers and manufactured with the highest quality throughout the process.",
               "style": "2",
               "button_1": "Know us more",
               "button_1_url": "shopify:\/\/pages\/about-us",
