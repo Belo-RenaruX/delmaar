@@ -89,7 +89,7 @@
 					prevArrow: $prev,
 					nextArrow: $next,
 					dots: bullets,
-					dotsClass: 'slick-dots d-none d-lg-flex flex-wrap flex-center position-absolute list-unstyled mt-35',
+					dotsClass: 'slick-dots d-flex flex-wrap flex-center position-absolute list-unstyled mt-35',
 					adaptiveHeight: true,
 					autoplay: true,
 					autoplaySpeed: speed,
